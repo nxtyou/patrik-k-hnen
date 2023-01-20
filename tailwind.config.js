@@ -11,6 +11,9 @@ module.exports = {
       colors: {
         black: '#040617',
         white: '#F5F5F5'
+      },
+      screens: {
+        'small-phones': { raw: '(max-height: 715px) and (max-width: 640px)' }
       }
     }
   },
