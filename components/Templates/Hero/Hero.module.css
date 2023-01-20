@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Aktiv Grotesk';
+  font-style: normal;
+  font-weight: 800;
+  src: local(''), url('../../../public/fonts/AktivGrotesk-Black.ttf') format('truetype');
+}
+
+.fontAktivGrotesk {
+  font-family: 'Aktiv Grotesk';
+}
