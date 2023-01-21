@@ -10,14 +10,14 @@ const FooterTop = () => {
   return (
     <div className="relative">
       <div className="mx-auto flex max-w-7xl flex-col lg:flex-row">
-        <div className="before::content-[''] flex items-center bg-prussian-blue py-32 px-6 before:absolute before:top-0 before:left-0 before:hidden before:h-full  before:w-[calc(50vw-0.5rem)] before:bg-prussian-blue md:px-20 lg:w-1/2 lg:py-0 lg:before:block">
+        <div className="footer-right-column-bg flex items-center bg-prussian-blue py-32 px-6 sm:px-8 md:px-20 lg:w-1/2 lg:py-0 lg:before:block">
           <div className="relative z-10 ">
             <header className="font-poppins font-medium">
               <div className="text-2xl !leading-none xl:text-3xl ">Hey there</div>
               <div className="flex h-20 space-x-3 overflow-hidden text-4xl !leading-[5rem] lg:space-x-4 xl:text-5xl">
                 <div>
                   <div>
-                    <div className="whitespace-nowrap">Let's talk</div>
+                    <div className="whitespace-nowrap">Let&apos;s talk</div>
                   </div>
                 </div>
                 <div className="overflow-hidden">
@@ -40,7 +40,7 @@ const FooterTop = () => {
             </Button>
           </div>
         </div>
-        <div className="2xl:grid-row-2 grid max-w-sm grid-cols-1 px-6 py-16 text-lg md:pl-20 lg:w-1/2 lg:py-28 2xl:max-w-none 2xl:grid-cols-2 2xl:pb-32">
+        <div className="2xl:grid-row-2 grid max-w-sm grid-cols-1 px-6 py-16 text-lg sm:px-8 md:pl-20 lg:w-1/2 lg:py-28 2xl:max-w-none 2xl:grid-cols-2 2xl:pb-32">
           <div className="">
             <h4 className="font-poppins text-sm font-semibold uppercase">Lorem ipsum</h4>
             <ul className="mt-4 text-white/80">

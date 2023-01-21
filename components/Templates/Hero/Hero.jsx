@@ -16,7 +16,7 @@ const Hero = () => {
   const { height } = useWindowDimensions();
 
   return (
-    <div
+    <section
       style={{
         background:
           'radial-gradient(94.76% 85.62% at 0% 100%, rgba(0, 63, 125, 0.5) 0%, rgba(0, 63, 125, 0) 100%), #040615',
@@ -70,7 +70,7 @@ const Hero = () => {
         width="424"
         height="1018"
       />
-    </div>
+    </section>
   );
 };
 

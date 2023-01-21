@@ -102,13 +102,15 @@
   transform-origin: bottom right;
 }
 
+/* Footer */
+
 .carousel {
   -webkit-animation: rotate 8s ease-in-out infinite;
   animation: rotate 8s ease-in-out infinite;
 }
 
-:root {
-  --cta-footer-font-size-28-48: 4rem;
+.footer-right-column-bg::before {
+  @apply absolute top-0 left-0 hidden h-full w-[calc(50vw-0.5rem)] bg-prussian-blue content-[''];
 }
 
 @keyframes rotate {
@@ -126,5 +128,53 @@
   }
   to {
     transform: translateY(-14.9rem);
+  }
+}
+
+/* Clients */
+
+.content-gradient::before,
+.content-gradient::after {
+  @apply absolute right-0 left-auto top-0 h-full w-full content-[''];
+}
+
+.content-gradient::before {
+  @apply z-[2] bg-[url('/images/noise.png')];
+}
+
+.content-gradient::after {
+  background: radial-gradient(
+    100% 100% at 0 100%,
+    rgba(88, 31, 15, 1) 0,
+    rgba(255, 17, 82, 0) 100%
+  );
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+/* TODO: this is only temporarly */
+
+.clients__item {
+  @apply flex w-full items-center justify-center border-l border-t border-white/10 py-6 px-4;
+}
+
+.clients__image {
+  height: 48px;
+  width: 72px;
+  @apply object-contain;
+}
+
+@media only screen and (min-width: 768px) {
+  .clients__item {
+    @apply py-8 px-4;
+  }
+  .clients__image {
+    height: 72px;
+    width: 120px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .clients__item {
+    @apply py-8 px-4;
   }
 }
