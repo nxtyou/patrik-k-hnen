@@ -74,12 +74,17 @@
 @tailwind components;
 @tailwind utilities;
 
+.text-outline-white {
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-fill-color: transparent;
+}
+
 .text-outline-white\/30 {
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
   -webkit-text-fill-color: transparent;
 }
 
-.footer-bottom-link:after {
+.link-underline:after {
   background-color: #f5f5f5;
   bottom: 0;
   content: '';
@@ -92,7 +97,34 @@
   width: 100%;
 }
 
-.footer-bottom-link:hover::after {
+.link-underline:hover::after {
   transform: scaleX(0);
   transform-origin: bottom right;
+}
+
+.carousel {
+  -webkit-animation: rotate 8s ease-in-out infinite;
+  animation: rotate 8s ease-in-out infinite;
+}
+
+:root {
+  --cta-footer-font-size-28-48: 4rem;
+}
+
+@keyframes rotate {
+  0%,
+  30% {
+    transform: translateY(0);
+  }
+  33.33%,
+  63.33% {
+    transform: translateY(-4.9rem);
+  }
+  66.66%,
+  96.66% {
+    transform: translateY(-9.9rem);
+  }
+  to {
+    transform: translateY(-14.9rem);
+  }
 }

@@ -10,10 +10,12 @@ module.exports = {
       },
       colors: {
         black: '#040617',
-        white: '#F5F5F5'
+        white: '#F5F5F5',
+        'prussian-blue': '#002347'
       },
       screens: {
-        'small-phones': { raw: '(max-height: 715px) and (max-width: 640px)' }
+        'small-phones': { raw: '(max-height: 715px) and (max-width: 640px)' },
+        '2xl': '1440px'
       }
     }
   },

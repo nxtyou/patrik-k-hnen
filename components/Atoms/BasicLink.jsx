@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
-const BasicLink = ({ children, href }) => {
+const BasicLink = ({ children, href, target }) => {
   return (
-    <Link className="footer-bottom-link relative" href={href}>
+    <Link target={target} className={`link-underline relative`} href={href}>
       {children}
     </Link>
   );

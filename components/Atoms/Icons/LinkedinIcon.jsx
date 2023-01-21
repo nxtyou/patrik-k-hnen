@@ -1,6 +1,12 @@
-const LinkedinIcon = () => {
+const LinkedinIcon = ({ className }) => {
   return (
-    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg
+      className={className}
+      width="21"
+      height="20"
+      viewBox="0 0 21 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg">
       <path
         d="M5.09093 20H0.943608V6.64732H5.09093V20ZM3.01504 4.82589C1.68914 4.82589 0.613251 3.72768 0.613251 2.40179C0.613251 1.07589 1.68914 0 3.01504 0C4.34093 0 5.41682 1.07589 5.41682 2.40179C5.41682 3.72768 4.34093 4.82589 3.01504 4.82589ZM20.6133 20H16.4749V13.5C16.4749 11.9509 16.4436 9.96429 14.3186 9.96429C12.1624 9.96429 11.832 11.6473 11.832 13.3884V20H7.68914V6.64732H11.6668V8.46875H11.7249C12.2784 7.41964 13.6311 6.3125 15.649 6.3125C19.8454 6.3125 20.6177 9.07589 20.6177 12.6652V20H20.6133Z"
         fill="white"
@@ -9,4 +15,4 @@ const LinkedinIcon = () => {
   );
 };
 
-export default LinkedinIcon
+export default LinkedinIcon;
