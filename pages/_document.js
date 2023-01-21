@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en" className="small-phones:text-[14px]">
       <Head />
-      <body>
+      <body className="font-inter">
         <Main />
         <NextScript />
       </body>

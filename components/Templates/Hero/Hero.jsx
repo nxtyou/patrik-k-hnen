@@ -45,7 +45,7 @@ const Hero = () => {
         </animated.div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 z-10 flex w-full max-w-md -translate-x-1/2 flex-col items-center px-4 text-center font-inter sm:bottom-32 md:top-1/2 md:left-24 md:max-w-xl md:-translate-y-1/2 md:translate-x-0 md:items-start md:text-left lg:left-32">
+      <div className="absolute bottom-8 left-1/2 z-10 flex w-full max-w-md -translate-x-1/2 flex-col items-center px-4 text-center  sm:bottom-32 md:top-1/2 md:left-24 md:max-w-xl md:-translate-y-1/2 md:translate-x-0 md:items-start md:text-left lg:left-32">
         <h1 className="text-6xl font-black uppercase md:text-8xl lg:text-9xl">Patrik KÜhnen</h1>
         <p className="mt-3 text-sm md:text-xl ">
           Seit 2012 ist Patrik regelmäßig als Keynote Speaker bei hochkarätigen Veranstaltungen
@@ -62,6 +62,7 @@ const Hero = () => {
       </div>
 
       <Image
+        priority={true}
         className="absolute bottom-0 right-[10%] w-auto"
         style={{ height: height * 0.9 + 'px' }}
         src="/images/Patrik-KÜhnen.png"

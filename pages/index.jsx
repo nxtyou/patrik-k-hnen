@@ -1,3 +1,4 @@
+import Footer from '@/components/Templates/Footer';
 import Hero from '@/components/Templates/Hero/Hero';
 import NavBar from '@/components/Templates/NavBar';
 
@@ -8,6 +9,7 @@ export default function Home() {
       <main>
         <Hero />
         <div className="h-screen"></div>
+        <Footer />
       </main>
     </>
   );
