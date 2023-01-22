@@ -1,15 +1,11 @@
 import Button from '../Atoms/Button';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
-import 'swiper/css';
 import ArrowRight from '../Atoms/Icons/ArrowRight';
 import ArrowLeft from '../Atoms/Icons/ArrowLeft';
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 
 const Philosophie = () => {
-  const navigationPrevRef = useRef(null);
-  const navigationNextRef = useRef(null);
-
   const [progress, setProgress] = useState('0%');
 
   const cards = [
@@ -27,11 +23,11 @@ const Philosophie = () => {
 
   const prevNextButtons = [
     {
-      ref: navigationPrevRef,
+      navClass: 'prevPhilo',
       icon: <ArrowRight className="transition-all group-hover:-translate-x-0.5" />
     },
     {
-      ref: navigationNextRef,
+      navClass: 'nextPhilo',
       icon: <ArrowLeft className="transition-all group-hover:translate-x-0.5" />
     }
   ];
@@ -61,8 +57,8 @@ const Philosophie = () => {
             spaceBetween={16}
             modules={[Navigation]}
             navigation={{
-              prevEl: navigationPrevRef.current,
-              nextEl: navigationNextRef.current
+              prevEl: '.prevPhilo',
+              nextEl: '.nextPhilo'
             }}
             onSlideChangeTransitionStart={(swiper) => {
               if (swiper.activeIndex % 2) {
@@ -70,10 +66,6 @@ const Philosophie = () => {
               } else {
                 setProgress('0%');
               }
-            }}
-            onBeforeInit={(swiper) => {
-              swiper.params.navigation.prevEl = navigationPrevRef.current;
-              swiper.params.navigation.nextEl = navigationNextRef.current;
             }}
             breakpoints={{
               0: {
@@ -100,11 +92,14 @@ const Philosophie = () => {
           </Swiper>
           <div className="mx-auto mt-24 flex max-w-md items-center space-x-4 pr-6 sm:space-x-12 sm:pr-0 md:mt-16">
             <div className="flex items-center space-x-4">
-              {prevNextButtons.map(({ ref, icon }, i) => (
+              {prevNextButtons.map(({ ref, icon, navClass }, i) => (
                 <button
                   key={i}
                   ref={ref}
-                  className="group flex h-16 w-16 items-center justify-center rounded-full border border-white/10 transition-all hover:border-white">
+                  className={
+                    'group flex h-16 w-16 items-center justify-center rounded-full border border-white/10 transition-all hover:border-white ' +
+                    navClass
+                  }>
                   {icon}
                 </button>
               ))}

@@ -6,7 +6,6 @@ const useWindowDimensions = () => {
   useIsomorphicLayoutEffect(() => {
     function updateSize() {
       setSize({ width: window.innerWidth, height: window.innerHeight });
-      console.log(window);
     }
     window.addEventListener('resize', () => {
       if (window.innerWidth > 768) updateSize();

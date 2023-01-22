@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en" className="small-phones:text-[14px]">
       <Head />
-      <body className="font-inter overflow-x-hidden">
+      <body className="overflow-x-hidden bg-black font-inter">
         <Main />
         <NextScript />
       </body>
