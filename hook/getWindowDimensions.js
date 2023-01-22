@@ -1,10 +1,12 @@
-import { useEffect, useState } from 'react';
+import { useIsomorphicLayoutEffect } from '@react-spring/web';
+import { useState } from 'react';
 
 const useWindowDimensions = () => {
   const [size, setSize] = useState({ width: 0, height: 0 });
-  useEffect(() => {
+  useIsomorphicLayoutEffect(() => {
     function updateSize() {
       setSize({ width: window.innerWidth, height: window.innerHeight });
+      console.log(window);
     }
     window.addEventListener('resize', () => {
       if (window.innerWidth > 768) updateSize();

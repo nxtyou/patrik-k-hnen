@@ -3,12 +3,12 @@ import ArrowIcon from '../Atoms/Icons/ArrowIcon';
 
 const Clients = () => {
   return (
-    <section className="content-gradient relative bg-black py-28 px-6 sm:px-8 md:px-16 xl:px-28 text-white">
+    <section className="content-gradient content-gradient--bottom-right relative bg-black py-28 px-6 text-white sm:px-8 md:px-16 xl:px-28">
       <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center">
-        <h2 className="max-w-2xl text-center font-poppins text-3xl md:text-5xl font-medium leading-snug">
+        <h2 className="max-w-2xl text-center font-poppins text-3xl font-medium leading-snug md:text-5xl">
           “Mit den richtigen Partnern ist alles möglich”
         </h2>
-        <div className="mt-4 md:mt-28 grid w-full grid-cols-3 grid-rows-6 md:grid-cols-4 md:grid-rows-5 lg:grid-cols-5 lg:grid-rows-4 border-r border-b border-white/10">
+        <div className="mt-4 grid w-full grid-cols-3 grid-rows-6 border-r border-b border-white/10 md:mt-28 md:grid-cols-4 md:grid-rows-5 lg:grid-cols-5 lg:grid-rows-4">
           <a href="https://www.tde.nl/cases/ride-with-us/" className="clients__item">
             <picture>
               <source
@@ -373,7 +373,9 @@ const Clients = () => {
               />
             </picture>
           </a>
-          <a href="https://www.tde.nl/cases/the-next-top-mechanic/" className="!hidden md:!flex  clients__item">
+          <a
+            href="https://www.tde.nl/cases/the-next-top-mechanic/"
+            className="clients__item !hidden  md:!flex">
             <picture>
               <source
                 type="image/webp"
@@ -393,7 +395,9 @@ const Clients = () => {
               />
             </picture>
           </a>
-          <a href="https://www.tde.nl/cases/ziggosport-platform/" className="!hidden md:!flex  clients__item">
+          <a
+            href="https://www.tde.nl/cases/ziggosport-platform/"
+            className="clients__item !hidden  md:!flex">
             <picture>
               <source
                 type="image/webp"

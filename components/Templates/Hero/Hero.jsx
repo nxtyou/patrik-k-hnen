@@ -51,10 +51,10 @@ const Hero = () => {
           Seit 2012 ist Patrik regelmäßig als Keynote Speaker bei hochkarätigen Veranstaltungen
           gefragt, um seine Expertise als Spitzensportler, Coach und Health Coach weiterzugeben.
         </p>
-        <Button className="mt-6" Icon={<ArrowIcon />}>
+        <Button className="mt-6" Icon={<ArrowIcon />} big>
           Mehr Informationen
         </Button>
-        <div className="mt-16 flex h-20 w-20 cursor-pointer items-center justify-center rounded-full border border-white/50 transition-[border] duration-500 hover:border-white md:hidden">
+        <div className="mt-16 flex h-20 w-20 cursor-pointer items-center justify-center rounded-full border border-white/50 transition-all duration-500 hover:border-white md:hidden">
           <div
             className="h-12 w-12 bg-no-repeat"
             style={{ backgroundImage: "url('/images/animtated-mobile-icon.svg')" }}></div>

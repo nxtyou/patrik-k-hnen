@@ -74,6 +74,16 @@
 @tailwind components;
 @tailwind utilities;
 
+p {
+  @apply !leading-8;
+}
+
+@media only screen and (min-width: 768px) {
+  p {
+    @apply !leading-9;
+  }
+}
+
 .text-outline-white {
   -webkit-text-stroke: 1px #fff;
   -webkit-text-fill-color: transparent;
@@ -142,7 +152,7 @@
   @apply z-[2] bg-[url('/images/noise.png')];
 }
 
-.content-gradient::after {
+.content-gradient--bottom-right::after {
   background: radial-gradient(
     100% 100% at 0 100%,
     rgba(88, 31, 15, 1) 0,
@@ -177,4 +187,16 @@
   .clients__item {
     @apply py-8 px-4;
   }
+}
+
+/* Philosophie */
+
+.swiper-slide:not(.swiper-slide-active) .philosophy-number {
+  -webkit-text-stroke: 1px #ff5003;
+  -webkit-text-fill-color: transparent;
+}
+
+.swiper-slide-active .philosophy-number {
+  @apply text-international-orange;
+  -webkit-text-stroke: none;
 }

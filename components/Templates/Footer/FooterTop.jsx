@@ -10,16 +10,12 @@ const FooterTop = () => {
   return (
     <div className="relative">
       <div className="mx-auto flex max-w-7xl flex-col lg:flex-row">
-        <div className="footer-right-column-bg flex items-center bg-prussian-blue py-32 px-6 sm:px-8 md:px-20 lg:w-1/2 lg:py-0 lg:before:block">
+        <div className="footer-right-column-bg flex items-center bg-prussian-blue py-32 px-6 sm:px-8 md:px-20 lg:w-1/2 lg:py-0 lg:before:block 2xl:px-0">
           <div className="relative z-10 ">
             <header className="font-poppins font-medium">
               <div className="text-2xl !leading-none xl:text-3xl ">Hey there</div>
               <div className="flex h-20 space-x-3 overflow-hidden text-4xl !leading-[5rem] lg:space-x-4 xl:text-5xl">
-                <div>
-                  <div>
-                    <div className="whitespace-nowrap">Let&apos;s talk</div>
-                  </div>
-                </div>
+                <div className="whitespace-nowrap">Let&apos;s talk</div>
                 <div className="overflow-hidden">
                   <div className="text-outline-white carousel">
                     <span className="block">Sports</span>
@@ -32,7 +28,7 @@ const FooterTop = () => {
             </header>
 
             <div className="md:mt-4">
-              <p className="md:text-xl">Ich freue mich auf deine Nachricht. </p>
+              <p className="text-white/80 md:text-xl">Ich freue mich auf deine Nachricht. </p>
             </div>
 
             <Button className="mt-12" Icon={<ArrowIcon />}>
@@ -58,7 +54,7 @@ const FooterTop = () => {
             <h4 className="font-poppins text-sm font-semibold uppercase">
               Lorem ipsum dolor sit amet
             </h4>
-            <p className="mt-4 leading-9 text-white/80">
+            <p className="mt-4 text-white/80">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et
               velit.
             </p>

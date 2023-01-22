@@ -1,6 +1,13 @@
 import Head from 'next/head';
+import { useEffect, useState } from 'react';
 
 const Layout = ({ children }) => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setLoading(false);
+  }, []);
+
   return (
     <>
       <Head>
@@ -15,7 +22,7 @@ const Layout = ({ children }) => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      {children}
+      {!loading ? children : null}
     </>
   );
 };
