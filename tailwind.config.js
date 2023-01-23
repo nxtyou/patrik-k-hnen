@@ -12,7 +12,9 @@ module.exports = {
         black: '#040617',
         white: '#F5F5F5',
         'prussian-blue': '#002347',
-        'international-orange': '#FF5003'
+        'international-orange': '#FF5003',
+        'regal-blue': "#003F7D",
+        iron: "#DCDCDE"
       },
       screens: {
         'small-phones': { raw: '(max-height: 715px) and (max-width: 640px)' },

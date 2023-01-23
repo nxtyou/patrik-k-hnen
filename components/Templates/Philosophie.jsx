@@ -24,11 +24,11 @@ const Philosophie = () => {
   const prevNextButtons = [
     {
       navClass: 'prevPhilo',
-      icon: <ArrowRight className="transition-all group-hover:-translate-x-0.5" />
+      icon: <ArrowRight className="transition-all duration-300 group-hover:-translate-x-0.5" />
     },
     {
       navClass: 'nextPhilo',
-      icon: <ArrowLeft className="transition-all group-hover:translate-x-0.5" />
+      icon: <ArrowLeft className="transition-all duration-300 group-hover:translate-x-0.5" />
     }
   ];
 
@@ -50,7 +50,6 @@ const Philosophie = () => {
         </div>
         <div className="left-1/2 top-0 mt-12 pl-6 sm:pl-8 md:pl-20 lg:absolute lg:mt-0 lg:w-[50vw] lg:pl-0">
           <Swiper
-            className="mySwiper"
             slidesPerView="auto"
             loop={true}
             grabCursor={true}
