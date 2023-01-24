@@ -184,6 +184,10 @@ p {
   @apply flex w-full items-center justify-center border-l border-t border-white/10 py-6 px-4;
 }
 
+.clients__item:hover {
+  @apply bg-white/5 transition-all duration-500;
+}
+
 .clients__image {
   height: 48px;
   width: 72px;

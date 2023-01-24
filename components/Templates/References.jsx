@@ -131,7 +131,6 @@ const References = () => {
           }
         }}>
         {cards.map(({ label, title, cta, bg, logo }, i) => {
-          console.log(label);
           return (
             <SwiperSlide
               key={i}
