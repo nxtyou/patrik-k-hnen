@@ -13,6 +13,18 @@
     /* Safari, Android, iOS */ url('../public/fonts/inter-v12-latin-regular.svg#Inter')
       format('svg'); /* Legacy iOS */
 }
+/* inter-600 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../public/fonts/inter-v12-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''), url('../public/fonts/inter-v12-latin-600.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('../public/fonts/inter-v12-latin-600.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../public/fonts/inter-v12-latin-600.woff') format('woff'),
+    /* Modern Browsers */ url('../public/fonts/inter-v12-latin-600.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('../public/fonts/inter-v12-latin-600.svg#Inter') format('svg'); /* Legacy iOS */
+}
 /* inter-900 - latin */
 @font-face {
   font-family: 'Inter';
@@ -91,6 +103,11 @@ p {
 
 .text-outline-white\/30 {
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+  -webkit-text-fill-color: transparent;
+}
+
+.text-outline-iron {
+  -webkit-text-stroke: 1px #bebebe;
   -webkit-text-fill-color: transparent;
 }
 

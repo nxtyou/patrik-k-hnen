@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useState } from 'react';
 import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -96,11 +97,12 @@ const References = () => {
   ];
 
   return (
-    <section className=" text-white ">
+    <section className=" -mt-16 text-white md:-mt-40">
       <Swiper
         className="h-full !px-6 font-poppins sm:!px-8 md:!pl-20 lg:!pl-32"
         spaceBetween={32}
         modules={[Navigation]}
+        grabCursor={true}
         navigation={{
           prevEl: '.prevReferences',
           nextEl: '.nextReferences'
@@ -147,7 +149,7 @@ const References = () => {
                 <h3 className="mt-6 text-2xl font-semibold uppercase">{title}</h3>
                 <div className="mt-8 text-xs font-medium">{cta}</div>
               </div>
-              <img className=" w-full" src={bg} alt="" width="334" height="502" />
+              <Image className=" w-full" src={bg} alt="" width="334" height="502" />
             </SwiperSlide>
           );
         })}

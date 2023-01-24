@@ -130,8 +130,8 @@ const Awards = () => {
   return (
     <section className="bg-white py-20 lg:py-32">
       <div className="mx-auto flex w-full max-w-7xl flex-col-reverse justify-between  xl:flex-row ">
-        <div className="awardsSwiper mt-8 overflow-x-hidden md:mt-16 ">
-          <div className="swiper-wrapper grid-cols-2 px-6 text-white sm:px-8 md:px-20 xl:mt-0  xl:!grid xl:gap-8 xl:pr-0">
+        <div className="awardsSwiper mt-8 overflow-x-hidden px-6  sm:px-8 md:mt-16 md:px-20 xl:pr-0">
+          <div className="swiper-wrapper grid-cols-2 text-white xl:mt-0  xl:!grid  xl:!w-auto xl:gap-8 ">
             {cards.map(({ topText, middleText, bottomText, isLightBlue, imgSrc, srcSet }, i) => (
               <div
                 key={i}

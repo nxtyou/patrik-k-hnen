@@ -1,19 +1,38 @@
-import { useScroll, animated, useInView } from '@react-spring/web';
-import { fontAktivGrotesk } from '@/components/Templates/Hero/Hero.module.css';
-import { useState } from 'react';
 import Button from '@/components/Atoms/Button';
 import ArrowIcon from '@/components/Atoms/Icons/ArrowIcon';
 import Image from 'next/image';
-import useWindowDimensions from '@/hook/getWindowDimensions';
+import useWindowDimensions from '@/hooks/getWindowDimensions';
+import BgAnimatedText from '@/components/Atoms/BgAnimatedText/BgAnimatedText';
 
 const Hero = () => {
-  const [scrollYProgress, setScrollYProgress] = useState(0);
-  useScroll({
-    onChange: ({ value: { scrollYProgress } }) => setScrollYProgress(scrollYProgress)
-  });
-  const [ref1, inViewText1] = useInView();
-  const [ref2, inViewText2] = useInView();
   const { height } = useWindowDimensions();
+
+  const bgText1 = [
+    {
+      text: 'Patrik.',
+      outline: true
+    },
+    {
+      text: 'KÜhnen Cloud.'
+    },
+    {
+      text: 'heart. sleeve.',
+      outline: true
+    },
+    {
+      text: 'head. cloud'
+    }
+  ];
+
+  const bgText2 = [
+    {
+      text: 'Kühnen. Patrickd. heart. sleeve.',
+      outline: true
+    },
+    {
+      text: 'head. cloud'
+    }
+  ];
 
   return (
     <section
@@ -23,27 +42,13 @@ const Hero = () => {
         height: height + 'px'
       }}
       className="relative h-screen overflow-x-hidden text-white">
-      {/* TODO Move this to a seprate component */}
-      <div
-        className={`absolute bottom-4 whitespace-nowrap leading-none will-change-transform ${fontAktivGrotesk}`}>
-        <animated.div
-          ref={ref1}
-          className=" text-9xl font-extrabold uppercase md:text-[13rem]"
-          style={inViewText1 ? { transform: `translateX(${scrollYProgress * -500}px)` } : {}}>
-          <span className="text-outline-white/30">Patrik.</span>
-          <span className="text-white/30">KÜhnen Cloud.</span>
-          <span className="text-outline-white/30">heart. sleeve.</span>
-          <span className="text-white/30">head. cloud</span>
-        </animated.div>
-        <animated.div
-          ref={ref2}
-          className="mt-4 text-9xl font-extrabold uppercase will-change-transform md:text-[13rem]"
-          style={inViewText2 ? { transform: `translateX(${scrollYProgress * 500 - 2000}px)` } : {}}>
-          <span className="text-outline-white/30">Kühnen. Patrickd.</span>
-          <span className="text-outline-white/30">heart. sleeve.</span>
-          <span className="text-white/30">head. cloud</span>
-        </animated.div>
-      </div>
+      <BgAnimatedText
+        className="absolute bottom-32 md:bottom-60"
+        fullText={bgText1}
+        backward
+        dark
+      />
+      <BgAnimatedText className="absolute bottom-4 z-50" fullText={bgText2} dark />
 
       <div className="absolute bottom-8 left-1/2 z-10 flex w-full max-w-md -translate-x-1/2 flex-col items-center px-4 text-center  sm:bottom-32 md:top-1/2 md:left-24 md:max-w-xl md:-translate-y-1/2 md:translate-x-0 md:items-start md:text-left lg:left-32">
         <h1 className="text-6xl font-black uppercase md:text-8xl lg:text-9xl">Patrik KÜhnen</h1>

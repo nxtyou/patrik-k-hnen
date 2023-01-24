@@ -7,6 +7,7 @@ import NavBar from '@/components/Templates/NavBar';
 import Philosophie from '@/components/Templates/Philosophie';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import About from '@/components/Templates/About';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <NavBar />
       <main>
         <Hero />
+        <About />
         <References />
         <Clients />
         <Awards />
