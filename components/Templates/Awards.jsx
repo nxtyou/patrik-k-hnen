@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import Swiper, { Navigation } from 'swiper';
-// import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
 import Button from '../Atoms/Button';
 import ArrowLeft from '../Atoms/Icons/ArrowLeft';
 import ArrowRight from '../Atoms/Icons/ArrowRight';
@@ -112,8 +111,7 @@ const Awards = () => {
               nextEl: '.nextAwards',
               prevEl: '.prevAwards'
             },
-            modules: [Navigation],
-
+            modules: [Navigation]
           });
           swiper.on('slideChangeTransitionStart', (swiper) => {
             setProgress(swiper.progress * 100);
@@ -132,8 +130,8 @@ const Awards = () => {
   return (
     <section className="bg-white py-20 lg:py-32">
       <div className="mx-auto flex w-full max-w-7xl flex-col-reverse justify-between  xl:flex-row ">
-        <div className="awardsSwiper mt-8 md:mt-16 overflow-x-hidden px-6 sm:px-8 md:px-20 xl:mt-0 xl:pr-0">
-          <div className="swiper-wrapper grid-cols-2 text-white xl:!grid xl:gap-8">
+        <div className="awardsSwiper mt-8 overflow-x-hidden md:mt-16 ">
+          <div className="swiper-wrapper grid-cols-2 px-6 text-white sm:px-8 md:px-20 xl:mt-0  xl:!grid xl:gap-8 xl:pr-0">
             {cards.map(({ topText, middleText, bottomText, isLightBlue, imgSrc, srcSet }, i) => (
               <div
                 key={i}
@@ -161,7 +159,7 @@ const Awards = () => {
               </div>
             ))}
           </div>
-          <div className="mx-auto mt-8 flex max-w-xl items-center space-x-4 pr-6 sm:space-x-12 sm:pr-0 md:mt-16 lg:mt-24 xl:hidden">
+          <div className="mx-auto mt-8 flex max-w-xl items-center space-x-4 px-6 sm:space-x-12 sm:px-8 md:mt-16 lg:mt-24 xl:hidden">
             <div className="flex items-center space-x-4">
               {prevNextButtons.map(({ ref, icon, navClass }, i) => (
                 <button

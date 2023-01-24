@@ -3,7 +3,7 @@ import ArrowIcon from '../Atoms/Icons/ArrowIcon';
 
 const Clients = () => {
   return (
-    <section className="content-gradient content-gradient--bottom-right relative bg-black py-28 px-6 text-white sm:px-8 md:px-16 xl:px-28">
+    <section className="content-gradient content-gradient--bottom-right relative bg-black py-20 md:py-28 px-6 text-white sm:px-8 md:px-16 xl:px-28">
       <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center">
         <h2 className="max-w-2xl text-center font-poppins text-3xl font-medium leading-snug md:text-5xl">
           “Mit den richtigen Partnern ist alles möglich”
@@ -418,7 +418,7 @@ const Clients = () => {
             </picture>
           </a>
         </div>
-        <Button className="mt-16 md:mt-24" Icon={<ArrowIcon />}>
+        <Button className="mt-16 md:mt-24" rightIcon={<ArrowIcon />}>
           Kontakt aufnehmen
         </Button>
       </div>

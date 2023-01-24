@@ -31,7 +31,7 @@ const FooterTop = () => {
               <p className="text-white/80 md:text-xl">Ich freue mich auf deine Nachricht. </p>
             </div>
 
-            <Button className="mt-12" Icon={<ArrowIcon />}>
+            <Button className="mt-12" rightIcon={<ArrowIcon />}>
               Kontakt aufnehmen
             </Button>
           </div>

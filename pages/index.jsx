@@ -1,4 +1,5 @@
 import Awards from '@/components/Templates/Awards';
+import References from '@/components/Templates/References';
 import Clients from '@/components/Templates/Clients';
 import Footer from '@/components/Templates/Footer/Footer';
 import Hero from '@/components/Templates/Hero/Hero';
@@ -13,6 +14,7 @@ export default function Home() {
       <NavBar />
       <main>
         <Hero />
+        <References />
         <Clients />
         <Awards />
         <Philosophie />
