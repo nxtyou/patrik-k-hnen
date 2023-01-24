@@ -1,8 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useInView } from '@react-spring/web';
+import { useEffect, useRef, useState } from 'react';
 import Swiper, { Navigation } from 'swiper';
 import Button from '../Atoms/Button';
 import ArrowLeft from '../Atoms/Icons/ArrowLeft';
 import ArrowRight from '../Atoms/Icons/ArrowRight';
+import AwardsCard from '../Organisms/AwardsCard';
 
 const Awards = () => {
   const cards = [
@@ -127,36 +129,19 @@ const Awards = () => {
     initSwiper();
   }, []);
 
+  const [ref, isInView] = useInView({
+    once: true
+  });
+
   return (
     <section className="bg-white py-20 lg:py-32">
       <div className="mx-auto flex w-full max-w-7xl flex-col-reverse justify-between  xl:flex-row ">
         <div className="awardsSwiper mt-8 overflow-x-hidden px-6  sm:px-8 md:mt-16 md:px-20 xl:pr-0">
-          <div className="swiper-wrapper grid-cols-2 text-white xl:mt-0  xl:!grid  xl:!w-auto xl:gap-8 ">
-            {cards.map(({ topText, middleText, bottomText, isLightBlue, imgSrc, srcSet }, i) => (
-              <div
-                key={i}
-                className={`swiper-slide flex !h-auto max-w-[17.5rem] flex-col items-center  ${
-                  isLightBlue ? 'bg-regal-blue' : 'bg-prussian-blue'
-                } pt-14 pb-10 text-center md:pt-20 ${i % 2 !== 0 ? 'xl:mt-16 xl:-mb-16' : ''}`}>
-                <div>
-                  <picture>
-                    <source type="image/png" srcSet={srcSet} />
-                    <img src={imgSrc} width={80} height={80} alt="Logo dia" />
-                  </picture>
-                </div>
-                <div className="mt-6 flex flex-col items-center">
-                  <div className="text-sm">{topText}</div>
-                  <h3 className="mt-2 text-lg font-bold">{middleText}</h3>
-                  <div className="mt-2 flex flex-col items-center font-poppins text-sm font-medium leading-7">
-                    {bottomText &&
-                      bottomText.map((item, i2) => (
-                        <div className="" key={i2}>
-                          {item}
-                        </div>
-                      ))}
-                  </div>
-                </div>
-              </div>
+          <div
+            ref={ref}
+            className="swiper-wrapper grid-cols-2 text-white xl:mt-0  xl:!grid  xl:!w-auto xl:gap-8 ">
+            {cards.map((card, i) => (
+              <AwardsCard key={i} {...card} index={i} isParentInView={isInView} />
             ))}
           </div>
           <div className="mx-auto mt-8 flex max-w-xl items-center space-x-4 px-6 sm:space-x-12 sm:px-8 md:mt-16 lg:mt-24 xl:hidden">

@@ -1,38 +1,6 @@
-import { useInView, animated, useSpring } from '@react-spring/web';
 import Button from '../Atoms/Button';
 import ArrowIcon from '../Atoms/Icons/ArrowIcon';
-
-//
-
-const ClientsCard = ({ srcSet, imgSrc, className }) => {
-  const [ref, isInView] = useInView();
-
-  const styles = useSpring({
-    opacity: isInView ? 1 : 0,
-    delay: 100,
-    config: {
-      duration: 1000
-    }
-  });
-
-  return (
-    <div className={`clients__item ${className}`}>
-      <picture>
-        <source type="image/png" srcSet={srcSet} />
-        <animated.img
-          ref={ref}
-          style={styles}
-          className="clients__image aos-init aos-animate transition-end"
-          src={imgSrc}
-          width={132}
-          height={88}
-          alt="Ziggo sport logo"
-          data-aos="fade"
-        />
-      </picture>
-    </div>
-  );
-};
+import ClientsCard from '../Organisms/ClientsCard';
 
 const Clients = () => {
   const cards = [
