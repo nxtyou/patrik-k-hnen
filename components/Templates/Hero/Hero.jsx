@@ -1,7 +1,7 @@
 import Button from '@/components/Atoms/Button';
 import ArrowIcon from '@/components/Atoms/Icons/ArrowIcon';
 import Image from 'next/image';
-import useWindowDimensions from '@/hooks/getWindowDimensions';
+import useWindowDimensions from '@/utils/hooks/getWindowDimensions';
 import BgAnimatedText from '@/components/Atoms/BgAnimatedText/BgAnimatedText';
 
 const Hero = () => {

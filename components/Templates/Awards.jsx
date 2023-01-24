@@ -139,7 +139,7 @@ const Awards = () => {
         <div className="awardsSwiper mt-8 overflow-x-hidden px-6  sm:px-8 md:mt-16 md:px-20 xl:pr-0">
           <div
             ref={ref}
-            className="swiper-wrapper grid-cols-2 text-white xl:mt-0  xl:!grid  xl:!w-auto xl:gap-8 ">
+            className="swiper-wrapper grid-cols-2 grid-rows-4 text-white xl:mt-0  xl:!grid  xl:!w-auto xl:gap-8 ">
             {cards.map((card, i) => (
               <AwardsCard key={i} {...card} index={i} isParentInView={isInView} />
             ))}

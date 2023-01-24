@@ -18,11 +18,10 @@ const AwardsCard = ({
 
   const animate = isInView || (window.innerWidth < 1280 && isParentInView);
 
-  const styles = useSpring({
+  const wipeDownStyles = useSpring({
     clipPath: animate ? 'inset(0 0 0 0)' : 'inset(0 0 100% 0)',
     config: {
-      duration: 300,
-      easing: easings.linear
+      duration: 300
     }
   });
 
@@ -37,7 +36,7 @@ const AwardsCard = ({
   return (
     <animated.div
       ref={ref}
-      style={styles}
+      style={wipeDownStyles}
       className={`swiper-slide !h-auto max-w-[17.5rem] ${
         isLightBlue ? 'bg-regal-blue' : 'bg-prussian-blue'
       } pt-14 pb-10 md:pt-20 ${index % 2 !== 0 ? 'xl:mt-16 xl:-mb-16' : ''}`}>
