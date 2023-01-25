@@ -18,13 +18,9 @@ const About = () => {
       text: 'Development'
     },
     {
-      text: 'Blockchain',
+      text: 'Blockchain Development',
       outline: true
     },
-    {
-      text: 'Development',
-      outline: true
-    }
   ];
 
   const cards = [

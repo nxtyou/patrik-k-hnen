@@ -26,11 +26,15 @@ const Hero = () => {
 
   const bgText2 = [
     {
-      text: 'Kühnen. Patrickd. heart. sleeve.',
+      text: 'head. KÜhnen. Patrik Cloud.',
       outline: true
     },
     {
-      text: 'head. cloud'
+      text: 'heart. sleeve.'
+    },
+    {
+      text: 'head. cloud',
+      outline: true
     }
   ];
 
@@ -41,7 +45,7 @@ const Hero = () => {
           'radial-gradient(94.76% 85.62% at 0% 100%, rgba(0, 63, 125, 0.5) 0%, rgba(0, 63, 125, 0) 100%), #040615',
         height: height + 'px'
       }}
-      className="relative h-screen overflow-x-hidden text-white">
+      className="relative h-screen overflow-hidden overflow-x-hidden text-white">
       <BgAnimatedText
         className="absolute bottom-32 md:bottom-60"
         fullText={bgText1}
