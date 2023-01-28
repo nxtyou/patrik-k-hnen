@@ -60,7 +60,7 @@ const ReferencesCard = ({ logo, cta, title, bg, label, isParentInView }) => {
             poster={bg}
             onMouseOver={(event) => event.target.play()}
             onMouseOut={(event) => event.target.pause()}>
-            <source src="/video.mp4" type="video/mp4" />
+            <source src="/videos/video.mp4" type="video/mp4" />
           </animated.video>
         </animated.div>
       </animated.div>

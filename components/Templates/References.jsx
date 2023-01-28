@@ -75,6 +75,8 @@ const References = () => {
     rootMargin: '-40% 0%'
   });
 
+  const updateProgress = (swiper) => setProgress(swiper.progress * 100);
+
   return (
     <section className=" -mt-16 text-white md:-mt-40">
       <Swiper
@@ -87,9 +89,7 @@ const References = () => {
           prevEl: '.prevReferences',
           nextEl: '.nextReferences'
         }}
-        onSlideChangeTransitionStart={(swiper) => {
-          setProgress(swiper.progress * 100);
-        }}
+        onProgress={updateProgress}
         breakpoints={{
           0: {
             slidesPerView: 1.3

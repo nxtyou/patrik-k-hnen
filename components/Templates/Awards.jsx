@@ -115,7 +115,7 @@ const Awards = () => {
             },
             modules: [Navigation]
           });
-          swiper.on('slideChangeTransitionStart', (swiper) => {
+          swiper.on('progress', (swiper) => {
             setProgress(swiper.progress * 100);
           });
         }
