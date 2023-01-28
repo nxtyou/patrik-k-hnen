@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import { useInView, animated, useSpring, easings } from '@react-spring/web';
-import { useEffect, useState } from 'react';
+import { animated, useSpring } from '@react-spring/web';
+import { useState } from 'react';
 
-const ReferencesCard = ({ logo, cta, title, bg, label, isParentInView }) => {
+const ReferencesCard = ({ logo, cta, title, bg, label, isParentInView}) => {
   const [isBgVisible, setIsBgVisible] = useState(false);
 
   const clipPath = isParentInView ? 'inset(0 0 0 0)' : 'inset(0 0 100% 0)';
@@ -43,10 +43,7 @@ const ReferencesCard = ({ logo, cta, title, bg, label, isParentInView }) => {
         </div>
         <div className="absolute left-6 bottom-12  z-20">
           <div>
-            <picture>
-              <source type="image/png" srcSet={logo.srcSet} />
-              <img className="card__logo" src={logo.imgSrc} width={120} height={80} alt="" />
-            </picture>
+            <img  src={logo.imgSrc} width={logo.width} height={logo.height} alt="" />
           </div>
           <h3 className="mt-6 text-2xl font-semibold uppercase">{title}</h3>
           <div className="mt-8 text-xs font-medium">{cta}</div>

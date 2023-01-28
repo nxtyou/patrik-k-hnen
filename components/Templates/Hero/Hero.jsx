@@ -45,7 +45,7 @@ const Hero = () => {
           'radial-gradient(94.76% 85.62% at 0% 100%, rgba(0, 63, 125, 0.5) 0%, rgba(0, 63, 125, 0) 100%), #040615',
         height: height + 'px'
       }}
-      className="relative h-screen overflow-hidden overflow-x-hidden text-white">
+      className="relative h-screen  overflow-x-hidden text-white">
       <BgAnimatedText
         className="absolute bottom-32 md:bottom-60"
         fullText={bgText1}
@@ -54,7 +54,7 @@ const Hero = () => {
       />
       <BgAnimatedText className="absolute bottom-4 z-50" fullText={bgText2} dark />
 
-      <div className="absolute bottom-8 left-1/2 z-10 flex w-full max-w-md -translate-x-1/2 flex-col items-center px-4 text-center  sm:bottom-32 md:top-1/2 md:left-24 md:max-w-xl md:-translate-y-1/2 md:translate-x-0 md:items-start md:text-left lg:left-32">
+      <div className="absolute h-fit bottom-8 left-1/2 z-10 flex w-full max-w-md -translate-x-1/2 flex-col items-center px-4 text-center sm:bottom-32 md:top-1/2 md:left-24 md:max-w-xl md:-translate-y-1/2 md:translate-x-0 md:items-start md:text-left lg:left-32">
         <h1 className="text-6xl font-black uppercase md:text-8xl lg:text-9xl">Patrik KÜhnen</h1>
         <p className="mt-3 text-sm md:text-xl ">
           Seit 2012 ist Patrik regelmäßig als Keynote Speaker bei hochkarätigen Veranstaltungen

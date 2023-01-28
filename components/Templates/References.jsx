@@ -17,10 +17,9 @@ const References = () => {
       cta: 'Lorem ipsum',
       bg: '/images/photos/compagne-1.jpg',
       logo: {
-        imgSrc:
-          'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_180x120_fit_center-center_85_none/team-jumbo-visma-logo.png?v=1665321454',
-        srcSet:
-          'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_180x120_fit_center-center_85_none/team-jumbo-visma-logo.png?v=1665321454 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_240x160_fit_center-center_85_none/team-jumbo-visma-logo.png?v=1665321454 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_360x240_fit_center-center_85_none/team-jumbo-visma-logo.png?v=1665321454 3x'
+        imgSrc: '/images/logos/pk.svg',
+        width: 41,
+        height: 33
       }
     },
     {
@@ -29,10 +28,9 @@ const References = () => {
       cta: 'Lorem ipsum',
       bg: '/images/photos/platform.jpg',
       logo: {
-        imgSrc:
-          'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_180x120_fit_center-center_85_none/rancingnews365-logo.png?v=1665321455',
-        srcSet:
-          'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_180x120_fit_center-center_85_none/rancingnews365-logo.png?v=1665321455 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_240x160_fit_center-center_85_none/rancingnews365-logo.png?v=1665321455 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_360x240_fit_center-center_85_none/rancingnews365-logo.png?v=1665321455 3x'
+        imgSrc: '/images/logos/sky-sport.svg',
+        width: 130,
+        height: 31
       }
     },
     {
@@ -41,10 +39,9 @@ const References = () => {
       cta: 'Lorem ipsum',
       bg: '/images/photos/compagne-2.jpg',
       logo: {
-        imgSrc:
-          'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_180x120_fit_center-center_85_none/swapfiets-logo.png?v=1665321457',
-        srcSet:
-          'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_180x120_fit_center-center_85_none/swapfiets-logo.png?v=1665321457 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_240x160_fit_center-center_85_none/swapfiets-logo.png?v=1665321457 2x'
+        imgSrc: '/images/logos/bmw.svg',
+        width: 48,
+        height: 48
       }
     },
     {
@@ -53,34 +50,9 @@ const References = () => {
       cta: 'Lorem ipsum',
       bg: '/images/photos/activitie.jpg',
       logo: {
-        imgSrc:
-          'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_180x120_fit_center-center_85_none/Nationale-Nederlanden-logo.png?v=1665321459',
-        srcSet:
-          'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_180x120_fit_center-center_85_none/Nationale-Nederlanden-logo.png?v=1665321459 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_240x160_fit_center-center_85_none/Nationale-Nederlanden-logo.png?v=1665321459 2x'
-      }
-    },
-    {
-      label: 'Campagne',
-      title: 'SPEAKER',
-      cta: 'Lorem ipsum',
-      bg: '/images/photos/compagne-1.jpg',
-      logo: {
-        imgSrc:
-          'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_180x120_fit_center-center_85_none/team-jumbo-visma-logo.png?v=1665321454',
-        srcSet:
-          'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_180x120_fit_center-center_85_none/team-jumbo-visma-logo.png?v=1665321454 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_240x160_fit_center-center_85_none/team-jumbo-visma-logo.png?v=1665321454 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_360x240_fit_center-center_85_none/team-jumbo-visma-logo.png?v=1665321454 3x'
-      }
-    },
-    {
-      label: 'Platform',
-      title: 'TENNIS EXPERTE',
-      cta: 'Lorem ipsum',
-      bg: '/images/photos/platform.jpg',
-      logo: {
-        imgSrc:
-          'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_180x120_fit_center-center_85_none/rancingnews365-logo.png?v=1665321455',
-        srcSet:
-          'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_180x120_fit_center-center_85_none/rancingnews365-logo.png?v=1665321455 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_240x160_fit_center-center_85_none/rancingnews365-logo.png?v=1665321455 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Klant-logos/_360x240_fit_center-center_85_none/rancingnews365-logo.png?v=1665321455 3x'
+        imgSrc: '/images/logos/pk.svg',
+        width: 41,
+        height: 33
       }
     }
   ];
@@ -102,8 +74,6 @@ const References = () => {
     once: true,
     rootMargin: '-40% 0%'
   });
-
-
 
   return (
     <section className=" -mt-16 text-white md:-mt-40">
@@ -135,9 +105,6 @@ const References = () => {
           },
           1440: {
             slidesPerView: 3.5
-          },
-          1720: {
-            slidesPerView: 4.5
           }
         }}>
         {cards.map((card, i) => {

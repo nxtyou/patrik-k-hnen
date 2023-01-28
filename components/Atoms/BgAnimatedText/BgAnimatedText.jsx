@@ -18,7 +18,7 @@ const BgAnimatedText = ({ className, backward, fullText, dark }) => {
         inView
           ? {
               transform: `translateX(${
-                backward ? scrollYProgress * -1000 : scrollYProgress * 1000 - 200
+                backward ? scrollYProgress * -1000 : scrollYProgress * 1000 - 800
               }px)`
             }
           : {}
