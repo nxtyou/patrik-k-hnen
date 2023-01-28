@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { animated, useSpring } from '@react-spring/web';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const ReferencesCard = ({ logo, cta, title, bg, label, isParentInView }) => {
   const [isBgVisible, setIsBgVisible] = useState(false);
@@ -35,8 +35,28 @@ const ReferencesCard = ({ logo, cta, title, bg, label, isParentInView }) => {
     }
   });
 
+  const [hover, setHover] = useState(false);
+
+  const videoRef = useRef(null);
+
+  const toggleVideoOnHover = () => {
+    if (hover) {
+      videoRef.current.play();
+    } else {
+      videoRef.current.pause();
+    }
+  };
+
+  useEffect(() => {
+    console.log(hover);
+    toggleVideoOnHover();
+  });
+
   return (
-    <div className="relative">
+    <div
+      onMouseOver={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+      className="relative">
       <animated.div className="group relative z-50" style={containerStyles}>
         <div className="absolute top-12 left-6 z-20 rounded-[0.2rem] bg-white/10 py-1.5 px-3 text-xs font-medium uppercase tracking-widest">
           {label}
@@ -45,23 +65,28 @@ const ReferencesCard = ({ logo, cta, title, bg, label, isParentInView }) => {
           <div>
             <img src={logo.imgSrc} width={logo.width} height={logo.height} alt="" />
           </div>
-          <h3 className="mt-6 text-2xl font-semibold uppercase">{title}</h3>
-          <div className="mt-8 text-xs font-medium">{cta}</div>
+          <h3 className="mt-6 text-2xl font-medium uppercase">{title}</h3>
+          <div className="mt-8 text-xs font-medium uppercase">{cta}</div>
         </div>
 
+        <video
+          ref={videoRef}
+          className="absolute top-0 left-0 z-10 h-full w-full object-cover"
+          width="334"
+          height="502"
+          muted
+          loop
+          poster={bg}>
+          <source src="/videos/video.mp4" type="video/mp4" />
+        </video>
         <animated.div className="relative z-10" style={imgStyles}>
-          {/* <Image className="w-full" src={bg} alt="" width="334" height="502" /> */}
-          <animated.video
-            className="w-full object-cover"
+          <Image
+            className={`w-full transition-all duration-500 ${hover ? 'invisible opacity-0' : 'visible opacity-100'}`}
+            src={bg}
+            alt=""
             width="334"
             height="502"
-            muted
-            loop
-            poster={bg}
-            onMouseOver={(event) => event.target.play()}
-            onMouseOut={(event) => event.target.pause()}>
-            <source src="/videos/video.mp4" type="video/mp4" />
-          </animated.video>
+          />
         </animated.div>
       </animated.div>
       <animated.div

@@ -14,7 +14,7 @@ const References = () => {
     {
       label: 'Campagne',
       title: 'SPEAKER',
-      cta: 'Lorem ipsum',
+      cta: 'Mehr erfahren',
       bg: '/images/photos/compagne-1.jpg',
       logo: {
         imgSrc: '/images/logos/pk.svg',
@@ -25,7 +25,7 @@ const References = () => {
     {
       label: 'Platform',
       title: 'TENNIS EXPERTE',
-      cta: 'Lorem ipsum',
+      cta: 'mehr erfahren',
       bg: '/images/photos/platform.jpg',
       logo: {
         imgSrc: '/images/logos/sky-sport.svg',
@@ -36,7 +36,7 @@ const References = () => {
     {
       label: 'Campagne',
       title: 'TURNIERDIREKTOR',
-      cta: 'Lorem ipsum',
+      cta: 'mehr erfahren',
       bg: '/images/photos/compagne-2.jpg',
       logo: {
         imgSrc: '/images/logos/bmw.svg',
@@ -47,7 +47,7 @@ const References = () => {
     {
       label: 'Activatie',
       title: 'COACH ',
-      cta: 'Lorem ipsum',
+      cta: 'mehr erfahren',
       bg: '/images/photos/activitie.jpg',
       logo: {
         imgSrc: '/images/logos/pk.svg',

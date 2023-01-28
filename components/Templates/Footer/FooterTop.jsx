@@ -38,29 +38,28 @@ const FooterTop = () => {
         </div>
         <div className="2xl:grid-row-2 grid max-w-sm grid-cols-1 px-6 py-16 text-lg sm:px-8 md:pl-20 lg:w-1/2 lg:py-28 2xl:max-w-none 2xl:grid-cols-2 2xl:pb-32">
           <div className="">
-            <h4 className="font-poppins text-sm font-semibold uppercase">Lorem ipsum</h4>
+            <h4 className="font-poppins text-sm font-semibold uppercase">WEBSEITE</h4>
             <ul className="mt-4 text-white/80">
-              <li className="leading-9">Lorem ipsum</li>
-              <li className="leading-9">Lorem ipsum dolor</li>
-              <li className="leading-9">Lorem ipsum</li>
+              <li className="leading-9">Home</li>
+              <li className="leading-9">Kontakt</li>
             </ul>
             <div className="mt-7">
               <BasicLink target="_blank" href="#">
-                Lorem ipsum
+                Mehr erfahren
               </BasicLink>
             </div>
           </div>
           <div className="order-4 mt-10 2xl:order-[inherit] 2xl:mt-0 ">
-            <h4 className="font-poppins text-sm font-semibold uppercase">
-              Lorem ipsum dolor sit amet
-            </h4>
-            <p className="mt-4 text-white/80">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et
-              velit.
-            </p>
+            <h4 className="font-poppins text-sm font-semibold uppercase">Über patrik kühnen</h4>
+            <ul className="mt-4 text-white/80">
+              <li className="leading-9">Turnierdirektor</li>
+              <li className="leading-9">Keynote Speaker</li>
+              <li className="leading-9">Tennisexperte</li>
+              <li className="leading-9">Coach</li>
+            </ul>
             <div className="mt-7">
               <BasicLink target="_blank" href="#">
-                Lorem ipsum
+                Mehr erfahren
               </BasicLink>
             </div>
           </div>
@@ -68,12 +67,12 @@ const FooterTop = () => {
             <h4 className="font-poppins text-sm font-semibold uppercase">Lorem ipsum dolor</h4>
             <ul className="mt-4">
               <li className="leading-9">
-                <BasicLink href="mailto:Lorem@gmail.com" target="_blank">
-                  Lorem@gmail.com
-                </BasicLink>
+                <BasicLink href="tel:+123123456789">(+123) 123 456 789</BasicLink>
               </li>
-              <li className="leading-9">
-                <BasicLink href="tel:+310407820001">(+123) 123 456 789</BasicLink>
+              <li className="leading-9 text-base">
+                <BasicLink href="mailto:pk-contact@patrikkuehnen.com" target="_blank">
+                  pk-contact@patrikkuehnen.com
+                </BasicLink>
               </li>
             </ul>
           </div>
