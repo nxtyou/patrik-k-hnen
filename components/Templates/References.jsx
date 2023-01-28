@@ -104,7 +104,7 @@ const References = () => {
             slidesPerView: 2.75
           },
           1440: {
-            slidesPerView: 3.5
+            slidesPerView: 3.75
           }
         }}>
         {cards.map((card, i) => {
