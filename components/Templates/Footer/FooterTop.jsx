@@ -64,7 +64,7 @@ const FooterTop = () => {
             </div>
           </div>
           <div className="mt-10 2xl:mt-12">
-            <h4 className="font-poppins text-sm font-semibold uppercase">Lorem ipsum dolor</h4>
+            <h4 className="font-poppins text-sm font-semibold uppercase">Hier Kontakt aufnahmen</h4>
             <ul className="mt-4">
               <li className="leading-9">
                 <BasicLink href="tel:+123123456789">(+123) 123 456 789</BasicLink>

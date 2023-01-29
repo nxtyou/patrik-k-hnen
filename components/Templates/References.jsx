@@ -7,7 +7,7 @@ import Button from '../Atoms/Button';
 import ArrowLeft from '../Atoms/Icons/ArrowLeft';
 import ArrowRight from '../Atoms/Icons/ArrowRight';
 import FourSquares from '../Atoms/Icons/FourSquares';
-import ReferencesCard from '../Organisms/RefrencesCard';
+import ReferencesCard from '../Organisms/ReferencesCard';
 
 const References = () => {
   const cards = [
@@ -20,7 +20,8 @@ const References = () => {
         imgSrc: '/images/logos/pk.svg',
         width: 41,
         height: 33
-      }
+      },
+      video: '/videos/references/01.mp4'
     },
     {
       label: 'Platform',
@@ -31,7 +32,8 @@ const References = () => {
         imgSrc: '/images/logos/sky-sport.svg',
         width: 130,
         height: 31
-      }
+      },
+      video: '/videos/references/04.mp4'
     },
     {
       label: 'Campagne',
@@ -42,7 +44,8 @@ const References = () => {
         imgSrc: '/images/logos/bmw.svg',
         width: 48,
         height: 48
-      }
+      },
+      video: '/videos/references/03.mp4'
     },
     {
       label: 'Activatie',
@@ -53,7 +56,8 @@ const References = () => {
         imgSrc: '/images/logos/pk.svg',
         width: 41,
         height: 33
-      }
+      },
+      video: '/videos/references/02.mp4'
     }
   ];
 
