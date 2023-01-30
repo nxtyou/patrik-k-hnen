@@ -9,7 +9,7 @@ import TwitterIcon from '../Atoms/Icons/TwitterIcon';
 
 const NavBar = () => {
   return (
-    <header className="absolute z-10 top-0 left-0 flex w-full items-center justify-between p-6 lg:pr-12">
+    <header className="absolute top-0 left-0 z-10 flex w-full items-center justify-between p-6 lg:pr-12">
       <Image priority={true} src="/images/logo.svg" alt="Patrick kühnen" width="184" height="29" />
       <nav className="hidden items-center space-x-3 md:flex">
         <a href="#">
@@ -31,7 +31,7 @@ const NavBar = () => {
           <TreeofIcon />
         </a>
       </nav>
-      <button className='md:hidden'>
+      <button className="md:hidden">
         <MenuIcon />
       </button>
     </header>

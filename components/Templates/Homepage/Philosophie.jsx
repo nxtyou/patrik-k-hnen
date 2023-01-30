@@ -1,8 +1,8 @@
-import Button from '../Atoms/Button';
+import Button from '../../Atoms/Button';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
-import ArrowRight from '../Atoms/Icons/ArrowRight';
-import ArrowLeft from '../Atoms/Icons/ArrowLeft';
+import ArrowRight from '../../Atoms/Icons/ArrowRight';
+import ArrowLeft from '../../Atoms/Icons/ArrowLeft';
 import { useState } from 'react';
 
 const Philosophie = () => {

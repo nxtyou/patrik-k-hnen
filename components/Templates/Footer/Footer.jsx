@@ -1,4 +1,3 @@
-import BasicLink from '../../Atoms/BasicLink';
 import FooterBottom from './FooterBottom';
 import FooterTop from './FooterTop';
 

@@ -1,10 +1,10 @@
 import { useInView } from '@react-spring/web';
 import { useEffect, useRef, useState } from 'react';
 import Swiper, { Navigation } from 'swiper';
-import Button from '../Atoms/Button';
-import ArrowLeft from '../Atoms/Icons/ArrowLeft';
-import ArrowRight from '../Atoms/Icons/ArrowRight';
-import AwardsCard from '../Organisms/AwardsCard';
+import Button from '../../Atoms/Button';
+import ArrowLeft from '../../Atoms/Icons/ArrowLeft';
+import ArrowRight from '../../Atoms/Icons/ArrowRight';
+import AwardsCard from '../../Organisms/AwardsCard';
 
 const Awards = () => {
   const cards = [

@@ -1,6 +1,6 @@
-import Button from '../Atoms/Button';
-import ArrowIcon from '../Atoms/Icons/ArrowIcon';
-import ClientsCard from '../Organisms/ClientsCard';
+import Button from '../../Atoms/Button';
+import ArrowIcon from '../../Atoms/Icons/ArrowIcon';
+import ClientsCard from '../../Organisms/ClientsCard';
 
 const Clients = () => {
   const cards = [

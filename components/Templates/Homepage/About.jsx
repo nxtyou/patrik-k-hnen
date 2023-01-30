@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import BgAnimatedText from '../Atoms/BgAnimatedText/BgAnimatedText';
-import PlayIcon from '../Atoms/Icons/PlayIcon';
+import BgAnimatedText from '../../Atoms/BgAnimatedText/BgAnimatedText';
+import PlayIcon from '../../Atoms/Icons/PlayIcon';
 
 const About = () => {
   const bgText1 = [
@@ -20,7 +20,7 @@ const About = () => {
     {
       text: 'Blockchain Development',
       outline: true
-    },
+    }
   ];
 
   const cards = [

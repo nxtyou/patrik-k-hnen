@@ -33,34 +33,36 @@ const AwardsCard = ({
     }
   });
 
+  useEffect(() => {
+    console.log(isInView);
+  });
+
   return (
-    <animated.div
-      ref={ref}
-      style={wipeDownStyles}
-      className={`swiper-slide !h-auto max-w-[17.5rem] ${
-        isLightBlue ? 'bg-regal-blue' : 'bg-prussian-blue'
-      } pt-14 pb-10 md:pt-20 ${index % 2 !== 0 ? 'xl:mt-16 xl:-mb-16' : ''}`}>
-      <animated.div style={stylesInner} className="flex flex-col items-center text-center">
-        <div styles={stylesInner}>
-          <picture>
-            <source type="image/png" srcSet={srcSet} />
+    <div ref={ref} className="swiper-slide !h-auto max-w-[17.5rem]">
+      <animated.div
+        style={wipeDownStyles}
+        className={`h-full ${
+          isLightBlue ? 'bg-regal-blue' : 'bg-prussian-blue'
+        } pt-14 pb-10 md:pt-20 ${index % 2 !== 0 ? 'xl:mt-16 xl:-mb-16' : ''}`}>
+        <animated.div style={stylesInner} className="flex flex-col items-center text-center">
+          <div styles={stylesInner}>
             <img src={imgSrc} width={80} height={80} alt={alt} />
-          </picture>
-        </div>
-        <div className="mt-6 flex flex-col items-center">
-          <div className="text-sm">{topText}</div>
-          <h3 className="mt-2 text-lg font-bold">{middleText}</h3>
-          <div className="mt-2 flex flex-col items-center font-poppins text-sm font-medium leading-7">
-            {bottomText &&
-              bottomText.map((item, i2) => (
-                <div className="" key={i2}>
-                  {item}
-                </div>
-              ))}
           </div>
-        </div>
+          <div className="mt-6 flex flex-col items-center">
+            <div className="text-sm">{topText}</div>
+            <h3 className="mt-2 text-lg font-bold">{middleText}</h3>
+            <div className="mt-2 flex flex-col items-center font-poppins text-sm font-medium leading-7">
+              {bottomText &&
+                bottomText.map((item, i2) => (
+                  <div className="" key={i2}>
+                    {item}
+                  </div>
+                ))}
+            </div>
+          </div>
+        </animated.div>
       </animated.div>
-    </animated.div>
+    </div>
   );
 };
 
