@@ -128,7 +128,7 @@ const Clients = () => {
   return (
     <section className="content-gradient content-gradient--bottom-right relative bg-black py-20 px-6 text-white sm:px-8 md:py-28 md:px-16 xl:px-28">
       <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center">
-        <h2 className="max-w-2xl text-center font-poppins text-3xl font-medium leading-snug md:text-5xl">
+        <h2 className="max-w-2xl text-center text-3xl font-medium leading-snug md:text-5xl">
           “Mit den richtigen Partnern ist alles möglich”
         </h2>
         <div className="mt-4 grid w-full grid-cols-3 grid-rows-6 border-r border-b border-white/10 md:mt-28 md:grid-cols-4 md:grid-rows-5 lg:grid-cols-5 lg:grid-rows-4">

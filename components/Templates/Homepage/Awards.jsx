@@ -169,7 +169,7 @@ const Awards = () => {
 
         <div className="px-6 sm:px-8 md:px-20 xl:px-16">
           <div className="sticky top-16  mx-auto text-black xl:max-w-md">
-            <h2 className="max-w-md font-poppins text-3xl font-medium !leading-tight md:max-w-xl md:text-5xl">
+            <h2 className="max-w-md text-3xl font-medium !leading-tight md:max-w-xl md:text-5xl">
               “Tennis ist immer noch mein Leben”
             </h2>
             <p className="mt-4 md:mt-4 md:text-xl">

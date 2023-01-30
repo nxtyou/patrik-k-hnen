@@ -55,8 +55,8 @@ const Hero = () => {
       <BgAnimatedText className="absolute bottom-4 z-50" fullText={bgText2} dark />
 
       <div className="absolute bottom-8 left-1/2 z-10 flex h-fit w-full max-w-md -translate-x-1/2 flex-col items-center px-4 text-center sm:bottom-32 md:top-1/2 md:left-24 md:max-w-xl md:-translate-y-1/2 md:translate-x-0 md:items-start md:text-left lg:left-32">
-        <h1 className="text-6xl font-black uppercase md:text-8xl lg:text-9xl">Patrik KÜhnen</h1>
-        <p className="mt-3 text-sm md:text-xl ">
+        <h1 className="text-6xl font-black uppercase md:text-8xl lg:text-9xl font-inter">Patrik KÜhnen</h1>
+        <p className="mt-3 text-sm md:text-xl">
           Als ehemaliger Tennisprofi nutzt Patrik Kühnen heute sein umfangreiches Wissen und seine
           Fähigkeiten als Experte, Coach, Keynote Speaker und Turnierdirektor, um Menschen und
           Klienten zu helfen ihre Tennis- und Karriereziele zu erreichen.

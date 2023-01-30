@@ -37,8 +37,8 @@ const FooterTop = () => {
           </div>
         </div>
         <div className="2xl:grid-row-2 grid max-w-sm grid-cols-1 px-6 py-16 text-lg sm:px-8 md:pl-20 lg:w-1/2 lg:py-28 2xl:max-w-none 2xl:grid-cols-2 2xl:pb-32">
-          <div className="">
-            <h4 className="font-poppins text-sm font-semibold uppercase">WEBSEITE</h4>
+          <div>
+            <h4 className="text-sm font-semibold uppercase">WEBSEITE</h4>
             <ul className="mt-4 text-white/80">
               <li className="leading-9">Home</li>
               <li className="leading-9">Kontakt</li>
@@ -50,7 +50,7 @@ const FooterTop = () => {
             </div>
           </div>
           <div className="order-4 mt-10 2xl:order-[inherit] 2xl:mt-0 ">
-            <h4 className="font-poppins text-sm font-semibold uppercase">Über patrik kühnen</h4>
+            <h4 className="text-sm font-semibold uppercase">Über patrik kühnen</h4>
             <ul className="mt-4 text-white/80">
               <li className="leading-9">Turnierdirektor</li>
               <li className="leading-9">Keynote Speaker</li>
@@ -64,7 +64,7 @@ const FooterTop = () => {
             </div>
           </div>
           <div className="mt-10 2xl:mt-12">
-            <h4 className="font-poppins text-sm font-semibold uppercase">Hier Kontakt aufnahmen</h4>
+            <h4 className="text-sm font-semibold uppercase">Hier Kontakt aufnahmen</h4>
             <ul className="mt-4">
               <li className="leading-9">
                 <BasicLink href="tel:+123123456789">(+123) 123 456 789</BasicLink>
@@ -77,7 +77,7 @@ const FooterTop = () => {
             </ul>
           </div>
           <div className="mt-10 2xl:mt-12">
-            <h4 className="font-poppins text-sm font-semibold uppercase">Socials</h4>
+            <h4 className="text-sm font-semibold uppercase">Socials</h4>
             <ul className="mt-4 flex space-x-2">
               <li>
                 <Link

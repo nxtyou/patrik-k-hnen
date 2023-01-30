@@ -70,7 +70,7 @@ const About = () => {
               <div key={i} className="  border-b border-black py-8">
                 <div className="">
                   <div className="font-semibold">{`0${i + 1}`}</div>
-                  <h3 className="mt-8 font-poppins text-3xl font-medium">{title}</h3>
+                  <h3 className="mt-8 text-3xl font-medium">{title}</h3>
                   <p className="mt-4">{subtitle}</p>
                 </div>
               </div>
