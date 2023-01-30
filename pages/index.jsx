@@ -2,7 +2,7 @@ import Awards from '@/components/Templates/Homepage/Awards';
 import References from '@/components/Templates/Homepage/References';
 import Clients from '@/components/Templates/Homepage/Clients';
 import Footer from '@/components/Templates/Footer/Footer';
-import Hero from '@/components/Templates/Homepage/Hero/Hero';
+import Hero from '@/components/Templates/Homepage/Hero';
 import NavBar from '@/components/Templates/NavBar/NavBar';
 import Philosophie from '@/components/Templates/Homepage/Philosophie';
 import 'swiper/css';

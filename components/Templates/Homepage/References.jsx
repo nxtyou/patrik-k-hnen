@@ -85,7 +85,7 @@ const References = () => {
     <section className=" -mt-16 text-white md:-mt-40">
       <Swiper
         ref={ref}
-        className="h-full !px-6 font-poppins sm:!px-8 md:!pl-20 lg:!pl-32"
+        className="h-full !px-6 font-poppins sm:!px-8 md:!pl-20 xl:!pl-32"
         spaceBetween={32}
         modules={[Navigation]}
         grabCursor={true}

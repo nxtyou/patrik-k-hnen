@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import BgAnimatedText from '../../Atoms/BgAnimatedText/BgAnimatedText';
 import PlayIcon from '../../Atoms/Icons/PlayIcon';
+import InfoGrid from '../InfoGrid';
 
 const About = () => {
   const bgText1 = [
@@ -63,21 +64,7 @@ const About = () => {
           <PlayIcon className="w-3 lg:w-auto" />
         </button>
       </div>
-      <div className="px-6 pt-8 sm:px-8 md:px-20 lg:px-32">
-        <div className="mx-auto max-w-7xl ">
-          <div className="grid-cols-2 grid-rows-2 gap-8 gap-x-16 space-y-4 md:grid md:space-y-0">
-            {cards.map(({ title, subtitle }, i) => (
-              <div key={i} className="  border-b border-black py-8">
-                <div className="">
-                  <div className="font-semibold">{`0${i + 1}`}</div>
-                  <h3 className="mt-8 text-3xl font-medium">{title}</h3>
-                  <p className="mt-4">{subtitle}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
+      <InfoGrid data={cards} />
       <div className="relative mt-14 overflow-hidden pt-64 md:mt-28 md:pt-96">
         <BgAnimatedText className="absolute top-0 " fullText={bgText1} backward />
         <BgAnimatedText className="absolute top-32 md:top-48" fullText={bgText2} />
