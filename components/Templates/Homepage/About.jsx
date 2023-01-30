@@ -47,7 +47,7 @@ const About = () => {
   ];
 
   return (
-    <section className=" relative bg-white ">
+    <section className=" relative bg-white text-black">
       <div className="relative pt-[55%] md:pt-[39%]">
         {/* <video className='relative z-10'>
           <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />

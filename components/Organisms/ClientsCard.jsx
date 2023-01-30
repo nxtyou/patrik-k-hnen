@@ -15,7 +15,9 @@ const ClientsCard = ({ srcSet, imgSrc, className }) => {
 
   return (
     <div
-      className={`flex w-full items-center justify-center border-l border-t border-white/10 py-6 px-4 hover:bg-white/5 hover:transition-all hover:duration-500 md:py-8 md:px-4 ${className}`}>
+      className={`flex w-full items-center justify-center border-l border-t border-white/10 py-6 px-4 hover:bg-white/5 hover:transition-all hover:duration-500 md:py-8 md:px-4 ${
+        className || ''
+      }`}>
       <picture>
         <source type="image/png" srcSet={srcSet} />
         <animated.img

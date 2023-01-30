@@ -69,7 +69,7 @@ const FooterTop = () => {
               <li className="leading-9">
                 <BasicLink href="tel:+123123456789">(+123) 123 456 789</BasicLink>
               </li>
-              <li className="leading-9 text-base">
+              <li className="text-base leading-9">
                 <BasicLink href="mailto:pk-contact@patrikkuehnen.com" target="_blank">
                   pk-contact@patrikkuehnen.com
                 </BasicLink>
@@ -81,6 +81,7 @@ const FooterTop = () => {
             <ul className="mt-4 flex space-x-2">
               <li>
                 <Link
+                  aria-label="Besuchen Sie die Instagram-Seite"
                   className="flex h-12 w-12 items-center justify-center rounded-full bg-prussian-blue hover:bg-prussian-blue/80"
                   href="https://www.instagram.com/tde_nl/"
                   target="_blank">
@@ -89,6 +90,7 @@ const FooterTop = () => {
               </li>
               <li>
                 <Link
+                  aria-label="Besuchen Sie die Linkedin-Seite"
                   className="flex h-12 w-12 items-center justify-center rounded-full bg-prussian-blue hover:bg-prussian-blue/80"
                   href="https://nl.linkedin.com/company/tdenl"
                   target="_blank">
@@ -97,6 +99,7 @@ const FooterTop = () => {
               </li>
               <li>
                 <Link
+                  aria-label="Besuchen Sie die Twitter-Seite"
                   className="flex h-12 w-12 items-center justify-center rounded-full bg-prussian-blue hover:bg-prussian-blue/80"
                   href="https://twitter.com/tde"
                   target="_blank">

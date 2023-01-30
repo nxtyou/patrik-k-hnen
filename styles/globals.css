@@ -44,6 +44,7 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('../public/fonts/poppins-v20-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
     url('../public/fonts/poppins-v20-latin-regular.eot?#iefix') format('embedded-opentype'),
@@ -58,6 +59,7 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
+  font-display: swap;
   src: url('../public/fonts/poppins-v20-latin-500.eot'); /* IE9 Compat Modes */
   src: local(''),
     url('../public/fonts/poppins-v20-latin-500.eot?#iefix') format('embedded-opentype'),
@@ -72,6 +74,7 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url('../public/fonts/poppins-v20-latin-700.eot'); /* IE9 Compat Modes */
   src: local(''),
     url('../public/fonts/poppins-v20-latin-700.eot?#iefix') format('embedded-opentype'),

@@ -1,5 +1,5 @@
 import { useInView } from '@react-spring/web';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Swiper, { Navigation } from 'swiper';
 import Button from '../../Atoms/Button';
 import ArrowLeft from '../../Atoms/Icons/ArrowLeft';
