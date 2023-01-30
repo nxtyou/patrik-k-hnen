@@ -1,9 +1,9 @@
 import Awards from '@/components/Templates/Homepage/Awards';
 import References from '@/components/Templates/Homepage/References';
 import Clients from '@/components/Templates/Homepage/Clients';
-import Footer from '@/components/Templates/Footer/Footer';
+import Footer from '@/components/Templates/Shared/Footer/Footer';
 import Hero from '@/components/Templates/Homepage/Hero';
-import NavBar from '@/components/Templates/NavBar/NavBar';
+import NavBar from '@/components/Templates/Shared/NavBar/NavBar';
 import Philosophie from '@/components/Templates/Homepage/Philosophie';
 import 'swiper/css';
 import 'swiper/css/navigation';

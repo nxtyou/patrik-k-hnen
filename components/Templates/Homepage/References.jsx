@@ -4,8 +4,8 @@ import { useEffect, useState } from 'react';
 import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Button from '../../Atoms/Button';
-import ArrowLeft from '../../Atoms/Icons/ArrowLeft';
-import ArrowRight from '../../Atoms/Icons/ArrowRight';
+import ArrowLeft from '../../Atoms/Icons/ArrowRight';
+import ArrowRight from '../../Atoms/Icons/ArrowLeft';
 import FourSquares from '../../Atoms/Icons/FourSquares';
 import ReferencesCard from '../../Organisms/ReferencesCard';
 

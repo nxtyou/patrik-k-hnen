@@ -1,4 +1,4 @@
-import InfoGrid from '../InfoGrid';
+import InfoGrid from '../Shared/InfoGrid';
 
 const About = () => {
   const cards = [

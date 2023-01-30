@@ -1,10 +1,10 @@
 import Button from '@/components/Atoms/Button';
 import ArrowIcon from '@/components/Atoms/Icons/ArrowIcon';
 import Link from 'next/link';
-import BasicLink from '../../Atoms/BasicLink';
-import InstagramIcon from '../../Atoms/Icons/InstagramIcon';
-import LinkedinIcon from '../../Atoms/Icons/LinkedinIcon';
-import TwitterIcon from '../../Atoms/Icons/TwitterIcon';
+import BasicLink from '../../../Atoms/BasicLink';
+import InstagramIcon from '../../../Atoms/Icons/InstagramIcon';
+import LinkedinIcon from '../../../Atoms/Icons/LinkedinIcon';
+import TwitterIcon from '../../../Atoms/Icons/TwitterIcon';
 
 const FooterTop = () => {
   return (

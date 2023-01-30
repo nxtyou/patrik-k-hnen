@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import BgAnimatedText from '../../Atoms/BgAnimatedText/BgAnimatedText';
 import PlayIcon from '../../Atoms/Icons/PlayIcon';
-import InfoGrid from '../InfoGrid';
+import InfoGrid from '../Shared/InfoGrid';
 
 const About = () => {
   const bgText1 = [
@@ -11,7 +11,11 @@ const About = () => {
     },
     {
       text: 'Creative'
-    }
+    },
+    {
+      text: 'Strategie',
+      outline: true
+    },
   ];
 
   const bgText2 = [
@@ -56,7 +60,7 @@ const About = () => {
         <Image
           width={1440}
           height={617}
-          className="absolute top-0 left-0 h-full w-full"
+          className="absolute top-0 left-0 h-full w-full object-cover"
           src="/images/video-thumbnail.jpg"
           alt=""
         />

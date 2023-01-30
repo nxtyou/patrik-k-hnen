@@ -1,11 +1,11 @@
 import Image from 'next/image';
-import EnvelopeIcon from '../../Atoms/Icons/EnvelopeIcon';
-import FacebookIcon from '../../Atoms/Icons/FacebookIcon';
-import InstagramIcon from '../../Atoms/Icons/InstagramIcon';
-import LinkedinIcon from '../../Atoms/Icons/LinkedinIcon';
-import MenuIcon from '../../Atoms/Icons/MenuIcon';
-import TreeofIcon from '../../Atoms/Icons/TreeofIcon';
-import TwitterIcon from '../../Atoms/Icons/TwitterIcon';
+import EnvelopeIcon from '../../../Atoms/Icons/EnvelopeIcon';
+import FacebookIcon from '../../../Atoms/Icons/FacebookIcon';
+import InstagramIcon from '../../../Atoms/Icons/InstagramIcon';
+import LinkedinIcon from '../../../Atoms/Icons/LinkedinIcon';
+import MenuIcon from '../../../Atoms/Icons/MenuIcon';
+import TreeofIcon from '../../../Atoms/Icons/TreeofIcon';
+import TwitterIcon from '../../../Atoms/Icons/TwitterIcon';
 
 const NavBar = () => {
   return (
