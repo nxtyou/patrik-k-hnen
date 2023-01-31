@@ -6,6 +6,7 @@ import Hero from '@/components/Templates/SkyTennis/Hero';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import Banner from '@/components/Templates/SkyTennis/Banner';
+import Videos from '@/components/Templates/SkyTennis/Videos';
 
 const SkyTenis = () => {
   return (
@@ -14,6 +15,7 @@ const SkyTenis = () => {
       <main>
         <Hero />
         <Analysis />
+        <Videos />
         <About />
         <Banner />
       </main>

@@ -1,3 +1,4 @@
+import PlayButton from '@/components/Atoms/PlayButton';
 import Image from 'next/image';
 import BgAnimatedText from '../../Atoms/BgAnimatedText/BgAnimatedText';
 import PlayIcon from '../../Atoms/Icons/PlayIcon';
@@ -15,7 +16,7 @@ const About = () => {
     {
       text: 'Strategie',
       outline: true
-    },
+    }
   ];
 
   const bgText2 = [
@@ -64,9 +65,7 @@ const About = () => {
           src="/images/video-thumbnail.jpg"
           alt=""
         />
-        <button className="absolute top-1/2 left-1/2 flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 md:h-16 md:w-16 lg:h-24 lg:w-24">
-          <PlayIcon className="w-3 lg:w-auto" />
-        </button>
+        <PlayButton big />
       </div>
       <InfoGrid data={cards} />
       <div className="relative mt-14 overflow-hidden pt-64 md:mt-28 md:pt-96">
