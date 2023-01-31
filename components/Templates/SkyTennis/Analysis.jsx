@@ -5,14 +5,14 @@ const Analysis = () => {
     <section id='more' className="py-16 px-6 sm:px-8 md:px-20 xl:px-32">
       <div className="mx-auto flex flex-col-reverse lg:flex-row max-w-7xl ">
         <div className='mt-10 lg:mt-0'>
-          <h4 className="text-sm font-semibold">DIENSTLEISTUNGEN</h4>
+          <h2 className="text-sm font-semibold">DIENSTLEISTUNGEN</h2>
           <ul className="mt-3 text-lg leading-9 text-white/80">
             <li>Moderator & Speaker</li>
             <li>Soziale Kampagnen</li>
             <li>PR-Strategie</li>
             <li>Medienstrategie</li>
           </ul>
-          <h4 className="mt-12 text-sm font-semibold">MEHR INFORMATIONEN</h4>
+          <h2 className="mt-12 text-sm font-semibold">MEHR INFORMATIONEN</h2>
           <Link className="mt-3 text-lg leading-9 link-underline relative" href="http://www.eineadresse.de/">
             www.eineadresse.de&nbsp;&nbsp;&nbsp;&nbsp;
           </Link>
