@@ -1,6 +1,5 @@
 import Button from '@/components/Atoms/Button';
-import ArrowLeft from '@/components/Atoms/Icons/ArrowLeft';
-import ArrowLeft2 from '@/components/Atoms/Icons/ArrowLeft2';
+import ArrowRight2 from '@/components/Atoms/Icons/ArrowRight2';
 import Image from 'next/image';
 
 const Banner = () => {
@@ -30,7 +29,7 @@ const Banner = () => {
         <Button
           aria-label="Mehr Informationen"
           className="group mt-10"
-          rightIcon={<ArrowLeft2 className="transition-all group-hover:translate-x-0.5" />}>
+          rightIcon={<ArrowRight2 animated black />}>
           Mehr Informationen
         </Button>
       </div>

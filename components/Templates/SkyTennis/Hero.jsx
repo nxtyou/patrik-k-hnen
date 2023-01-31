@@ -1,5 +1,9 @@
 import ArrowDown from '@/components/Atoms/Icons/ArrowDown';
+import ArrowLeft2 from '@/components/Atoms/Icons/ArrowLeft2';
+import ArrowRight2 from '@/components/Atoms/Icons/ArrowRight2';
+import useWindowDimensions from '@/utils/hooks/getWindowDimensions';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Hero = () => {
@@ -12,9 +16,11 @@ const Hero = () => {
     }
   ];
 
+  const { height } = useWindowDimensions();
+
   return (
-    <section className="blue-gradient-bg">
-      <Swiper className="h-[90vh]">
+    <section>
+      <Swiper style={{ height: height + 'px' }}>
         {slidesContent.map(({ title, subtitle, customer, year }, i) => (
           <SwiperSlide key={i}>
             <Image
@@ -28,22 +34,23 @@ const Hero = () => {
             <div
               style={{
                 background:
-                  'linear-gradient(180deg, rgba(4, 6, 23, 0) 30%, rgba(4, 6, 23, 1) 90%), rgba(4, 6, 23, 0.35)'
+                  'linear-gradient(180deg, rgba(4, 6, 23, 0) 30%, rgba(4, 6, 23, 1) 100%), rgba(4, 6, 23, 0.35)'
               }}
               className="absolute left-0 top-0 h-full w-full"></div>
-            <div className="absolute bottom-[7%] px-6 sm:px-8 md:bottom-[15%] w-full md:px-20 xl:px-32">
-              <div className='max-w-7xl mx-auto'>
+            <div className="absolute bottom-[7%] w-full px-6 sm:px-8 md:bottom-[15%] md:px-20 xl:px-32">
+              <div className="mx-auto max-w-7xl">
                 <div className="max-w-xl">
                   <Image src="/images/logos/sky.svg" alt="" width="95" height="57" />
                   <h1 className="mt-4 text-4xl font-medium md:text-6xl">{title}</h1>
                   <p className="mt-4 md:text-2xl">{subtitle}</p>
                 </div>
-                <div className="mt-16 flex flex-col-reverse justify-between md:mt-14 lg:flex-row lg:items-center small-phones:mt-12">
-                  <button
+                <div className="mt-16 flex flex-col-reverse justify-between md:mt-14 lg:flex-row lg:items-center mini-screen:mt-12">
+                  <a
+                    href="#more"
                     aria-label="Gehen"
-                    className="group mt-12 flex h-14 w-14 items-center justify-center rounded-full border border-white/40 transition-all hover:border-white md:h-20 md:w-20 small-phones:mt-8">
+                    className="group mt-12 flex h-14 w-14 items-center justify-center rounded-full border border-white/40 transition-all hover:border-white md:h-20 md:w-20 mini-screen:mt-8">
                     <ArrowDown className="w-3 transition-all duration-300 group-hover:translate-y-0.5 md:w-auto" />
-                  </button>
+                  </a>
                   <ul className="flex items-center space-x-8">
                     <li className="flex flex-col">
                       <span className="font-sm font-poppins font-semibold">KUNDE</span>
@@ -56,6 +63,18 @@ const Hero = () => {
                   </ul>
                 </div>
               </div>
+            </div>
+            <div className="absolute right-8 lg:right-16 top-1/2 -translate-y-1/2 space-y-4 hidden md:block">
+              <button
+                style={{ background: 'rgba(4, 6, 23, 0.4)' }}
+                className="group flex h-14 w-14 items-center justify-center rounded-full">
+                <ArrowRight2 animated />
+              </button>
+              <button
+                style={{ background: 'rgba(4, 6, 23, 0.4)' }}
+                className="group flex h-14 w-14 items-center justify-center rounded-full">
+                <ArrowLeft2 animated />
+              </button>
             </div>
           </SwiperSlide>
         ))}
