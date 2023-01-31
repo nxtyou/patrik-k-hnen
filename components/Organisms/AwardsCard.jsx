@@ -33,10 +33,6 @@ const AwardsCard = ({
     }
   });
 
-  useEffect(() => {
-    console.log(isInView);
-  });
-
   return (
     <div ref={ref} className="swiper-slide !h-auto max-w-[17.5rem]">
       <animated.div

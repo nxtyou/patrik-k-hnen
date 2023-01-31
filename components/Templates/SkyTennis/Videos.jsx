@@ -13,6 +13,7 @@ const Videos = () => {
             width="1216"
             height="684"
             alt=""
+            sizes="85.0356295vw"
           />
           <PlayButton aria-label="Video abspielen" />
         </div>
@@ -50,6 +51,7 @@ const Videos = () => {
               loop
               poster="/images/photos/with-sky-news.jpg"
               src="/videos/references/03.mp4"
+              sizes="(max-width: 768px) 43.259259259vw, 39.196525516vw"
             />
           </div>
           <div className="w-1/2">
@@ -61,6 +63,7 @@ const Videos = () => {
               loop
               poster="/images/photos/from-the-stands.jpg"
               src="/videos/references/04.mp4"
+              sizes="(max-width: 768px) 43.259259259vw, 39.196525516vw"
             />
           </div>
         </div>

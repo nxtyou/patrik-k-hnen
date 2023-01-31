@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 
-const HoverVideo = ({ style, className, poster, width, height, src, muted, loop }) => {
+const HoverVideo = ({ style, className, poster, width, height, src, muted, loop, sizes }) => {
   const [hover, setHover] = useState(false);
   const videoRef = useRef();
 
@@ -30,10 +30,11 @@ const HoverVideo = ({ style, className, poster, width, height, src, muted, loop 
         width="596"
         height="335"
         alt=""
+        sizes={sizes}
       />
       <video
         style={style}
-        className="absolute top-0 left-0 h-full w-full object-cover"
+        className={`absolute top-0 left-0 h-full w-full object-cover ${hover ? '' : 'hidden'}`}
         ref={videoRef}
         width={width}
         height={height}
