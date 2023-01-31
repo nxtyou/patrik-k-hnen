@@ -64,6 +64,7 @@ const About = () => {
           className="absolute top-0 left-0 h-full w-full object-cover"
           src="/images/video-thumbnail.jpg"
           alt=""
+          sizes="100vw"
         />
         <PlayButton big />
       </div>

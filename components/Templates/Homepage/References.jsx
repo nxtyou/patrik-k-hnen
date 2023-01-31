@@ -66,11 +66,13 @@ const References = () => {
   const prevNextButtons = [
     {
       navClass: 'prevReferences',
-      icon: <ArrowRight className="transition-all duration-300 group-hover:-translate-x-0.5" />
+      icon: <ArrowRight className="transition-all duration-300 group-hover:-translate-x-0.5" />,
+      ariaLabel: 'nach links wischen'
     },
     {
       navClass: 'nextReferences',
-      icon: <ArrowLeft className="transition-all duration-300 group-hover:translate-x-0.5" />
+      icon: <ArrowLeft className="transition-all duration-300 group-hover:translate-x-0.5" />,
+      ariaLabel: 'wische nach rechts'
     }
   ];
 
@@ -123,8 +125,9 @@ const References = () => {
       </Swiper>
       <div className="mx-auto mt-8 flex max-w-5xl items-center space-x-4 px-6 sm:space-x-12 sm:px-8 md:mt-16 md:px-20 lg:mt-24 lg:px-32">
         <div className="flex items-center space-x-4">
-          {prevNextButtons.map(({ ref, icon, navClass }, i) => (
+          {prevNextButtons.map(({ ref, icon, navClass, ariaLabel }, i) => (
             <button
+              aria-label={ariaLabel}
               key={i}
               ref={ref}
               className={

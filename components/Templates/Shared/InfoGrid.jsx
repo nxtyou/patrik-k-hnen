@@ -7,7 +7,7 @@ const InfoGrid = ({ data, className, dark }) => {
             <div key={i} className={`border-b py-8 ${dark ? 'border-white' : 'border-black'}`}>
               <div className="">
                 <div className="font-semibold">{`0${i + 1}`}</div>
-                <h3 className="mt-8 text-3xl font-medium">{title}</h3>
+                <h2 className="mt-8 text-3xl font-medium">{title}</h2>
                 <p className="mt-4">{subtitle}</p>
               </div>
             </div>

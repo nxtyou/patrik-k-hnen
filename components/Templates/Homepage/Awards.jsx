@@ -87,11 +87,13 @@ const Awards = () => {
       navClass: 'prevAwards',
       icon: (
         <ArrowRight className="transition-all duration-300 group-hover:-translate-x-0.5" black />
-      )
+      ),
+      ariaLabel: 'nach links wischen'
     },
     {
       navClass: 'nextAwards',
-      icon: <ArrowLeft className="transition-all duration-300 group-hover:translate-x-0.5" black />
+      icon: <ArrowLeft className="transition-all duration-300 group-hover:translate-x-0.5" black />,
+      ariaLabel: 'wische nach rechts'
     }
   ];
 
@@ -146,8 +148,9 @@ const Awards = () => {
           </div>
           <div className="mx-auto mt-8 flex max-w-xl items-center space-x-4 px-6 sm:space-x-12 sm:px-8 md:mt-16 lg:mt-24 xl:hidden">
             <div className="flex items-center space-x-4">
-              {prevNextButtons.map(({ ref, icon, navClass }, i) => (
+              {prevNextButtons.map(({ ref, icon, navClass, ariaLabel }, i) => (
                 <button
+                  aria-label={ariaLabel}
                   key={i}
                   ref={ref}
                   className={

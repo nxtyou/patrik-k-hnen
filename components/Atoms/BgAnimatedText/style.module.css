@@ -2,6 +2,7 @@
   font-family: 'Aktiv Grotesk';
   font-style: normal;
   font-weight: 800;
+  font-display: swap;
   src: local(''), url('../../../public/fonts/AktivGrotesk-Black.ttf') format('truetype');
 }
 

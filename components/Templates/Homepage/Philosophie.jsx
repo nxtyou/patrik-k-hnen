@@ -24,11 +24,13 @@ const Philosophie = () => {
   const prevNextButtons = [
     {
       navClass: 'prevPhilo',
-      icon: <ArrowRight className="transition-all duration-300 group-hover:-translate-x-0.5" />
+      icon: <ArrowRight className="transition-all duration-300 group-hover:-translate-x-0.5" />,
+      ariaLabel: 'nach links wischen'
     },
     {
       navClass: 'nextPhilo',
-      icon: <ArrowLeft className="transition-all duration-300 group-hover:translate-x-0.5" />
+      icon: <ArrowLeft className="transition-all duration-300 group-hover:translate-x-0.5" />,
+      ariaLabel: 'wische nach rechts'
     }
   ];
 
@@ -91,8 +93,9 @@ const Philosophie = () => {
           </Swiper>
           <div className="mx-auto mt-24 flex max-w-md items-center space-x-4 pr-6 sm:space-x-12 sm:pr-0 md:mt-16">
             <div className="flex items-center space-x-4">
-              {prevNextButtons.map(({ ref, icon, navClass }, i) => (
+              {prevNextButtons.map(({ ref, icon, navClass, ariaLabel }, i) => (
                 <button
+                  aria-label={ariaLabel}
                   key={i}
                   ref={ref}
                   className={

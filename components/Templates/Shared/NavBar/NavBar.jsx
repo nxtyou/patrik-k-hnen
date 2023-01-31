@@ -31,7 +31,7 @@ const NavBar = () => {
           <TreeofIcon />
         </a>
       </nav>
-      <button className="md:hidden">
+      <button aria-label="Menü umschalten" className="md:hidden">
         <MenuIcon />
       </button>
     </header>

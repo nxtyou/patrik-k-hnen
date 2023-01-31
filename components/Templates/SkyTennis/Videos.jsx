@@ -15,7 +15,7 @@ const Videos = () => {
             alt=""
             sizes="85.0356295vw"
           />
-          <PlayButton aria-label="Video abspielen" />
+          <PlayButton />
         </div>
         <div className="mt-3 flex flex-col md:mt-6 md:flex-row md:space-x-6">
           <div className="md:w-1/2 ">

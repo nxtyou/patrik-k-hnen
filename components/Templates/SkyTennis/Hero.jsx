@@ -66,11 +66,13 @@ const Hero = () => {
             </div>
             <div className="absolute right-8 lg:right-16 top-1/2 -translate-y-1/2 space-y-4 hidden md:block">
               <button
+                aria-label='wische nach rechts'
                 style={{ background: 'rgba(4, 6, 23, 0.4)' }}
                 className="group flex h-14 w-14 items-center justify-center rounded-full">
                 <ArrowRight2 animated />
               </button>
               <button
+                aria-label='nach links wischen'
                 style={{ background: 'rgba(4, 6, 23, 0.4)' }}
                 className="group flex h-14 w-14 items-center justify-center rounded-full">
                 <ArrowLeft2 animated />
