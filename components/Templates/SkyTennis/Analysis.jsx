@@ -19,7 +19,7 @@ const Analysis = () => {
         </div>
         <div className=" lg:pl-32">
           <h2 className="text-2xl md:text-3xl font-medium">Wimbledon Analysen und Vertrauen von SKY</h2>
-          <div className="mt-6 md:mt-7 md:text-lg lg:text-2xl text-white/80">
+          <div className="mt-6 md:mt-7 md:text-lg lg:text-xl text-white/80">
             <p className="lg:!leading-loose">
               Schon in seiner Jugend war Patrik von diesem Turnier fasziniert und inspiriert. Das
               Erreichen des Viertelfinales 1988 und der Sieg gegen Jimmy Connors in fünf

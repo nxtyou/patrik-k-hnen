@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import { animated, useSpring } from '@react-spring/web';
 import { useEffect, useRef, useState } from 'react';
+import BasicLink from '../Atoms/BasicLink';
 
-const ReferencesCard = ({ logo, cta, title, bg, label, isParentInView, video }) => {
+const ReferencesCard = ({ logo, link, title, bg, label, isParentInView, video }) => {
   const clipPath = isParentInView ? 'inset(0 0 0 0)' : 'inset(0 0 100% 0)';
 
   const containerStyles = useSpring({
@@ -47,7 +48,7 @@ const ReferencesCard = ({ logo, cta, title, bg, label, isParentInView, video }) 
     <div
       onMouseOver={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-      className="relative">
+      className="relative group">
       <animated.div className="group relative z-50" style={containerStyles}>
         <div className="absolute top-12 left-6 z-20 rounded-[0.2rem] bg-white/10 py-1.5 px-3 text-xs font-medium uppercase tracking-widest">
           {label}
@@ -57,7 +58,7 @@ const ReferencesCard = ({ logo, cta, title, bg, label, isParentInView, video }) 
             <Image src={logo.imgSrc} width={logo.width} height={logo.height} alt="" />
           </div>
           <h3 className="mt-6 text-2xl font-medium uppercase">{title}</h3>
-          <div className="mt-8 text-xs font-medium uppercase">{cta}</div>
+          <BasicLink underline={false} href={link} className="mt-8 text-xs font-medium uppercase">mehr erfahren</BasicLink>
         </div>
 
         <video
