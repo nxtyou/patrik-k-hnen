@@ -109,6 +109,11 @@ h6 {
   @apply font-poppins;
 }
 
+input,
+textarea {
+  @apply bg-transparent;
+}
+
 .text-outline-white {
   -webkit-text-stroke: 1px #fff;
   -webkit-text-fill-color: transparent;
@@ -219,4 +224,59 @@ h6 {
 .swiper-slide-active .philosophy-number {
   @apply text-international-orange;
   -webkit-text-stroke: none;
+}
+
+.gradient {
+  background: no-repeat
+      radial-gradient(94.76% 85.62% at 0% 100%, rgba(0, 63, 125, 0.5) 0%, rgba(0, 63, 125, 0) 100%),
+    #040615;
+}
+
+/* Contact Me form */
+
+.contact-form > div:not(:last-of-type) {
+  @apply my-10;
+}
+
+.contact-form input,
+.contact-form textarea {
+  @apply mt-4 block w-full py-2 text-sm opacity-60 lg:text-xl;
+}
+
+.contact-form label {
+  @apply font-poppins text-sm font-semibold tracking-[2px];
+}
+
+/* Contact Me information */
+
+.contact-info {
+  @apply flex flex-col gap-10 border-t border-[#1D1D2D] pt-12 sm:text-center lg:max-w-xs lg:border-t-0 lg:border-l lg:pl-24 lg:pt-0 lg:text-start xl:pl-32;
+}
+
+.contact-info h6 {
+  @apply mb-[14px] font-poppins text-sm font-semibold tracking-[2px];
+}
+
+.contact-info a {
+  @apply underline;
+}
+
+.contact-info p {
+  @apply text-lg opacity-80;
+}
+
+.contact-info p + a {
+  @apply mt-4;
+}
+
+.socials-list {
+  @apply flex gap-3 sm:justify-center lg:justify-start;
+}
+
+.socials-list li {
+  @apply rounded-full bg-prussian-blue transition-all hover:bg-prussian-blue/80;
+}
+
+.socials-list a {
+  @apply flex items-center justify-center p-4;
 }
