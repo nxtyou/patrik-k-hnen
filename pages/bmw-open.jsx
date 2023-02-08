@@ -1,5 +1,6 @@
 import About from '@/components/Templates/BMWOpen/About';
 import Analysis from '@/components/Templates/BMWOpen/Analysis';
+import Banner from '@/components/Templates/BMWOpen/Banner';
 import Gallery from '@/components/Templates/BMWOpen/Gallery';
 import Hero from '@/components/Templates/BMWOpen/Hero';
 import NavBar2 from '@/components/Templates/Shared/NavBar/NavBar2';
@@ -15,6 +16,7 @@ function BMWOpen() {
         <Analysis />
         <Gallery />
         <About />
+        <Banner />
       </main>
     </>
   );
