@@ -30,6 +30,7 @@ const Hero = () => {
               src="/images/photos/patrik-playing-tennis.jpg"
               width="1440"
               height="778"
+              quality={100}
             />
             <div
               style={{

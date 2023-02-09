@@ -29,6 +29,7 @@ const Hero = () => {
               src="/images/photos/bmw-open.jpg"
               width="1440"
               height="778"
+              quality={100}
             />
             <div
               style={{

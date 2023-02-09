@@ -27,9 +27,10 @@ const Hero = () => {
               priority={true}
               alt=""
               className="absolute top-0 left-0 h-full w-full object-cover"
-              src="/images/photos/interview-sky-news.png"
+              src="/images/photos/interview-sky-news.jpg"
               width="1440"
               height="778"
+              quality={100}
             />
             <div
               style={{
@@ -64,15 +65,15 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="absolute right-8 lg:right-16 top-1/2 -translate-y-1/2 space-y-4 hidden md:block">
+            <div className="absolute right-8 top-1/2 hidden -translate-y-1/2 space-y-4 md:block lg:right-16">
               <button
-                aria-label='wische nach rechts'
+                aria-label="wische nach rechts"
                 style={{ background: 'rgba(4, 6, 23, 0.4)' }}
                 className="group flex h-14 w-14 items-center justify-center rounded-full">
                 <ArrowRight2 animated />
               </button>
               <button
-                aria-label='nach links wischen'
+                aria-label="nach links wischen"
                 style={{ background: 'rgba(4, 6, 23, 0.4)' }}
                 className="group flex h-14 w-14 items-center justify-center rounded-full">
                 <ArrowLeft2 animated />
