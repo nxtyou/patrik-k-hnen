@@ -4,9 +4,14 @@ import Image from 'next/image';
 
 const Banner = () => {
   return (
-    <section className="relative py-24 px-6 sm:px-8 md:py-32 md:px-20 xl:px-32">
+    <section
+      style={{
+        background:
+          'linear-gradient(180deg, rgba(4, 6, 23, 0) 30%, rgba(4, 6, 23, 1) 100%), rgba(4, 6, 23, 0.35)'
+      }}
+      className="relative py-24 px-6 sm:px-8 md:py-32 md:px-20 xl:px-32">
       <Image
-        className="absolute top-0 left-0 h-full w-full object-cover"
+        className="absolute top-0 left-0 -z-10 h-full w-full object-cover"
         src="/images/photos/patrik-playing-tennis.jpg"
         width="1440"
         height="613"
