@@ -104,7 +104,7 @@ function Contact() {
                     placeholder="Deine Nachricht..."
                     className="min-h-[146px]"></textarea>
                 </div>
-                <button className="mt-9 rounded-3xl bg-white px-5 py-3 font-medium text-black transition-all hover:bg-iron">
+                <button className="mt-9 rounded-3xl bg-white px-5 py-3 font-poppins font-medium text-black transition-all hover:bg-iron">
                   Lorem Ipsum
                 </button>
               </form>
