@@ -13,18 +13,6 @@ const Hero = () => {
       subtitle: 'Patrik Kühnen ist seit über 20 Jahren als Tennis Experte fürs Fernsehen tätig.',
       customer: 'BMW',
       year: '2023'
-    },
-    {
-      title: 'Turnierdirektor',
-      subtitle: 'Patrik Kühnen ist seit über 20 Jahren als Tennis Experte fürs Fernsehen tätig.',
-      customer: 'BMW',
-      year: 'ewfewfew'
-    },
-    {
-      title: 'Turnierdirektor',
-      subtitle: 'Patrik Kühnen ist seit über 20 Jahren als Tennis Experte fürs Fernsehen tätig.',
-      customer: 'yoooo',
-      year: 'werfwefew'
     }
   ];
 
