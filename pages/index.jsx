@@ -4,9 +4,9 @@ import 'swiper/css/navigation';
 
 export default function Index() {
   return (
-    <main class="flex min-h-screen items-center justify-center text-center text-4xl font-bold tracking-[2px] sm:text-5xl">
+    <main className="flex min-h-screen items-center justify-center text-center text-4xl font-bold tracking-[2px] sm:text-5xl">
       <nav>
-        <ul class="hide flex flex-col gap-5 transition-all duration-1000">
+        <ul className="hide flex flex-col gap-5 transition-all duration-1000">
           <li>
             <Link href="home" className="hover:text-iron">
               HOME
