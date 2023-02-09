@@ -3,7 +3,7 @@ import LinkedinIcon from '@/components/Atoms/Icons/LinkedinIcon';
 import MenuIcon from '@/components/Atoms/Icons/MenuIcon';
 import TwitterIcon from '@/components/Atoms/Icons/TwitterIcon';
 import FooterBottom from '@/components/Templates/Shared/Footer/FooterBottom';
-import Image from 'next/image';
+
 import Link from 'next/link';
 import EnvelopeIcon from '@/components/Atoms/Icons/EnvelopeIcon';
 import FacebookIcon from '@/components/Atoms/Icons/FacebookIcon';
@@ -22,7 +22,7 @@ function Contact() {
                 width="184"
                 height="29"
               />
-              <Image src="/images/logo-mini.svg" width="62" height="50" alt="" />
+              <img src="/images/logo-mini.svg" width="62" height="50" alt="" />
             </picture>
           </Link>
           <button aria-label="Menü umschalten" className="md:hidden">

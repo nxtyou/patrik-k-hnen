@@ -1,6 +1,6 @@
 import Button from '@/components/Atoms/Button';
 import ArrowIcon from '@/components/Atoms/Icons/ArrowIcon';
-import Image from 'next/image';
+
 import useWindowDimensions from '@/utils/hooks/getWindowDimensions';
 import BgAnimatedText from '@/components/Atoms/BgAnimatedText/BgAnimatedText';
 
@@ -73,7 +73,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <Image
+      <img
         priority={true}
         className="absolute bottom-0 right-[10%] w-auto"
         style={{ height: height * 0.9 + 'px' }}

@@ -1,5 +1,5 @@
 import { useInView } from '@react-spring/web';
-import Image from 'next/image';
+
 import { useEffect, useState } from 'react';
 import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';

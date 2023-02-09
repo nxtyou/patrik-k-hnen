@@ -1,5 +1,4 @@
 import { animated, useInView, useSpring } from '@react-spring/web';
-import Image from 'next/image';
 
 const AwardsCard = ({
   isLightBlue,
@@ -41,7 +40,7 @@ const AwardsCard = ({
         } pt-14 pb-10 md:pt-20 ${index % 2 !== 0 ? 'xl:mt-16 xl:-mb-16' : ''}`}>
         <animated.div style={stylesInner} className="flex flex-col items-center text-center">
           <div styles={stylesInner}>
-            <Image src={imgSrc} width={80} height={80} alt={alt} />
+            <img src={imgSrc} width={80} height={80} alt={alt} />
           </div>
           <div className="mt-6 flex flex-col items-center">
             <div className="text-sm">{topText}</div>

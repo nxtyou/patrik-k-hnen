@@ -1,6 +1,5 @@
 import Button from '@/components/Atoms/Button';
 import ArrowRight2 from '@/components/Atoms/Icons/ArrowRight2';
-import Image from 'next/image';
 
 const Banner = () => {
   return (
@@ -10,7 +9,7 @@ const Banner = () => {
           'linear-gradient(180deg, rgba(4, 6, 23, 0) 30%, rgba(4, 6, 23, 1) 100%), rgba(4, 6, 23, 0.35)'
       }}
       className="relative py-24 px-6 sm:px-8 md:py-32 md:px-20 xl:px-32">
-      <Image
+      <img
         className="absolute top-0 left-0 -z-10 h-full w-full object-cover"
         src="/images/photos/patrik-as-speaker.jpg"
         width="1440"
@@ -23,7 +22,7 @@ const Banner = () => {
           className="w-fit rounded-[0.2rem] py-1.5 px-3 text-sm font-semibold uppercase tracking-widest">
           SPEAKER
         </div>
-        <Image
+        <img
           className="mt-16 md:mt-40"
           src="/images/logo.svg"
           width="198"

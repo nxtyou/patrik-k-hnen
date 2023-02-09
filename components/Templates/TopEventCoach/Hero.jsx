@@ -2,7 +2,7 @@ import ArrowDown from '@/components/Atoms/Icons/ArrowDown';
 import ArrowLeft2 from '@/components/Atoms/Icons/ArrowLeft2';
 import ArrowRight2 from '@/components/Atoms/Icons/ArrowRight2';
 import useWindowDimensions from '@/utils/hooks/getWindowDimensions';
-import Image from 'next/image';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Hero = () => {
@@ -23,14 +23,13 @@ const Hero = () => {
       <Swiper style={{ height: height + 'px' }}>
         {slidesContent.map(({ title, subtitle, customer, year }, i) => (
           <SwiperSlide key={i}>
-            <Image
+            <img
               priority={true}
               alt=""
               className="absolute top-0 left-0 h-full w-full object-cover"
               src="/images/photos/patrik-playing-tennis.jpg"
               width="1440"
               height="778"
-              quality={100}
             />
             <div
               style={{
@@ -41,7 +40,7 @@ const Hero = () => {
             <div className="absolute bottom-[7%] w-full px-6 sm:px-8 md:bottom-[15%] md:px-20 xl:px-32">
               <div className="mx-auto max-w-7xl">
                 <div className="max-w-xl">
-                  <Image
+                  <img
                     src="/images/logos/robinson.svg"
                     alt=""
                     width="242"

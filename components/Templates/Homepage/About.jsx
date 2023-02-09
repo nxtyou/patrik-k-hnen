@@ -1,5 +1,5 @@
 import PlayButton from '@/components/Atoms/PlayButton';
-import Image from 'next/image';
+
 import BgAnimatedText from '../../Atoms/BgAnimatedText/BgAnimatedText';
 import PlayIcon from '../../Atoms/Icons/PlayIcon';
 import InfoGrid from '../Shared/InfoGrid';
@@ -58,13 +58,12 @@ const About = () => {
         {/* <video className='relative z-10'>
           <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
         </video> */}
-        <Image
+        <img
           width={1440}
           height={617}
           className="absolute top-0 left-0 h-full w-full object-cover"
           src="/images/video-thumbnail.jpg"
           alt=""
-          quality={100}
         />
         <PlayButton big />
       </div>
