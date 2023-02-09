@@ -26,7 +26,7 @@ const Hero = () => {
               priority={true}
               alt=""
               className="absolute top-0 left-0 h-full w-full object-cover"
-              src="/images/photos/bmw-open.jpg"
+              src="/images/photos/patrik-as-speaker.jpg"
               width="1440"
               height="778"
               quality={100}

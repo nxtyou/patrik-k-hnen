@@ -13,6 +13,7 @@ const Videos = () => {
             height="684"
             alt=""
             sizes="85.0356295vw"
+            quality={100}
           />
           <PlayButton />
         </div>
@@ -26,6 +27,7 @@ const Videos = () => {
               loop
               alt=""
               src="/images/photos/in-tv-interview-1.jpg"
+              quality={100}
             />
           </div>
           <div className="mt-3 md:mt-0 md:w-1/2">
@@ -37,6 +39,7 @@ const Videos = () => {
               loop
               alt=""
               src="/images/photos/in-tv-interview-2.jpg"
+              quality={100}
             />
           </div>
         </div>
@@ -51,6 +54,7 @@ const Videos = () => {
               alt=""
               src="/images/photos/with-sky-news.jpg"
               sizes="(max-width: 768px) 43.259259259vw, 39.196525516vw"
+              quality={100}
             />
           </div>
           <div className="w-1/2">
@@ -63,6 +67,7 @@ const Videos = () => {
               alt=""
               src="/images/photos/from-the-stands.jpg"
               sizes="(max-width: 768px) 43.259259259vw, 39.196525516vw"
+              quality={100}
             />
           </div>
         </div>
