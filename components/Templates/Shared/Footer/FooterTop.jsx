@@ -31,7 +31,7 @@ const FooterTop = () => {
               <p className="text-white/80 md:text-xl">Ich freue mich auf deine Nachricht. </p>
             </div>
 
-            <Button className="mt-12 group" rightIcon={<ArrowIcon animated />}>
+            <Button className="group mt-12" rightIcon={<ArrowIcon animated />}>
               Kontakt aufnehmen
             </Button>
           </div>
@@ -83,7 +83,7 @@ const FooterTop = () => {
                 <Link
                   aria-label="Besuchen Sie die Instagram-Seite"
                   className="flex h-12 w-12 items-center justify-center rounded-full bg-prussian-blue hover:bg-prussian-blue/80"
-                  href="https://www.instagram.com/tde_nl/"
+                  href="https://www.instagram.com/patrikkuehnen/"
                   target="_blank">
                   <InstagramIcon className="h-4 w-4" />
                 </Link>
@@ -92,7 +92,7 @@ const FooterTop = () => {
                 <Link
                   aria-label="Besuchen Sie die Linkedin-Seite"
                   className="flex h-12 w-12 items-center justify-center rounded-full bg-prussian-blue hover:bg-prussian-blue/80"
-                  href="https://nl.linkedin.com/company/tdenl"
+                  href="https://www.linkedin.com/in/patrik-kuehnen-2928961b9"
                   target="_blank">
                   <LinkedinIcon className="h-4 w-4" />
                 </Link>
@@ -101,7 +101,7 @@ const FooterTop = () => {
                 <Link
                   aria-label="Besuchen Sie die Twitter-Seite"
                   className="flex h-12 w-12 items-center justify-center rounded-full bg-prussian-blue hover:bg-prussian-blue/80"
-                  href="https://twitter.com/tde"
+                  href="https://twitter.com/patrikkuehnen"
                   target="_blank">
                   <TwitterIcon className="h-4 w-4" />
                 </Link>

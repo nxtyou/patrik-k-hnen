@@ -11,19 +11,19 @@ const NavBar = () => {
     <header className="absolute top-0 left-0 z-10 flex w-full items-center justify-between p-6 lg:pr-12">
       <img src="/images/logo.svg" alt="Patrick kühnen" width="184" height="29" />
       <nav className="hidden items-center space-x-3 md:flex">
-        <a href="#">
+        <a href="mailto:pk-contact@patrikkuehnen.com">
           <EnvelopeIcon />
         </a>
-        <a href="#">
+        <a href="https://twitter.com/patrikkuehnen">
           <TwitterIcon />
         </a>
-        <a href="#">
+        <a href="https://www.instagram.com/patrikkuehnen/">
           <InstagramIcon />
         </a>
-        <a href="#">
+        <a href="https://www.linkedin.com/in/patrik-kuehnen-2928961b9">
           <LinkedinIcon />
         </a>
-        <a href="#">
+        <a href="https://www.facebook.com/people/Patrik-Kuehnen/100052890943964/">
           <FacebookIcon />
         </a>
         <a href="#">

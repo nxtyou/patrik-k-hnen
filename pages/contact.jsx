@@ -31,27 +31,27 @@ function Contact() {
           <nav className="hidden md:block">
             <ul className="flex gap-4">
               <li>
-                <a href="#" target="_blank">
+                <a href="pk-contact@patrikkuehnen.com" target="_blank">
                   <EnvelopeIcon />
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank">
+                <a href="https://twitter.com/patrikkuehnen">
                   <TwitterIcon />
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/patrikkuehnen/">
                   <InstagramIcon />
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/in/patrik-kuehnen-2928961b9">
                   <LinkedinIcon />
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank">
+                <a href="https://www.facebook.com/people/Patrik-Kuehnen/100052890943964/">
                   <FacebookIcon />
                 </a>
               </li>
@@ -135,7 +135,7 @@ function Contact() {
                     <Link
                       aria-label="Besuchen Sie die Instagram-Seite"
                       className="flex h-12 w-12 items-center justify-center rounded-full bg-prussian-blue hover:bg-prussian-blue/80"
-                      href="https://www.instagram.com/tde_nl/"
+                      href="https://www.instagram.com/patrikkuehnen/"
                       target="_blank">
                       <InstagramIcon className="h-4 w-4" />
                     </Link>
@@ -144,7 +144,7 @@ function Contact() {
                     <Link
                       aria-label="Besuchen Sie die Linkedin-Seite"
                       className="flex h-12 w-12 items-center justify-center rounded-full bg-prussian-blue hover:bg-prussian-blue/80"
-                      href="https://nl.linkedin.com/company/tdenl"
+                      href="https://www.linkedin.com/in/patrik-kuehnen-2928961b9"
                       target="_blank">
                       <LinkedinIcon className="h-4 w-4" />
                     </Link>
@@ -153,7 +153,7 @@ function Contact() {
                     <Link
                       aria-label="Besuchen Sie die Twitter-Seite"
                       className="flex h-12 w-12 items-center justify-center rounded-full bg-prussian-blue hover:bg-prussian-blue/80"
-                      href="https://twitter.com/tde"
+                      href="https://twitter.com/patrikkuehnen"
                       target="_blank">
                       <TwitterIcon className="h-4 w-4" />
                     </Link>
