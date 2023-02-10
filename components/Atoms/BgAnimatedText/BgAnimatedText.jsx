@@ -13,7 +13,7 @@ const BgAnimatedText = ({ className, backward, fullText, dark }) => {
   return (
     <animated.div
       ref={ref}
-      className={`flex whitespace-nowrap text-9xl font-extrabold uppercase leading-none will-change-transform md:text-[13rem] ${fontAktivGrotesk} ${className}`}
+      className={`flex select-none whitespace-nowrap text-9xl font-extrabold uppercase leading-none will-change-transform md:text-[13rem] ${fontAktivGrotesk} ${className}`}
       style={
         inView
           ? {
