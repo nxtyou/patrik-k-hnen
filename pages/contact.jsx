@@ -71,8 +71,8 @@ function Contact() {
               <header>
                 <h1 className="text-2xl font-bold sm:text-4xl lg:text-7xl">CONTACT ME!</h1>
                 <p className="pt-3 pb-10 text-lg opacity-80">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et
-                  velit interdum, ac aliquet odio mattis. 🙂
+                  Schreibe mir jetzt eine Nachricht um über spannende Projekte, Veranstaltungen und
+                  Events zu sprechen!
                 </p>
               </header>
               <form className="contact-form">
@@ -105,7 +105,7 @@ function Contact() {
                     className="min-h-[146px]"></textarea>
                 </div>
                 <button className="mt-9 rounded-3xl bg-white px-5 py-3 font-poppins font-medium text-black transition-all hover:bg-iron">
-                  Lorem Ipsum
+                  Bestätigen
                 </button>
               </form>
             </div>
