@@ -74,7 +74,6 @@ const Hero = () => {
       </div>
 
       <img
-        priority={true}
         className="absolute bottom-0 right-[10%] w-auto"
         style={{ height: height * 0.9 + 'px' }}
         src="/images/Patrik-KÜhnen.png"

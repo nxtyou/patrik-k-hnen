@@ -23,7 +23,6 @@ const Hero = () => {
         {slidesContent.map(({ title, subtitle, customer, year }, i) => (
           <SwiperSlide key={i}>
             <img
-              priority={true}
               alt=""
               className="absolute top-0 left-0 h-full w-full object-cover"
               src="/images/photos/patrik-as-speaker.jpg"
