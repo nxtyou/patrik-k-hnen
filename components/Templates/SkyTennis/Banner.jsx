@@ -1,4 +1,4 @@
-import Button from '@/components/Atoms/Button';
+import ButtonLink from '@/components/Atoms/ButtonLink';
 import ArrowRight2 from '@/components/Atoms/Icons/ArrowRight2';
 
 const Banner = () => {
@@ -30,12 +30,13 @@ const Banner = () => {
           alt="bmw logo"
         />
         <h2 className="mt-9 text-5xl font-medium md:text-6xl">Turnierdirektor</h2>
-        <Button
+        <ButtonLink
+          href="/bmw-open"
           aria-label="Mehr Informationen"
           className="group mt-10"
           rightIcon={<ArrowRight2 animated black />}>
           Mehr Informationen
-        </Button>
+        </ButtonLink>
       </div>
     </section>
   );
