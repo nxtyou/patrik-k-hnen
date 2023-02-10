@@ -250,15 +250,11 @@ textarea {
 /* Contact Me information */
 
 .contact-info {
-  @apply flex flex-col gap-10 border-t border-[#1D1D2D] pt-12 sm:text-center lg:max-w-xs lg:border-t-0 lg:border-l lg:pl-24 lg:pt-0 lg:text-start xl:pl-32;
+  @apply flex flex-col gap-10 border-t border-[#1D1D2D] pt-12 sm:text-center lg:max-w-sm lg:border-t-0 lg:border-l lg:pl-24 lg:pt-0 lg:text-start xl:pl-32;
 }
 
 .contact-info h6 {
-  @apply mb-[14px] font-poppins text-sm font-semibold tracking-[2px];
-}
-
-.contact-info a {
-  @apply underline;
+  @apply mb-[14px] font-poppins text-sm font-semibold uppercase tracking-[2px];
 }
 
 .contact-info p {

@@ -111,20 +111,28 @@ function Contact() {
             </div>
             <div className="contact-info">
               <div>
-                <h6>Lorem ipsum</h6>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, at.</p>
-                <a href="#" target="_blank">
-                  Lorem ipsum
+                <h6>Website</h6>
+                <ul className="mb-4 flex flex-col gap-1">
+                  <li>
+                    <Link href="/">Home</Link>
+                  </li>
+                  <li>
+                    <Link href="/contact">Kontact</Link>
+                  </li>
+                </ul>
+
+                <a href="#" target="_blank" className="underline">
+                  Mehr erfahren
                 </a>
               </div>
               <div className="lg:order-3">
-                <h6>Lorem ipsum dolor</h6>
-                <ul>
+                <h6>Hier Kontakt aufnehmen</h6>
+                <ul className="flex flex-col gap-1">
                   <li>
-                    <a href="mailto:Lorem@gmail.com">Lorem@gmail.com</a>
+                    <a href="mailto:pk-contact@patrikkuehnen.com">pk-contact@patrikkuehnen.com</a>
                   </li>
                   <li>
-                    <a href="tel:+31407820001">(+31) 040 782 00 01</a>
+                    <a href="tel:+123123456789">(+123) 123 456 789</a>
                   </li>
                 </ul>
               </div>
@@ -161,13 +169,23 @@ function Contact() {
                 </ul>
               </div>
               <div className="lg:order-2">
-                <h6>Lorem ipsum dolor sit amet</h6>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et
-                  velit.
-                </p>
-                <a href="#" target="_blank">
-                  Lorem ipsum
+                <h6>Über patrik kühnen</h6>
+                <ul className="mb-4 flex flex-col gap-1">
+                  <li>
+                    <Link href="/contact">Turnierdirektor</Link>
+                  </li>
+                  <li>
+                    <Link href="/keynote-speaker">Keynote Speaker</Link>
+                  </li>
+                  <li>
+                    <Link href="/sky-tennis">Tennisexperte</Link>
+                  </li>
+                  <li>
+                    <Link href="/top-event-coach">Coach</Link>
+                  </li>
+                </ul>
+                <a href="#" target="_blank" className="underline">
+                  Mehr erfahren
                 </a>
               </div>
             </div>
