@@ -1,71 +1,17 @@
 import InstagramIcon from '@/components/Atoms/Icons/InstagramIcon';
 import LinkedinIcon from '@/components/Atoms/Icons/LinkedinIcon';
-import MenuIcon from '@/components/Atoms/Icons/MenuIcon';
 import TwitterIcon from '@/components/Atoms/Icons/TwitterIcon';
 import FooterBottom from '@/components/Templates/Shared/Footer/FooterBottom';
 
+import NavBar2 from '@/components/Templates/Shared/NavBar/NavBar2';
 import Link from 'next/link';
-import EnvelopeIcon from '@/components/Atoms/Icons/EnvelopeIcon';
-import FacebookIcon from '@/components/Atoms/Icons/FacebookIcon';
-import TreeofIcon from '@/components/Atoms/Icons/TreeofIcon';
 
 function Contact() {
   return (
     <>
-      <header>
-        <div className="flex items-center justify-between px-7 py-7 md:px-8 md:py-5">
-          <Link href="/">
-            <picture>
-              <source
-                srcSet="/images/logo.svg"
-                media="(min-width: 768px)"
-                width="184"
-                height="29"
-              />
-              <img src="/images/logo-mini.svg" width="62" height="50" alt="" />
-            </picture>
-          </Link>
-          <button aria-label="Menü umschalten" className="md:hidden">
-            <MenuIcon />
-          </button>
-          <nav className="hidden md:block">
-            <ul className="flex gap-4">
-              <li>
-                <a href="pk-contact@patrikkuehnen.com" target="_blank">
-                  <EnvelopeIcon />
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/patrikkuehnen">
-                  <TwitterIcon />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/patrikkuehnen/">
-                  <InstagramIcon />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/patrik-kuehnen-2928961b9">
-                  <LinkedinIcon />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/people/Patrik-Kuehnen/100052890943964/">
-                  <FacebookIcon />
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank">
-                  <TreeofIcon />
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+      <NavBar2 />
       <main className="gradient pb-36 ">
-        <section className="mx-auto w-full max-w-[1300px] px-4 pt-6 lg:pt-20 xl:px-0 xl:pt-28">
+        <section className="mx-auto w-full max-w-[1300px] px-4 pt-40 xl:px-5 xl:pt-56 2xl:px-0">
           <div className="flex flex-col gap-20 lg:flex-row lg:justify-between lg:gap-0">
             <div className="xl:max-w-xl">
               <header>
@@ -121,9 +67,9 @@ function Contact() {
                   </li>
                 </ul>
 
-                <a href="#" target="_blank" className="underline">
+                <Link href="/contact" className="underline">
                   Mehr erfahren
-                </a>
+                </Link>
               </div>
               <div className="lg:order-3">
                 <h6>Hier Kontakt aufnehmen</h6>
@@ -172,7 +118,7 @@ function Contact() {
                 <h6>Über patrik kühnen</h6>
                 <ul className="mb-4 flex flex-col gap-1">
                   <li>
-                    <Link href="/contact">Turnierdirektor</Link>
+                    <Link href="/bmw-open">Turnierdirektor</Link>
                   </li>
                   <li>
                     <Link href="/keynote-speaker">Keynote Speaker</Link>
@@ -184,9 +130,9 @@ function Contact() {
                     <Link href="/top-event-coach">Coach</Link>
                   </li>
                 </ul>
-                <a href="#" target="_blank" className="underline">
+                <Link href="/contact" className="underline">
                   Mehr erfahren
-                </a>
+                </Link>
               </div>
             </div>
           </div>
