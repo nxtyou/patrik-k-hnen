@@ -59,9 +59,8 @@ const Hero = () => {
           Patrik KÜhnen
         </h1>
         <p className="mt-3 text-sm md:text-xl">
-          Als ehemaliger Tennisprofi nutzt Patrik Kühnen heute sein umfangreiches Wissen und seine
-          Fähigkeiten als Experte, Coach, Keynote Speaker und Turnierdirektor, um Menschen und
-          Klienten zu helfen ihre Tennis- und Karriereziele zu erreichen.
+          Seit 2012 ist Patrik regelmäßig als Keynote Speaker bei hochkarätigen Veranstaltungen
+          gefragt, um seine Expertise als Spitzensportler, Coach und Health Coach weiterzugeben.
         </p>
         <Button className="group mt-6" rightIcon={<ArrowIcon animated />} big>
           Mehr Informationen
