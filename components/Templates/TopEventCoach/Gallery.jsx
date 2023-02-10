@@ -23,6 +23,7 @@ const Gallery = () => {
           </div>
           <div className="mt-3 md:mt-0 md:w-1/2">
             <img
+              style={{ objectPosition: '50% 43%' }}
               className="max-h-[335px] w-full object-cover"
               width="596"
               height="335"
@@ -43,7 +44,8 @@ const Gallery = () => {
           </div>
           <div className="flex-1">
             <img
-              className="max-h-[596px] w-full object-cover object-right md:aspect-auto"
+              style={{ objectPosition: '50% 20%' }}
+              className="max-h-[596px] w-full object-cover md:aspect-auto"
               width="596"
               height="596"
               alt=""
