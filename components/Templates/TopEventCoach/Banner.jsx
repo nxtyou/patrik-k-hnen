@@ -30,7 +30,7 @@ const Banner = () => {
           height="37"
           alt="Patrik Kühnen logo"
         />
-        <h2 className="mt-4 text-5xl font-medium md:text-6xl">Tennis Experte</h2>
+        <h2 className="mt-4 text-5xl font-medium md:text-6xl">Keynote Speaker</h2>
         <ButtonLink
           href="/keynote-speaker"
           aria-label="Mehr Informationen"
