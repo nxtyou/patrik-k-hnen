@@ -1,4 +1,5 @@
 import Button from '@/components/Atoms/Button';
+import ButtonLink from '@/components/Atoms/ButtonLink';
 import ArrowIcon from '@/components/Atoms/Icons/ArrowIcon';
 import Link from 'next/link';
 import BasicLink from '../../../Atoms/BasicLink';
@@ -31,9 +32,9 @@ const FooterTop = () => {
               <p className="text-white/80 md:text-xl">Ich freue mich auf deine Nachricht. </p>
             </div>
 
-            <Button className="group mt-12" rightIcon={<ArrowIcon animated />}>
+            <ButtonLink href="/contact" className="group mt-12" rightIcon={<ArrowIcon animated />}>
               Kontakt aufnehmen
-            </Button>
+            </ButtonLink>
           </div>
         </div>
         <div className="2xl:grid-row-2 grid max-w-sm grid-cols-1 px-6 py-16 text-lg sm:px-8 md:pl-20 lg:w-1/2 lg:py-28 2xl:max-w-none 2xl:grid-cols-2 2xl:pb-32">
@@ -44,35 +45,37 @@ const FooterTop = () => {
               <li className="leading-9">Kontakt</li>
             </ul>
             <div className="mt-7">
-              <BasicLink target="_blank" href="#">
-                Mehr erfahren
-              </BasicLink>
+              <BasicLink href="/contact">Mehr erfahren</BasicLink>
             </div>
           </div>
           <div className="order-4 mt-10 2xl:order-[inherit] 2xl:mt-0 ">
             <h2 className="text-sm font-semibold uppercase">Über patrik kühnen</h2>
             <ul className="mt-4 text-white/80">
-              <li className="leading-9">Turnierdirektor</li>
-              <li className="leading-9">Keynote Speaker</li>
-              <li className="leading-9">Tennisexperte</li>
-              <li className="leading-9">Coach</li>
+              <li className="leading-9">
+                <Link href="bmw-open">Turnierdirektor</Link>
+              </li>
+              <li className="leading-9">
+                <Link href="/keynote-speaker">Keynote Speaker</Link>
+              </li>
+              <li className="leading-9">
+                <Link href="sky-tennis">Tennisexperte</Link>
+              </li>
+              <li className="leading-9">
+                <Link href="/top-event-coach">Coach</Link>
+              </li>
             </ul>
             <div className="mt-7">
-              <BasicLink target="_blank" href="#">
-                Mehr erfahren
-              </BasicLink>
+              <BasicLink href="/contact">Mehr erfahren</BasicLink>
             </div>
           </div>
           <div className="mt-10 2xl:mt-12">
             <h2 className="text-sm font-semibold uppercase">Hier Kontakt aufnahmen</h2>
             <ul className="mt-4">
               <li className="leading-9">
-                <BasicLink href="tel:+123123456789">(+123) 123 456 789</BasicLink>
+                <a href="tel:+123123456789">(+123) 123 456 789</a>
               </li>
-              <li className="text-base leading-9">
-                <BasicLink href="mailto:pk-contact@patrikkuehnen.com" target="_blank">
-                  pk-contact@patrikkuehnen.com
-                </BasicLink>
+              <li className="leading-9">
+                <a href="mailto:pk-contact@patrikkuehnen.com">pk-contact@patrikkuehnen.com</a>
               </li>
             </ul>
           </div>
