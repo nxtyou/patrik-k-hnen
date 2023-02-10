@@ -111,7 +111,7 @@ function Contact() {
             </div>
             <div className="contact-info">
               <div>
-                <h6>Website</h6>
+                <h6>Webseite</h6>
                 <ul className="mb-4 flex flex-col gap-1">
                   <li>
                     <Link href="/">Home</Link>
