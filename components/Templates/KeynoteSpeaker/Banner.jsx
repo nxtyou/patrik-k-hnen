@@ -1,4 +1,4 @@
-import Button from '@/components/Atoms/Button';
+import ButtonLink from '@/components/Atoms/ButtonLink';
 import ArrowRight2 from '@/components/Atoms/Icons/ArrowRight2';
 
 const Banner = () => {
@@ -11,7 +11,7 @@ const Banner = () => {
       className="relative py-24 px-6 sm:px-8 md:py-32 md:px-20 xl:px-32">
       <img
         className="absolute top-0 left-0 -z-10 h-full w-full object-cover"
-        src="/images/photos/patrik-playing-tennis.jpg"
+        src="/images/photos/interview-sky-news.jpg"
         width="1440"
         height="613"
         alt=""
@@ -20,22 +20,23 @@ const Banner = () => {
         <div
           style={{ background: 'rgba(81, 81, 81, 0.2)' }}
           className="w-fit rounded-[0.2rem] py-1.5 px-3 text-sm font-semibold uppercase tracking-widest">
-          DIREKTOR
+          EXPERTE
         </div>
         <img
-          className="mt-16 h-12 w-12 md:mt-40 md:h-16 md:w-16"
-          src="/images/logos/bmw.svg"
-          width="70"
-          height="70"
-          alt="Patrik Kühnen logo"
+          className="mt-16 md:mt-40 md:h-14 md:w-24"
+          src="/images/logos/sky.svg"
+          width="71"
+          height="43"
+          alt="sky news logo"
         />
-        <h2 className="mt-9 text-5xl font-medium md:text-6xl">Turnierdirektor</h2>
-        <Button
+        <h2 className="mt-9 text-5xl font-medium md:text-6xl">Tennis Experte</h2>
+        <ButtonLink
+          href="/sky-tennis"
           aria-label="Mehr Informationen"
           className="group mt-10"
           rightIcon={<ArrowRight2 animated black />}>
           Mehr Informationen
-        </Button>
+        </ButtonLink>
       </div>
     </section>
   );
