@@ -4,17 +4,17 @@ const Gallery = () => {
       <div className="mx-auto max-w-7xl">
         <div className="relative">
           <img
-            className="w-full object-cover"
+            className="min-h-[205px] w-full object-cover"
             src="/images/photos/1.jpg"
             width="1216"
             height="684"
             alt=""
           />
         </div>
-        <div className="mt-3 flex max-h-[335px] flex-col md:mt-6 md:flex-row md:space-x-6">
+        <div className="mt-3 flex flex-col md:mt-6 md:flex-row md:space-x-6">
           <div className="md:w-1/2">
             <img
-              className="h-full w-full object-cover"
+              className="max-h-[335px] w-full object-cover"
               width="596"
               height="335"
               alt=""
@@ -23,7 +23,7 @@ const Gallery = () => {
           </div>
           <div className="mt-3 md:mt-0 md:w-1/2">
             <img
-              className="h-full w-full object-cover"
+              className="max-h-[335px] w-full object-cover"
               width="596"
               height="335"
               alt=""
@@ -31,10 +31,10 @@ const Gallery = () => {
             />
           </div>
         </div>
-        <div className="mt-3 flex max-h-[596px] gap-3 md:mt-6 md:gap-6">
+        <div className="mt-3 flex gap-3 md:mt-6 md:gap-6">
           <div className="flex-1">
             <img
-              className="h-full w-full object-cover md:aspect-auto md:object-center"
+              className="max-h-[596px] w-full object-cover md:aspect-auto md:object-center"
               width="373"
               height="596"
               alt=""
@@ -43,7 +43,7 @@ const Gallery = () => {
           </div>
           <div className="flex-1">
             <img
-              className="h-full w-full object-cover object-right md:aspect-auto"
+              className="max-h-[596px] w-full object-cover object-right md:aspect-auto"
               width="596"
               height="596"
               alt=""
