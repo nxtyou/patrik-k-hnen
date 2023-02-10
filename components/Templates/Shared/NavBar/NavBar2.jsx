@@ -1,4 +1,4 @@
-import Button from '@/components/Atoms/Button';
+import ButtonLink from '@/components/Atoms/ButtonLink';
 import ArrowIcon from '@/components/Atoms/Icons/ArrowIcon';
 import MenuIcon from '@/components/Atoms/Icons/MenuIcon';
 
@@ -10,13 +10,14 @@ const NavBar2 = () => {
       <Link aria-label="Gehen Sie zur Homepage" href="/">
         <img src="/images/logo-mini.svg" width="62" height="50" alt="" />
       </Link>
-      <Button
+      <ButtonLink
+        href="/contact"
         aria-label="Mehr Informationen"
         className="group mt-6 hidden md:flex"
         rightIcon={<ArrowIcon animated />}
         big>
         Mehr Informationen
-      </Button>
+      </ButtonLink>
       <button aria-label="Menü umschalten" className="md:hidden">
         <MenuIcon />
       </button>
