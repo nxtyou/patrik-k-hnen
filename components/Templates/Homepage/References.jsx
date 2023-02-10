@@ -12,10 +12,10 @@ import ReferencesCard from '../../Organisms/ReferencesCard';
 const References = () => {
   const cards = [
     {
-      label: 'Campagne',
+      label: 'Speaker',
       title: 'SPEAKER',
-      link: '/',
-      bg: '/images/photos/compagne-1.jpg',
+      link: '/keynote-speaker',
+      bg: '/images/photos/speaker-ref.jpg',
       logo: {
         imgSrc: '/images/logos/pk.svg',
         width: 41,
@@ -24,10 +24,10 @@ const References = () => {
       video: '/videos/references/01.mp4'
     },
     {
-      label: 'Platform',
+      label: 'Experte',
       title: 'TENNIS EXPERTE',
       link: '/sky-tennis',
-      bg: '/images/photos/platform.jpg',
+      bg: '/images/photos/sky-news-ref.jpg',
       logo: {
         imgSrc: '/images/logos/sky-sport.svg',
         width: 130,
@@ -36,10 +36,10 @@ const References = () => {
       video: '/videos/references/04.mp4'
     },
     {
-      label: 'Campagne',
+      label: 'Direktor',
       title: 'TURNIERDIREKTOR',
-      link: '/',
-      bg: '/images/photos/compagne-2.jpg',
+      link: '/bmw-open',
+      bg: '/images/photos/bmw-open-ref.jpg',
       logo: {
         imgSrc: '/images/logos/bmw.svg',
         width: 48,
@@ -48,10 +48,10 @@ const References = () => {
       video: '/videos/references/03.mp4'
     },
     {
-      label: 'Activatie',
+      label: 'Coach',
       title: 'COACH ',
-      link: '/',
-      bg: '/images/photos/activitie.jpg',
+      link: '/top-event-coach',
+      bg: '/images/photos/patrik-playing-tennis-ref.jpg',
       logo: {
         imgSrc: '/images/logos/pk.svg',
         width: 41,
