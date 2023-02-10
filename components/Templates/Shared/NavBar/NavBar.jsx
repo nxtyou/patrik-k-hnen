@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import EnvelopeIcon from '../../../Atoms/Icons/EnvelopeIcon';
 import FacebookIcon from '../../../Atoms/Icons/FacebookIcon';
 import InstagramIcon from '../../../Atoms/Icons/InstagramIcon';
@@ -9,7 +10,9 @@ import TwitterIcon from '../../../Atoms/Icons/TwitterIcon';
 const NavBar = () => {
   return (
     <header className="absolute top-0 left-0 z-10 flex w-full items-center justify-between p-6 lg:pr-12">
-      <img src="/images/logo.svg" alt="Patrick kühnen" width="184" height="29" />
+      <Link href="/">
+        <img src="/images/logo.svg" alt="Patrick kühnen" width="184" height="29" />
+      </Link>
       <nav className="hidden items-center space-x-3 md:flex">
         <a href="mailto:pk-contact@patrikkuehnen.com">
           <EnvelopeIcon />
