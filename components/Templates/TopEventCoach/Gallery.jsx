@@ -5,7 +5,7 @@ const Gallery = () => {
         <div className="relative">
           <img
             className="min-h-[205px] w-full object-cover"
-            src="/images/photos/1.jpg"
+            src="/images/photos/patrik-playing-tennis3.jpg"
             width="1216"
             height="684"
             alt=""
