@@ -114,6 +114,26 @@ textarea {
   @apply bg-transparent;
 }
 
+/* Burger menu */
+
+.burgerMenuClose {
+  @apply absolute top-8 right-5 h-7 w-7;
+}
+
+.burgerMenuClose::before,
+.burgerMenuClose::after {
+  @apply absolute block h-[1px] w-full bg-white;
+  content: '';
+}
+
+.burgerMenuClose::before {
+  transform: rotate(45deg);
+}
+
+.burgerMenuClose::after {
+  transform: rotate(-45deg);
+}
+
 .text-outline-white {
   -webkit-text-stroke: 1px #fff;
   -webkit-text-fill-color: transparent;
