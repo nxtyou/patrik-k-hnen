@@ -5,7 +5,7 @@ const Gallery = () => {
         <div className="relative">
           <img
             className="min-h-[205px] w-full object-cover"
-            src="/images/photos/1.jpg"
+            src="/images/photos/patrik-in-bmw-open.jpg"
             width="1216"
             height="684"
             alt=""
@@ -20,7 +20,7 @@ const Gallery = () => {
               muted
               loop
               alt=""
-              src="/images/photos/2.jpg"
+              src="/images/photos/patrik-as-speaker-bmw-open.jpg"
             />
           </div>
           <div className="mt-3 md:mt-0 md:w-1/2">
@@ -31,7 +31,7 @@ const Gallery = () => {
               muted
               loop
               alt=""
-              src="/images/photos/3.jpg"
+              src="/images/photos/patrik-in-bmw-open-stage.jpg"
             />
           </div>
         </div>
@@ -44,7 +44,7 @@ const Gallery = () => {
               muted
               loop
               alt=""
-              src="/images/photos/4.jpg"
+              src="/images/photos/patrik.jpg"
             />
           </div>
           <div className="flex-1">
@@ -55,7 +55,7 @@ const Gallery = () => {
               muted
               loop
               alt=""
-              src="/images/photos/5.jpg"
+              src="/images/photos/patrik-collaborating.jpg"
             />
           </div>
         </div>
