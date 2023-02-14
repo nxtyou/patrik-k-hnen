@@ -40,8 +40,12 @@ const FooterTop = () => {
           <div>
             <h2 className="text-sm font-semibold uppercase">WEBSEITE</h2>
             <ul className="mt-4 text-white/80">
-              <li className="leading-9">Home</li>
-              <li className="leading-9">Kontakt</li>
+              <li className="leading-9">
+                <Link href="/">Home</Link>
+              </li>
+              <li className="leading-9">
+                <Link href="/contact">Kontakt</Link>
+              </li>
             </ul>
             <div className="mt-7">
               <BasicLink href="/contact">Mehr erfahren</BasicLink>
@@ -51,13 +55,13 @@ const FooterTop = () => {
             <h2 className="text-sm font-semibold uppercase">Über patrik kühnen</h2>
             <ul className="mt-4 text-white/80">
               <li className="leading-9">
-                <Link href="bmw-open">Turnierdirektor</Link>
+                <Link href="/bmw-open">Turnierdirektor</Link>
               </li>
               <li className="leading-9">
                 <Link href="/keynote-speaker">Keynote Speaker</Link>
               </li>
               <li className="leading-9">
-                <Link href="sky-tennis">Tennisexperte</Link>
+                <Link href="/sky-tennis">Tennisexperte</Link>
               </li>
               <li className="leading-9">
                 <Link href="/top-event-coach">Coach</Link>
