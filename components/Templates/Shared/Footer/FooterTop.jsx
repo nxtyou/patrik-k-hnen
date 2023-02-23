@@ -39,11 +39,11 @@ const FooterTop = () => {
         <div className="2xl:grid-row-2 grid max-w-sm grid-cols-1 px-6 py-16 text-lg sm:px-8 md:pl-20 lg:w-1/2 lg:py-28 2xl:max-w-none 2xl:grid-cols-2 2xl:pb-32">
           <div>
             <h2 className="text-sm font-semibold uppercase">WEBSEITE</h2>
-            <ul className="mt-4 text-white/80">
-              <li className="leading-9">
+            <ul className="mt-4 leading-9 text-white/80">
+              <li>
                 <Link href="/">Home</Link>
               </li>
-              <li className="leading-9">
+              <li>
                 <Link href="/contact">Kontakt</Link>
               </li>
             </ul>
@@ -53,17 +53,17 @@ const FooterTop = () => {
           </div>
           <div className="order-4 mt-10 2xl:order-[inherit] 2xl:mt-0 ">
             <h2 className="text-sm font-semibold uppercase">Über patrik kühnen</h2>
-            <ul className="mt-4 text-white/80">
-              <li className="leading-9">
+            <ul className="mt-4 leading-9 text-white/80">
+              <li>
                 <Link href="/bmw-open">Turnierdirektor</Link>
               </li>
-              <li className="leading-9">
+              <li>
                 <Link href="/keynote-speaker">Keynote Speaker</Link>
               </li>
-              <li className="leading-9">
+              <li>
                 <Link href="/sky-tennis">Tennisexperte</Link>
               </li>
-              <li className="leading-9">
+              <li>
                 <Link href="/top-event-coach">Coach</Link>
               </li>
             </ul>
@@ -73,11 +73,11 @@ const FooterTop = () => {
           </div>
           <div className="mt-10 2xl:mt-12">
             <h2 className="text-sm font-semibold uppercase">Hier Kontakt aufnahmen</h2>
-            <ul className="mt-4">
-              <li className="leading-9">
+            <ul className="mt-4 leading-9">
+              <li>
                 <a href="tel:+123123456789">(+123) 123 456 789</a>
               </li>
-              <li className="leading-9">
+              <li>
                 <a href="mailto:pk-contact@patrikkuehnen.com">pk-contact@patrikkuehnen.com</a>
               </li>
             </ul>
