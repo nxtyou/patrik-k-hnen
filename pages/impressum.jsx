@@ -108,8 +108,8 @@ function impressum() {
             </div>
           </section>
         </div>
-        <Footer />
       </main>
+      <Footer />
     </>
   );
 }
