@@ -5,7 +5,7 @@ import MenuIcon from '@/components/Atoms/Icons/MenuIcon';
 import Link from 'next/link';
 import { useState } from 'react';
 
-const NavBar2 = () => {
+const NavBar2 = ({ ctaText }) => {
   const [toggled, setToggled] = useState(false);
 
   return (
@@ -15,11 +15,11 @@ const NavBar2 = () => {
       </Link>
       <ButtonLink
         href="/contact"
-        aria-label="Mehr Informationen"
+        aria-label={ctaText}
         className="group mt-6 hidden md:flex"
         rightIcon={<ArrowIcon animated />}
         big>
-        Mehr Informationen
+        {ctaText}
       </ButtonLink>
       <button
         aria-label="Menü umschalten"

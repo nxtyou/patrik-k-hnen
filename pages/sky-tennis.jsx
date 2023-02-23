@@ -11,7 +11,7 @@ import Videos from '@/components/Templates/SkyTennis/Videos';
 const SkyTenis = () => {
   return (
     <>
-      <NavBar2 />
+      <NavBar2 ctaText="Mehr Informationen" />
       <main>
         <Hero />
         <Analysis />

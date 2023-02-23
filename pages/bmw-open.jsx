@@ -11,7 +11,7 @@ import 'swiper/css/navigation';
 function BMWOpen() {
   return (
     <>
-      <NavBar2 />
+      <NavBar2 ctaText="Mehr Informationen" />
       <main>
         <Hero />
         <Analysis />
