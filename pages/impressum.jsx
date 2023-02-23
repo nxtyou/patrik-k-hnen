@@ -9,7 +9,6 @@ function impressum() {
       <main>
         <Hero />
         <div className="gradient">
-          {' '}
           <section id="more">
             <div className="mx-auto w-full max-w-[1300px] py-16 px-4 text-white xl:px-5 2xl:px-0">
               <h2 className="text-[2rem] font-medium">Impressum</h2>
