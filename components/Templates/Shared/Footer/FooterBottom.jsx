@@ -7,10 +7,10 @@ const FooterBottom = () => {
         <div className="mt-3 md:mt-0">© NXTYOU 2022.</div>
         <ul className="flex flex-col-reverse items-center md:flex-row md:space-x-4">
           <li className="mt-3 md:mt-0">
-            <BasicLink href="#">Datenschutzerklärung</BasicLink>
+            <BasicLink href="/privacy-policy">Datenschutzerklärung</BasicLink>
           </li>
           <li>
-            <BasicLink href="#">Impressum</BasicLink>
+            <BasicLink href="/impressum">Impressum</BasicLink>
           </li>
         </ul>
       </div>
