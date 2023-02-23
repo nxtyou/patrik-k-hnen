@@ -33,9 +33,6 @@ function Hero() {
     }
   ];
 
-  // Patrik. KÜhnen . Patrik. sleeve. head. cloud
-  //   Kühnen. Patrickd. heart. sleeve. head. cloud
-
   return (
     <section className="relative h-[500px] overflow-hidden">
       <div
