@@ -45,8 +45,8 @@ function Hero() {
           backgroundPosition: '0 20%'
         }}
         className="absolute left-0 top-0 h-full w-full">
-        <div className="z-[1000] mt-64 flex flex-col items-center justify-center gap-7">
-          <h1 className="text-[3rem] font-medium sm:text-[4rem]">Impressum</h1>
+        <div className="relative z-[100] mt-64 flex flex-col items-center justify-center gap-7">
+          <h1 className="cursor-default text-[3rem] font-medium sm:text-[4rem]">Impressum</h1>
           <a
             href="#more"
             aria-label="Gehen"
