@@ -73,7 +73,7 @@ const FooterTop = () => {
           </div>
           <div className="mt-10 2xl:mt-12">
             <h2 className="text-sm font-semibold uppercase">Hier Kontakt aufnahmen</h2>
-            <ul className="mt-4 leading-9">
+            <ul className="mt-4 text-base leading-9">
               <li>
                 <a href="tel:+123123456789">(+123) 123 456 789</a>
               </li>
@@ -88,7 +88,7 @@ const FooterTop = () => {
               <li>
                 <Link
                   aria-label="Besuchen Sie die Instagram-Seite"
-                  className="flex h-12 w-12 items-center justify-center rounded-full bg-prussian-blue hover:bg-prussian-blue/80"
+                  className="flex h-12 w-12 items-center justify-center rounded-full bg-prussian-blue transition-all hover:bg-prussian-blue/80"
                   href="https://www.instagram.com/patrikkuehnen/"
                   target="_blank">
                   <InstagramIcon className="h-4 w-4" />
@@ -97,7 +97,7 @@ const FooterTop = () => {
               <li>
                 <Link
                   aria-label="Besuchen Sie die Linkedin-Seite"
-                  className="flex h-12 w-12 items-center justify-center rounded-full bg-prussian-blue hover:bg-prussian-blue/80"
+                  className="flex h-12 w-12 items-center justify-center rounded-full bg-prussian-blue transition-all hover:bg-prussian-blue/80"
                   href="https://www.linkedin.com/in/patrik-kuehnen-2928961b9"
                   target="_blank">
                   <LinkedinIcon className="h-4 w-4" />
@@ -106,7 +106,7 @@ const FooterTop = () => {
               <li>
                 <Link
                   aria-label="Besuchen Sie die Twitter-Seite"
-                  className="flex h-12 w-12 items-center justify-center rounded-full bg-prussian-blue hover:bg-prussian-blue/80"
+                  className="flex h-12 w-12 items-center justify-center rounded-full bg-prussian-blue transition-all hover:bg-prussian-blue/80"
                   href="https://twitter.com/patrikkuehnen"
                   target="_blank">
                   <TwitterIcon className="h-4 w-4" />
