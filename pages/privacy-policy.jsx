@@ -189,7 +189,14 @@ function PrivacyPolicy() {
                   erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer
                   IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern,
                   indem Sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und
-                  installieren: https://tools.google.com/dlpage/gaoptout?hl=de
+                  installieren:{' '}
+                  <a
+                    href="https://tools.google.com/dlpage/gaoptout?hl=de"
+                    target="_blank"
+                    className="font-bold underline"
+                    rel="noreferrer">
+                    link
+                  </a>
                 </p>
               </div>
               <div className="mt-8">
@@ -199,9 +206,15 @@ function PrivacyPolicy() {
                   auf folgenden Link klicken. Es wird ein Opt-Out-Cookie gesetzt, der die Erfassung
                   Ihrer Daten bei zukünftigen Besuchen dieser Website verhindert: Google Analytics
                   deaktivieren Mehr Informationen zum Umgang mit Nutzerdaten bei Google Analytics
-                  finden Sie in der Datenschutzerklärung von Google:
-                  https://support.google.com/analytics/answer/6004245?hl=de
-                  Auftragsdatenverarbeitung vollständig um.
+                  finden Sie in der Datenschutzerklärung von Google: Auftragsdatenverarbeitung
+                  vollständig um.{' '}
+                  <a
+                    href="https://support.google.com/analytics/answer/6004245?hl=de"
+                    target="_blank"
+                    className="font-bold underline"
+                    rel="noreferrer">
+                    link
+                  </a>
                 </p>
               </div>
               <div className="mt-8">
@@ -299,8 +312,14 @@ function PrivacyPolicy() {
                 verlinken. Dadurch kann Instagram den Besuch unserer Seiten Ihrem Benutzerkonto
                 zuordnen. Wir weisen darauf hin, dass wir keine Kenntnis vom Inhalt der
                 übermittelten Daten sowie deren Nutzung durch Instagram erhalten. Weitere
-                Informationen können Sie der Datenschutzerklärung von Instagram entnehmen:
-                http://instagram.com/about/legal/privacy/
+                Informationen können Sie der Datenschutzerklärung von Instagram entnehmen:{' '}
+                <a
+                  href="http://instagram.com/about/legal/privacy/"
+                  target="_blank"
+                  className="font-bold underline"
+                  rel="noreferrer">
+                  link
+                </a>
               </p>
             </div>
           </section>
@@ -330,7 +349,11 @@ function PrivacyPolicy() {
               </p>
               <p className="mt-10">
                 Quelle:{' '}
-                <a href="e-recht24.de" className="underline">
+                <a
+                  href="https://www.e-recht24.de/"
+                  className="underline"
+                  target="_blank"
+                  rel="noreferrer">
                   e-recht24.de
                 </a>
               </p>
