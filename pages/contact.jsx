@@ -9,7 +9,7 @@ import Link from 'next/link';
 function Contact() {
   return (
     <>
-      <NavBar2 />
+      <NavBar2 ctaText="Mehr Informationen" />
       <main className="gradient pb-36 ">
         <section className="mx-auto w-full max-w-[1300px] px-4 pt-40 xl:px-5 xl:pt-56 2xl:px-0">
           <div className="flex flex-col gap-20 lg:flex-row lg:justify-between lg:gap-0">
