@@ -3,7 +3,6 @@ import ArrowLeft2 from '@/components/Atoms/Icons/ArrowLeft2';
 import ArrowRight2 from '@/components/Atoms/Icons/ArrowRight2';
 import useWindowDimensions from '@/utils/hooks/getWindowDimensions';
 
-import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Hero = () => {
