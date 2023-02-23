@@ -1,4 +1,3 @@
-import Button from '@/components/Atoms/Button';
 import ButtonLink from '@/components/Atoms/ButtonLink';
 import ArrowRight2 from '@/components/Atoms/Icons/ArrowRight2';
 
