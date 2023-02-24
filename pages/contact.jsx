@@ -2,14 +2,14 @@ import InstagramIcon from '@/components/Atoms/Icons/InstagramIcon';
 import LinkedinIcon from '@/components/Atoms/Icons/LinkedinIcon';
 import TwitterIcon from '@/components/Atoms/Icons/TwitterIcon';
 import FooterBottom from '@/components/Templates/Shared/Footer/FooterBottom';
+import NavBar from '@/components/Templates/Shared/NavBar/NavBar';
 
-import NavBar2 from '@/components/Templates/Shared/NavBar/NavBar2';
 import Link from 'next/link';
 
 function Contact() {
   return (
     <>
-      <NavBar2 ctaText="Mehr Informationen" />
+      <NavBar />
       <main className="gradient pb-36 ">
         <section className="mx-auto w-full max-w-[1300px] px-4 pt-40 xl:px-5 xl:pt-56 2xl:px-0">
           <div className="flex flex-col gap-20 lg:flex-row lg:justify-between lg:gap-0">
@@ -17,8 +17,8 @@ function Contact() {
               <header>
                 <h1 className="text-2xl font-bold sm:text-4xl lg:text-7xl">CONTACT ME!</h1>
                 <p className="pt-3 pb-10 text-lg opacity-80">
-                  Schreibe mir jetzt eine Nachricht um über spannende Projekte, Veranstaltungen und
-                  Events zu sprechen!
+                  Projekte, Vorträge, Coaching – schreibe mir gern eine Nachricht mit deiner
+                  Anfrage.
                 </p>
               </header>
               <form className="contact-form">
