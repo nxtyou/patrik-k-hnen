@@ -21,18 +21,20 @@ const Analysis = () => {
         </div>
         <div className=" lg:pl-32">
           <h2 className="text-2xl font-medium md:text-3xl">
-            Verbesserte Performance durch Bewegung
+            Bessere Performance durch mehr Bewegung
           </h2>
+          {/* Seine Expertise für Bewegung, Gesundheit und Performance hat Patrik Kühnen mit einem Studium am Institute of Integrative Nutrition in New York vertieft. Seine Kenntnisse und seine eigenen Erfahrungen in diesen Bereichen gibt er sowohl an Profisportler als auch Hobbyathleten weiter. So hilft er Menschen dabei, die Bedeutung von Bewegung und eines gesunden Lebensstils zu erkennen und selbst zu erfahren. In seinen Impulsen erklärt er, wie sich die Macht der Gewohnheit verändern lässt und warum ein bewusstes Denken wichtig ist für nachhaltigen Erfolg. */}
           <div className="mt-6 text-white/80 md:mt-7 md:text-lg lg:text-xl">
             <p className="lg:!leading-loose">
-              Seine Expertise für Bewegung, Gesundheit und Performance hat er mit dem Studium am
-              Institute of Integrative Nutrition in New York vertieft, um sein Wissen an Profis und
-              Amateure fundierter weitergeben zu können.
+              Seine Expertise für Bewegung, Gesundheit und Performance hat Patrik Kühnen mit einem
+              Studium am Institute of Integrative Nutrition in New York vertieft. Seine Kenntnisse
+              und seine eigenen Erfahrungen in diesen Bereichen gibt er sowohl an Profisportler als
+              auch Hobbyathleten weiter. So hilft er Menschen dabei, die Bedeutung von Bewegung und
+              eines gesunden Lebensstils zu erkennen und selbst zu erfahren
             </p>
             <p className="mt-6 lg:!leading-loose">
-              Er hilft Menschen die Bedeutung von Bewegung und einem gesunden Lebensstil, in Bezug
-              auf die individuelle Leistungsfähigkeit und Nachhaltigkeit ihres Erfolgs zu erkennen
-              und schafft ein wertvolles Bewusstsein für die Macht der Gewohnheiten.
+              In seinen Impulsen erklärt er, wie sich die Macht der Gewohnheit verändern lässt und
+              warum ein bewusstes Denken wichtig ist für nachhaltigen Erfolg.
             </p>
           </div>
         </div>

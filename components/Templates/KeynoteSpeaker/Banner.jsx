@@ -29,7 +29,7 @@ const Banner = () => {
           height="43"
           alt="sky news logo"
         />
-        <h2 className="mt-9 text-5xl font-medium md:text-6xl">Tennis Experte</h2>
+        <h2 className="mt-9 text-5xl font-medium md:text-6xl">Tennisexperte</h2>
         <ButtonLink
           href="/sky-tennis"
           aria-label="Mehr Informationen"

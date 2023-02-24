@@ -5,22 +5,22 @@ const About = () => {
     {
       title: 'Nachhaltiger Erfolg ',
       subtitle:
-        'Erfahren Sie mehr über den entscheidenden Unterschied zwischen nachhaltigem Erfolg und einem „One-Hit Wonder“. An Beispielen aus der Profi-Tennis Szene veranschaulicht Patrik Kühnen eindrücklich, was es braucht, um nicht nur erfolgreich zu werden, sondern auch zu bleiben.'
+        'Was ist der Unterschied zwischen nachhaltigem Erfolg und einem „One-Hit Wonder“? Mit spannenden Storys aus dem Profitennis erklärt Patrik Kühnen, warum manche Menschen erfolgreicher sind als andere – und wie jeder Einzelne von diesem Wissen profitieren kann.'
     },
     {
-      title: 'Ein gesunder Lebensstil für Erfolg',
+      title: 'Ein gesunder Lebensstil als Basis',
       subtitle:
-        'Mit seiner Expertise für Bewegung, Gesundheit und Performance hilft Patrik Kühnen Menschen, die Bedeutung eines gesunden Lebensstils und Bewegung in Bezug auf die individuelle Leistungsfähigkeit und Nachhaltigkeit ihres Erfolgs zu erkennen.'
+        'Wie hängen Lebensstil und Leistungsfähigkeit zusammen? Patrik Kühnen erläutert auch anhand vieler eigener Erfahrungen, wie sich die Bewegung und das Bewusstsein für die Bedeutung der Gesundheit auf die Performance auswirken – nicht nur im Sport.'
     },
     {
-      title: 'Bessere Performance',
+      title: 'Lernen vom Profisport',
       subtitle:
-        'Patrik Kühnen gibt Ihnen Tools an die Hand, die Spitzensportler nutzen, um ihre Performance stetig zu steigern und die auch aus dem Kontext des Spitzensports heraus ihre Wirksamkeit immer wieder beweisen.'
+        'Was zeichnet Spitzensportler aus? Als ehemaliger Tennisprofi und langjähriger Coach kennt Patrik Kühnen viele Tools, die von den erfolgreichsten Athleten der Welt genutzt werden. In seinen Vorträgen vermittelt er eindrucksvoll, wie diese funktionieren.'
     },
     {
       title: 'Gewohnheitstreppe',
       subtitle:
-        'Lernen Sie wie man es schafft, sich mit Hilfe der „Gewohnheitstreppe“ kontinuierlich und immer während zu verbessern.'
+        'Wie lässt sich die eigene Leistung immer weiter steigern? Mit Hilfe der sogenannten Gewohnheitstreppe zeigt Patrik Kühnen, wie kontinuierliche Verbesserungen für jeden Menschen – in diversen Lebensbereichen – möglich sind.'
     }
   ];
   return <InfoGrid dark data={cards} className="gradient py-16" />;

@@ -3,7 +3,6 @@ import ArrowLeft2 from '@/components/Atoms/Icons/ArrowLeft2';
 import ArrowRight2 from '@/components/Atoms/Icons/ArrowRight2';
 import useWindowDimensions from '@/utils/hooks/getWindowDimensions';
 
-import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Hero = () => {
@@ -11,7 +10,7 @@ const Hero = () => {
     {
       title: 'Keynote Speaker',
       subtitle:
-        'Als langjähriger Spitzensportler und Coach weiß Patrik aus erster Hand was Höchstleistung bedeutet und was es braucht um nachhaltig erfolgreich zu sein.'
+        'Als ehemaliger Tennisprofi und langjähriger Coach weiß Patrik Kühnen, wie Menschen Höchstleistungen erzielen und was es braucht, um nachhaltig erfolgreich zu sein – nicht nur im Sport.'
     }
   ];
 
