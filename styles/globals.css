@@ -296,3 +296,31 @@ textarea {
 .socials-list a {
   @apply flex items-center justify-center p-4;
 }
+
+/* Homepage philosophy section */
+
+.philosophy {
+  background-image: radial-gradient(
+      94.76% 85.62% at 0% 100%,
+      rgba(0, 63, 125, 0.5) 0%,
+      rgba(0, 63, 125, 0) 100%
+    ),
+    linear-gradient(80.47deg, #040615 52.95%, rgba(4, 6, 21, 0) 140.68%),
+    url(/images/photos/patrik-playing-tennis-cropped.jpg);
+  background-position: 100% 30%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1400px) {
+  .philosophy {
+    background-image: radial-gradient(
+        94.76% 85.62% at 0% 100%,
+        rgba(0, 63, 125, 0.5) 0%,
+        rgba(0, 63, 125, 0) 100%
+      ),
+      linear-gradient(209.69deg, #040615 23.26%, rgba(4, 6, 21, 0) 326.34%),
+      url(/images/photos/patrik-playing-tennis.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+}

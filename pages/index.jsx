@@ -2,7 +2,7 @@ import About from '@/components/Templates/Homepage/About';
 import Awards from '@/components/Templates/Homepage/Awards';
 import Clients from '@/components/Templates/Homepage/Clients';
 import Hero from '@/components/Templates/Homepage/Hero';
-import Philosophie from '@/components/Templates/Homepage/Philosophie';
+import Philosophy from '@/components/Templates/Homepage/Philosophy';
 import References from '@/components/Templates/Homepage/References';
 import Footer from '@/components/Templates/Shared/Footer/Footer';
 import NavBar2 from '@/components/Templates/Shared/NavBar/NavBar2';
@@ -19,7 +19,7 @@ export default function Home() {
         <References />
         <Clients />
         <Awards />
-        <Philosophie />
+        <Philosophy />
       </main>
       <Footer />
     </>
