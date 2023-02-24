@@ -5,22 +5,22 @@ const About = () => {
     {
       title: 'Professionelle Atmosphäre',
       subtitle:
-        'Mit ansteckender Begeisterung, Spaß am Spiel und Leidenschaft für das Unterrichten schafft er eine entspannte aber doch professionelle Atmosphäre und optimiert, zusammen mit seinen beiden Co-Trainern, das Spiel eines jeden Teilnehmers.'
+        'Mit Freude am Spiel und Leidenschaft für das Coaching schaffen Patrik Kühnen und sein Trainerteam eine entspannte und trotzdem professionelle Atmosphäre auf dem Court. Sie vermitteln einfache Tipps und Tricks, von denen jeder profitiert.'
     },
     {
-      title: 'Ein erfahrener und begeisterter Coach',
+      title: 'Erfahrung und Begeisterung',
       subtitle:
-        'Mit seiner Leidenschaft und Erfahrung im Tennis-Sport ist Patrik Kühnen ein begehrter Coach, der Spielern hilft, ihre Fähigkeiten zu verbessern und ihre Leidenschaft für den Sport zu fördern.'
+        'Natürlich teilt Patrik Kühnen in seinen Camps auch Anekdoten aus seiner Zeit als Spieler und Davis-Cup-Coach. Vor allem aber vermittelt er die Liebe zum Spiel.'
     },
     {
-      title: 'Ein unvergessliches Erlebnis',
+      title: 'Unvergessliche Erlebnisse',
       subtitle:
-        'Robinson bietet seinen Gästen eine hervorragende Tennis-Erfahrung mit qualifizierten Trainern und erstklassiger Ausstattung. Verbessern Sie Ihre Fähigkeiten und entspannen Sie sich in luxuriöser Umgebung.'
+        'Robinson bietet seinen Gästen hervorragende Tennis-Bedingungen, qualifizierte Trainer und erstklassige Ausstattungen. Die Clubs stehen nicht nur für Sport und Entertainment, sondern auch für ideale Möglichkeiten, um in luxuriöser Umgebung zu entspannen.'
     },
     {
       title: 'Erfolgreiche Zusammenarbeit',
       subtitle:
-        'Patrik Kühnen verbindet seine Leidenschaft für Tennis mit seiner Erfahrung als Coach, um Spielern zu verbessern. Seit 20+ Jahren arbeitet er erfolgreich mit Robinson, dem bekannten Cluburlaub-Anbieter, zusammen. '
+        'Für Patrik Kühnen ist die Zusammenarbeit mit Robinson der perfekte Rahmen, um seine Liebe zum Tennis mit seiner Begeisterung für das Coaching zu verbinden – und das bereits sehr mehr als 20 Jahren.'
     }
   ];
   return <InfoGrid dark data={cards} className="gradient py-16" />;

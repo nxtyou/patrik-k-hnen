@@ -20,18 +20,14 @@ const Analysis = () => {
           </Link>
         </div>
         <div className=" lg:pl-32">
-          <h2 className="text-2xl font-medium md:text-3xl">
-            Kooperation mit Robinson seit über 20 Jahren
-          </h2>
+          <h2 className="text-2xl font-medium md:text-3xl">Training mit Leidenschaft</h2>
           <div className="mt-6 text-white/80 md:mt-7 md:text-lg lg:text-xl">
             <p className="lg:!leading-loose">
-              Patrik Kühnen hat seine Kooperation mit dem angesehenen Cluburlaub-Anbieter Robinson
-              bereits im Jahr 1998 begonnen und hat seither über 30 erfolgreiche Tennis-Events in
-              verschiedenen Robinson Clubs auf der ganzen Welt geleitet. Seine Leidenschaft und
-              Erfahrung im Bereich Tennis haben dazu beigetragen, dass seine Tennis-Camps regelmäßig
-              ausgebucht sind. Dank seiner Expertise und seines Engagements ist er ein begehrter
-              Partner für alle, die ihre Tennis-Fähigkeiten verbessern und ihre Leidenschaft für den
-              Sport ausleben möchten.
+              Seit 1998 hat Patrik Kühnen mehr als 30 erfolgreiche Tennis-Events in verschiedenen
+              Robinson Clubs auf der ganzen Welt geleitet. Zusammen mit seinem Trainerteam
+              vermittelt er neben Technik, Taktik und mentalen Aspekten vor allem Leidenschaft und
+              Freude am Spiel. Die Camps sind regelmäßig ausgebucht und die meisten Gäste kommen
+              gern wieder, wenn sie einmal dabei waren.
             </p>
           </div>
         </div>

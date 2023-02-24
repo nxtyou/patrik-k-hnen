@@ -8,9 +8,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 const Hero = () => {
   const slidesContent = [
     {
-      title: 'Top Event Coach',
+      title: 'Top-Event-Coach',
       subtitle:
-        'Die Zusammenarbeit mit Cluburlaub-Anbieter Robinson bereits im Jahr 1998 begonnen und seither eine erfolgreiche Partnerschaft aufgebaut.',
+        'Die erfolgreiche Partnerschaft mit Robinson hat 1998 begonnen. Seitdem haben bereits viele Tenniscamps in unterschiedlichen Urlaubsclubs stattgefunden.',
       customer: 'ROBINSON',
       year: '1998'
     }
