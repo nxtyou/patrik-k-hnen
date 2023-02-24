@@ -16,7 +16,7 @@ const NavBar2 = ({ ctaText, ctaTarget }) => {
       <ButtonLink
         href={ctaTarget}
         aria-label={ctaText}
-        className="group mt-6 hidden md:flex"
+        className="group hidden md:flex"
         rightIcon={<ArrowIcon animated />}
         big>
         {ctaText}
