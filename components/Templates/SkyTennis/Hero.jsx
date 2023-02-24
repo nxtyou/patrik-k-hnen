@@ -8,8 +8,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 const Hero = () => {
   const slidesContent = [
     {
-      title: 'Tennis Experte',
-      subtitle: 'Patrik Kühnen ist seit über 20 Jahren als Tennis Experte fürs Fernsehen tätig.',
+      title: 'Tennisexperte',
+      subtitle: 'Patrik Kühnen steht seit mehr als 20 Jahren beim TV-Sender Sky vor der Kamera.',
       customer: 'SKY',
       year: '2023'
     }

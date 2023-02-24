@@ -21,23 +21,21 @@ const Analysis = () => {
         </div>
         <div className=" lg:pl-32">
           <h2 className="text-2xl font-medium md:text-3xl">
-            Wimbledon Analysen und Vertrauen von SKY
+            Wimbledon-Analysen und das Vertrauen von Sky
           </h2>
           <div className="mt-6 text-white/80 md:mt-7 md:text-lg lg:text-xl">
             <p className="lg:!leading-loose">
-              Schon in seiner Jugend war Patrik von diesem Turnier fasziniert und inspiriert. Das
-              Erreichen des Viertelfinales 1988 und der Sieg gegen Jimmy Connors in fünf
-              dramatischen Sätzen, sowie das Doppel Halbfinale 1993 waren goldene Momente seiner
-              Karriere als Profi, wodurch ihm die Ehre zuteil wurde, Mitglied im “Last-8 Club” zu
-              werden. Die Zusammenarbeit mit Sky in Wimbledon ist jedes Jahr ein Highlight in
-              Patrik’s Kalender und bringt ein paar seiner schönsten Erinnerungen an seine Zeit als
-              Spieler zurück.
+              Patrik Kühnens Faszination für das berühmteste Turnier der Welt resultiert bereits aus
+              der Jugend. Die legendären Duelle von John McEnroe und Björn Borg begeisterten ihn
+              einst für den Tennissport. Jahre später, als Profi, feierte er im All England Club von
+              Wimbledon seinen größten Einzelerfolg – 1988 besiegte er dort Jimmy Connors in fünf
+              Sätzen und erreichte das Viertelfinale. Seitdem ist er Mitglied im sogenannten
+              „Last-8-Club“.
             </p>
             <p className="mt-6 lg:!leading-loose">
-              Er ist seit über 20 Jahren als Tennis Experte im Fernsehen tätig und bietet seine
-              Expertise auch für Podiumsdiskussionen, Live Events oder andere Medienformate an.
-              Seine fundierte Erfahrung und sein umfassendes Wissen über den Tennissport bieten
-              einen einzigartigen Mehrwert für jedes Projekt.
+              Im Doppel erreichte er an der Seite von Gary Muller 1993 sogar das Halbfinale. Die
+              TV-Übertragungen aus Wimbledon mit Sky gehören auch deshalb zu seinen Highlights in
+              jedem Jahr – sie wecken die schönsten Erinnerungen an seine Zeit als Spieler.
             </p>
           </div>
         </div>

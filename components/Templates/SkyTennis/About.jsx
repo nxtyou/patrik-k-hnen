@@ -5,12 +5,12 @@ const About = () => {
     {
       title: 'Jahrelange Erfahrung',
       subtitle:
-        'Als Tennis Experte verfügt Patrik Kühnen über jahrelange Erfahrung und ein tiefes Verständnis für das Spiel. Seine Analysen sind klar und verständlich und geben eine gute Vorstellung davon, was zu erwarten ist.'
+        'Als Tennisexperte verfügt Patrik Kühnen über jahrelange Erfahrungen und ein tiefes Verständnis für das Spiel. Seine Analysen sind fachlich fundiert und einfach verständlich.'
     },
     {
       title: 'Insiderwissen',
       subtitle:
-        'Er nutzt auch Insiderwissen, das er aus seinen persönlichen Kontakten zu den besten Spielern der Welt gewonnen hat, um seine Analysen zu untermauern und noch präzisere Einschätzungen abzugeben.'
+        'Sein engen Kontakte zu Spielern, Trainern und Funktionären ermöglichen ihm besondere Einblicke in die Tenniswelt, die seine Analysen und Einschätzungen noch stärker machen.'
     },
     {
       title: 'Zutreffende Prognosen',
