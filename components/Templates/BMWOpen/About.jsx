@@ -3,24 +3,24 @@ import InfoGrid from '../Shared/InfoGrid';
 const About = () => {
   const cards = [
     {
-      title: 'BMW Open by FWU',
+      title: 'BMW Open by American Express',
       subtitle:
-        'Die “BMW Open by FWU” sind das erste von vier ATP Turnieren in Deutschland und ein fester Bestandteil der europäischen Sandplatz-Serie, welche mit den French Open ihren Höhepunkt erreicht. '
+        'Die BMW Open by American Express im April sind im Turnierkalender das erste von vier ATP-Events in Deutschland. Die Veranstaltung ist fester Bestandteil der europäischen Sandplatz-Serie, die mit den French Open ihren Höhepunkt erreicht.'
     },
     {
-      title: 'Verantwortung des Turnierdirektors',
+      title: 'Aufgabenfeld',
       subtitle:
-        'Als Turnierdirektor ist er verantwortlich für die Organisation des Events und sorgte für einen reibungslosen Ablauf zu gewährleisten, von Spielerauswahl bis zur Unterstützung der Teilnehmer und Zuschauer.'
+        'Ein Turnierdirektor verantwortet nicht nur einen großen Teil der Organisation vor Ort, sondern auch in der Vorbereitung. Er steht mit Spielern und Beratern im Kontakt, kümmert sich um Sponsoren und Partner und ist in der Turnierwoche Ansprechpartner für (fast) jeden.'
     },
     {
-      title: 'Kompetente Führungskraft',
+      title: 'Kompetenzen',
       subtitle:
-        'Seine Arbeit als Turnierdirektor hat gezeigt, dass er ein fähiger Führungskraft ist und dass er die Fähigkeit hat, erfolgreiche Veranstaltungen zu organisieren.'
+        'Wer über viele Jahre die Organisation eines Großevents mitverantwortet, entwickelt immer neue Fähigkeiten – die auch bei anderen Projekten wichtig sind.'
     },
     {
-      title: 'Erfolg durch Erfahrung',
+      title: 'Ziele',
       subtitle:
-        'Dank seiner Erfahrung und Leidenschaft für den Sport hat Kühnen dazu beigetragen, dass die BMW Open zu einem erfolgreichen und begehrten Tennis-Event wurden. '
+        'Die Weiterentwicklung des Münchener Turniers ist für Patrik Kühnen eine Herzensangelegenheit. Sein Antrieb ist es, das Event jedes Jahr (noch) ein wenig besser zu machen.'
     }
   ];
   return <InfoGrid dark data={cards} className="gradient py-16" />;

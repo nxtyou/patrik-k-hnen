@@ -3,14 +3,13 @@ import ArrowLeft2 from '@/components/Atoms/Icons/ArrowLeft2';
 import ArrowRight2 from '@/components/Atoms/Icons/ArrowRight2';
 import useWindowDimensions from '@/utils/hooks/getWindowDimensions';
 
-import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Hero = () => {
   const slidesContent = [
     {
       title: 'Turnierdirektor',
-      subtitle: 'Patrik Kühnen ist seit über 20 Jahren als Tennis Experte fürs Fernsehen tätig.',
+      subtitle: 'Seit 2008 verantwortet Patrik Kühnen die BMW Open by American Express in München.',
       customer: 'BMW',
       year: '2023'
     }

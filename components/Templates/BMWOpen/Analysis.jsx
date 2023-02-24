@@ -21,18 +21,19 @@ const Analysis = () => {
         </div>
         <div className=" lg:pl-32">
           <h2 className="text-2xl font-medium md:text-3xl">
-            Langjährige Partner zu Spieler und Firmen
+            Kontakte zu Spielern, Verbindungen zu Firmen
           </h2>
           <div className="mt-6 text-white/80 md:mt-7 md:text-lg lg:text-xl">
             <p className="lg:!leading-loose">
-              Durch seine langjährigen persönlichen Beziehungen zu Spielern, Managern und Sponsoren
-              gelingt es ihm nicht nur Top Spieler nach München zu holen, sondern er schafft es auch
-              die Verbundenheit von Partner Firmen zu dem Turnier zu stärken.
+              Durch seine guten Beziehungen zu Profis und Managern lockt Patrik Kühnen jedes Jahr
+              Topspieler nach München. Sein starkes Netzwerk ermöglicht es ihm zudem, langfristige
+              Partnerschaften mit Sponsoren aufzubauen und regelmäßig neue Kooperationen zu
+              schließen
             </p>
             <p className="mt-6 lg:!leading-loose">
-              “Ich habe es mir zur persönlichen Aufgabe gemacht, nicht nur die Top Spieler für unser
-              Turnier zu verpflichten, sondern auch eine familiäre Atmosphäre zu schaffen, die
-              Spieler, Sponsoren und Publikum jedes Jahr auf’s Neue anzieht.”
+              Als Turnierdirektor liegt es ihm vor allem am Herzen, auf der Anlage des MTTC Iphitos
+              eine familiäre Atmosphäre zu schaffen, in der sich Spieler, Sponsoren und das Publikum
+              wohlfühlen.
             </p>
           </div>
         </div>
