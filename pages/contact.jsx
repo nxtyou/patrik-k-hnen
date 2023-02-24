@@ -3,13 +3,14 @@ import LinkedinIcon from '@/components/Atoms/Icons/LinkedinIcon';
 import TwitterIcon from '@/components/Atoms/Icons/TwitterIcon';
 import FooterBottom from '@/components/Templates/Shared/Footer/FooterBottom';
 import NavBar from '@/components/Templates/Shared/NavBar/NavBar';
+import NavBar2 from '@/components/Templates/Shared/NavBar/NavBar2';
 
 import Link from 'next/link';
 
 function Contact() {
   return (
     <>
-      <NavBar />
+      <NavBar2 ctaText="Mehr Informationen" ctaTarget="/" />
       <main className="gradient pb-36 ">
         <section className="mx-auto w-full max-w-[1300px] px-4 pt-40 xl:px-5 xl:pt-56 2xl:px-0">
           <div className="flex flex-col gap-20 lg:flex-row lg:justify-between lg:gap-0">

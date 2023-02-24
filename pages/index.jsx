@@ -12,7 +12,7 @@ import 'swiper/css/navigation';
 export default function Home() {
   return (
     <>
-      <NavBar2 ctaText="Hier zum Kontakt" />
+      <NavBar2 ctaText="Hier zum Kontakt" ctaTarget="/contact" />
       <main>
         <Hero />
         <About />

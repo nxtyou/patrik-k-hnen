@@ -11,7 +11,7 @@ import 'swiper/css/navigation';
 function TopEventCoach() {
   return (
     <>
-      <NavBar2 ctaText="Mehr Informationen" />
+      <NavBar2 ctaText="Mehr Informationen" ctaTarget="/contact" />
       <main>
         <Hero />
         <Analysis />

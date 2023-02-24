@@ -5,7 +5,7 @@ import NavBar2 from '@/components/Templates/Shared/NavBar/NavBar2';
 function PrivacyPolicy() {
   return (
     <>
-      <NavBar2 ctaText="Hier zum Kontakt" />
+      <NavBar2 ctaText="Hier zum Kontakt" ctaTarget="/contact" />
       <main>
         <Hero />
         <div className="gradient">

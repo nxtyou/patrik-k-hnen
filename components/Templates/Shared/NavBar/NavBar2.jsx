@@ -5,7 +5,7 @@ import MenuIcon from '@/components/Atoms/Icons/MenuIcon';
 import Link from 'next/link';
 import { useState } from 'react';
 
-const NavBar2 = ({ ctaText }) => {
+const NavBar2 = ({ ctaText, ctaTarget }) => {
   const [toggled, setToggled] = useState(false);
 
   return (
@@ -14,7 +14,7 @@ const NavBar2 = ({ ctaText }) => {
         <img src="/images/logo-mini.svg" width="62" height="50" alt="" />
       </Link>
       <ButtonLink
-        href="/contact"
+        href={ctaTarget}
         aria-label={ctaText}
         className="group mt-6 hidden md:flex"
         rightIcon={<ArrowIcon animated />}
