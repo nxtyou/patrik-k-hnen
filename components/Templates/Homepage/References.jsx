@@ -1,11 +1,11 @@
 import { useInView } from '@react-spring/web';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Button from '../../Atoms/Button';
-import ArrowLeft from '../../Atoms/Icons/ArrowRight';
 import ArrowRight from '../../Atoms/Icons/ArrowLeft';
+import ArrowLeft from '../../Atoms/Icons/ArrowRight';
 import FourSquares from '../../Atoms/Icons/FourSquares';
 import ReferencesCard from '../../Organisms/ReferencesCard';
 
@@ -25,7 +25,7 @@ const References = () => {
     },
     {
       label: 'Experte',
-      title: 'TENNIS EXPERTE',
+      title: 'TENNISEXPERTE',
       link: '/sky-tennis',
       bg: '/images/photos/sky-news-ref.jpg',
       logo: {

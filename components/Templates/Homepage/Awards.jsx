@@ -30,8 +30,8 @@ const Awards = () => {
     },
     {
       topText: 'seit 2008',
-      middleText: 'Turnier-Direktor',
-      bottomText: ['Direktor des ATP World Tour “BMW Open by FWU” Tennis Turniers in München'],
+      middleText: 'Turnierdirektor',
+      bottomText: ['BMW Open by American Express – ATP 250er-Event in München. '],
       isLightBlue: true,
       imgSrc:
         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Esprix.png?v=1665322482',
@@ -41,7 +41,7 @@ const Awards = () => {
     },
     {
       topText: 'seit 1998',
-      middleText: 'Tennis Experte',
+      middleText: 'Tennisexperte',
       bottomText: ['Sky', 'Wilson', 'Robinson'],
       isLightBlue: true,
       imgSrc:
@@ -53,7 +53,7 @@ const Awards = () => {
     {
       topText: 'Aus Leidenschaft',
       middleText: 'Coach',
-      bottomText: ['Robinson Top Event', 'Patricio Travel', 'VIP Events'],
+      bottomText: ['Robinson Top-Event', 'Patricio Travel', 'VIP-Events'],
       imgSrc:
         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/SponsorRing.png?v=1665322482',
       srcSet:
@@ -62,7 +62,7 @@ const Awards = () => {
     },
     {
       topText: 'Mit Herzblut',
-      middleText: 'Tennis Profi',
+      middleText: 'Tennisprofi',
       imgSrc:
         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/SponsorRing.png?v=1665322482',
       srcSet:
@@ -70,9 +70,9 @@ const Awards = () => {
       alt: 'Logo dia'
     },
     {
-      topText: '1993',
-      middleText: 'Davis Cup Sieger',
-      bottomText: ['und viele weitere Siege'],
+      topText: '1988, 1989, 1993',
+      middleText: 'Davis-Cup-Sieger',
+      bottomText: ['(Anm. Felix: Würde ich weglassen, v.a. aufgrund der Jahreszahlen oben)'],
       isLightBlue: true,
       imgSrc:
         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Website-van-het-Jaar.png?v=1665322482',
@@ -173,13 +173,15 @@ const Awards = () => {
         <div className="px-6 sm:px-8 md:px-20 xl:px-16">
           <div className="sticky top-16  mx-auto text-black xl:max-w-md">
             <h2 className="max-w-md text-3xl font-medium !leading-tight md:max-w-xl md:text-5xl">
-              “Tennis ist immer noch mein Leben”
+              „Tennis ist immer noch mein Leben“
             </h2>
             <p className="mt-4 md:mt-4 md:text-xl">
-              Der ehemalige Tennis Profi, Davis Cup Sieger und Davis Cup Kapitän ist heute
-              Turnierdirektor der Tennis BMW OPEN BY AMERICAN EXPRESS in München, unterstützt
-              WILSON, SKY und ROBINSON als Tennis Experte und gibt seine Erfahrung und sein Wissen
-              über Sport, Gesundheit und Leistungsfähigkeit als Keynote Speaker weiter.
+              Der ehemalige Tennisprofi, Davis-Cup-Sieger und Davis-Cup-Kapitän ist heute
+              Turnierdirektor der BMW Open by American Express in München. Als Tennisexperte steht
+              er bei Sky vor der Kamera, als Markenbotschafter ist er für Wilson im Einsatz und als
+              Coach bei Tenniscamps in Robinson Clubs. Seine jahrzehntelange Erfahrung und sein
+              Wissen über Sport, Gesundheit und Leistungsfähigkeit gibt er mit viel Leidenschaft als
+              Keynote Speaker weiter.
             </p>
             <Button className="mt-5" black>
               Mehr über Patrik Kühnen

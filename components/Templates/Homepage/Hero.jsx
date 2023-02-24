@@ -59,8 +59,8 @@ const Hero = () => {
           Patrik KÜhnen
         </h1>
         <p className="mt-3 text-sm md:text-xl">
-          Seit 2012 ist Patrik regelmäßig als Keynote Speaker bei hochkarätigen Veranstaltungen
-          gefragt, um seine Expertise als Spitzensportler, Coach und Health Coach weiterzugeben.
+          Seit vielen Jahren ist Patrik regelmäßig als Keynote Speaker gefragt. In seinen Vorträgen
+          begeistert er mit seiner Expertise als Spitzensportler, Coach und Health Coach.
         </p>
         <Button className="group mt-6" rightIcon={<ArrowIcon animated />} big>
           Mehr Informationen

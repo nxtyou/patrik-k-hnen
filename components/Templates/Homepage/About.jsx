@@ -33,22 +33,22 @@ const About = () => {
     {
       title: 'Keynote Speaker',
       subtitle:
-        'Als langjähriger Spitzensportler und Coach weiß Patrik Kühnen aus erster Hand was Höchstleistung bedeutet und was es braucht um nachhaltig erfolgreich zu sein.      '
+        'Als ehemaliger Tennisprofi und langjähriger Coach weiß Patrik Kühnen, wie Menschen Höchstleistungen erzielen und was es braucht, um nachhaltig erfolgreich zu sein – nicht nur im Sport.'
     },
     {
-      title: 'Tennis Experte',
+      title: 'Tennisexperte',
       subtitle:
-        'Patrik Kühnen ist seit über 20 Jahren als Tennis Experte im Fernsehen tätig und bietet seine Expertise auch für Podiumsdiskussionen, Live Events oder andere Medienformate an. Seine fundierte Erfahrung und sein umfassendes Wissen über den Tennissport bieten einen einzigartigen Mehrwert für Ihr Projekt.'
+        'Seit mehr als 20 Jahren ist Patrik Kühnen Experte für Tennis im Fernsehen. Auch bei Podiumsdiskussionen, Live-Events oder in andere Medienformaten gibt er sein fundiertes Wissen als ehemaliger Profis und langjähriger Davis-Cup-Coach weiter.'
     },
     {
       title: 'Coach',
       subtitle:
-        'Patrik Kühnen ist sowohl für Robinson + Patricio Travel als auch für spezielle Anlässe buchbar. Als Tennis-Experte bietet er maßgeschneiderte Events an, einschließlich Robinson + Patricio Travel und VIP-Coaching.'
+        'Die Arbeit mit Freizeitspielern liegt Patrik Kühnen schon lange am Herzen. In Robinson Clubs sowie mit Reiseveranstalter Patricio Travel bietet er regelmäßig Tenniscamps für alle Alters- und Spielklassen an. Er ist auch für individuelle Events und VIP-Coaching buchbar. '
     },
     {
       title: 'Turnierdirektor',
       subtitle:
-        'Patrik Kühnen ist seit 2008 Direktor des ATP World Tour Tennisturniers “BMW Open by FWU” in München. Die “BMW Open by FWU” sind das erste von vier ATP Turnieren in Deutschland und ein fester Bestandteil der europäischen Sandplatz-Serie, welche mit den French Open ihren Höhepunkt erreicht.'
+        'Seit 2008 ist Patrik Kühnen Turnierdirektor der BMW Open by American Express in München. Das ATP 250er-Event zählt zu den vier größten Herrenturnieren in Deutschland. Es hat eine lange Tradition als Bestandteil der europäischen Sandplatz-Serie, die mit den French Open ihren Höhepunkt erreicht.'
     }
   ];
 
