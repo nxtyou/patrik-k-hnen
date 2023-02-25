@@ -14,7 +14,7 @@ const Banner = () => {
         src="/images/photos/bmw-open.jpg"
         width="1440"
         height="613"
-        alt=""
+        alt="patrik in bmw open"
       />
       <div className="relative mx-auto max-w-7xl">
         <div

@@ -15,7 +15,7 @@ const Banner = () => {
         src="/images/photos/patrik-as-speaker.jpg"
         width="1440"
         height="613"
-        alt=""
+        alt="patrik as speaker"
       />
       <div className="relative mx-auto max-w-7xl">
         <div
@@ -28,7 +28,7 @@ const Banner = () => {
           src="/images/logo2.png"
           width="163"
           height="37"
-          alt="Patrik Kühnen logo"
+          alt="patrik kühnen logo"
         />
         <h2 className="mt-4 text-5xl font-medium md:text-6xl">Keynote Speaker</h2>
         <ButtonLink

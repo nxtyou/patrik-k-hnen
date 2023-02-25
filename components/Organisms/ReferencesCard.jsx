@@ -2,7 +2,7 @@ import { animated, useSpring } from '@react-spring/web';
 import { useEffect, useRef, useState } from 'react';
 import BasicLink from '../Atoms/BasicLink';
 
-const ReferencesCard = ({ logo, link, title, bg, label, isParentInView, video }) => {
+const ReferencesCard = ({ logo, link, title, bg, label, isParentInView, video, bgAlt }) => {
   const clipPath = isParentInView ? 'inset(0 0 0 0)' : 'inset(0 0 100% 0)';
 
   const containerStyles = useSpring({
@@ -54,7 +54,7 @@ const ReferencesCard = ({ logo, link, title, bg, label, isParentInView, video })
         </div>
         <div className="absolute left-6 bottom-12 z-20 transition-all duration-700 group-hover:bottom-16">
           <div>
-            <img src={logo.imgSrc} width={logo.width} height={logo.height} alt="" />
+            <img src={logo.imgSrc} width={logo.width} height={logo.height} alt={logo.logoAlt} />
           </div>
           <h3 className="mt-6 text-2xl font-medium uppercase">{title}</h3>
           <BasicLink underline={false} href={link} className="mt-8 text-xs font-medium uppercase">
@@ -78,7 +78,7 @@ const ReferencesCard = ({ logo, link, title, bg, label, isParentInView, video })
               hover ? 'invisible opacity-0' : 'visible opacity-100'
             }`}
             src={bg}
-            alt=""
+            alt={bgAlt}
             width="334"
             height="502"
           />

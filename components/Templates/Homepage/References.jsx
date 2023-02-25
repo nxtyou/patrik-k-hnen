@@ -16,8 +16,10 @@ const References = () => {
       title: 'SPEAKER',
       link: '/keynote-speaker',
       bg: '/images/photos/speaker-ref.jpg',
+      bgAlt: 'patrik as speaker',
       logo: {
         imgSrc: '/images/logos/pk.svg',
+        logoAlt: 'patrik kühnen logo',
         width: 41,
         height: 33
       },
@@ -28,8 +30,10 @@ const References = () => {
       title: 'TENNISEXPERTE',
       link: '/sky-tennis',
       bg: '/images/photos/sky-news-ref.jpg',
+      bgAlt: 'patrik in a sky news interview',
       logo: {
         imgSrc: '/images/logos/sky-sport.svg',
+        logoAlt: 'sky news logo',
         width: 130,
         height: 31
       },
@@ -40,8 +44,10 @@ const References = () => {
       title: 'TURNIERDIREKTOR',
       link: '/bmw-open',
       bg: '/images/photos/bmw-open-ref.jpg',
+      bgAlt: 'patrik in bmw open',
       logo: {
         imgSrc: '/images/logos/bmw.svg',
+        logoAlt: 'bmw logo',
         width: 48,
         height: 48
       },
@@ -52,8 +58,10 @@ const References = () => {
       title: 'COACH ',
       link: '/top-event-coach',
       bg: '/images/photos/patrik-playing-tennis-ref.jpg',
+      bgAlt: 'patrik playing tennis',
       logo: {
         imgSrc: '/images/logos/pk.svg',
+        logoAlt: 'patrik kühnen logo',
         width: 41,
         height: 33
       },

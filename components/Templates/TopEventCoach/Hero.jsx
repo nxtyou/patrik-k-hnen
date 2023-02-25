@@ -24,7 +24,7 @@ const Hero = () => {
         {slidesContent.map(({ title, subtitle, customer, year }, i) => (
           <SwiperSlide key={i}>
             <img
-              alt=""
+              alt="patrik playing tennis"
               className="absolute top-0 left-0 h-full w-full object-cover"
               src="/images/photos/patrik-playing-tennis.jpg"
               width="1440"
@@ -41,7 +41,7 @@ const Hero = () => {
                 <div className="max-w-xl">
                   <img
                     src="/images/logos/robinson.svg"
-                    alt=""
+                    alt="robinson logo"
                     width="242"
                     height="27"
                     className=""

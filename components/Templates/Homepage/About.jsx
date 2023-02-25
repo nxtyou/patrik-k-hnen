@@ -63,7 +63,7 @@ const About = () => {
           height={617}
           className="absolute top-0 left-0 h-full w-full object-cover"
           src="/images/video-thumbnail.jpg"
-          alt=""
+          alt="patrik collecting tennis balls with other players"
         />
         <PlayButton big />
       </div>

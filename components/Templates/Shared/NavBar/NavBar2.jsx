@@ -11,7 +11,7 @@ const NavBar2 = ({ ctaText, ctaTarget }) => {
   return (
     <header className="absolute top-0 left-0 z-[100] flex w-full items-center justify-between px-6 py-6 sm:px-8 md:px-16">
       <Link aria-label="Gehen Sie zur Homepage" href="/">
-        <img src="/images/logo-mini.svg" width="62" height="50" alt="" />
+        <img src="/images/logo-mini.svg" width="62" height="50" alt="patrik kühnen logo" />
       </Link>
       <ButtonLink
         href={ctaTarget}

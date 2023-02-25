@@ -8,7 +8,7 @@ const Gallery = () => {
             src="/images/photos/patrik-playing-tennis3.jpg"
             width="1216"
             height="684"
-            alt=""
+            alt="patrik playing tennis"
           />
         </div>
         <div className="mt-3 flex flex-col md:mt-6 md:flex-row md:space-x-6">
@@ -17,7 +17,7 @@ const Gallery = () => {
               className="max-h-[335px] w-full object-cover"
               width="596"
               height="335"
-              alt=""
+              alt="patrik playing tennis"
               src="/images/photos/patrik-playing-tennis2.jpg"
             />
           </div>
@@ -27,7 +27,7 @@ const Gallery = () => {
               className="max-h-[335px] w-full object-cover"
               width="596"
               height="335"
-              alt=""
+              alt="patrik gathering tennis balls"
               src="/images/photos/patrik-gathering-tennis-balls3.jpg"
             />
           </div>
@@ -38,7 +38,7 @@ const Gallery = () => {
               className="max-h-[596px] w-full object-cover md:aspect-auto md:object-center"
               width="373"
               height="596"
-              alt=""
+              alt="patrik gathering tennis balls"
               src="/images/photos/patrik-gathering-tennis-balls2.jpg"
             />
           </div>
@@ -48,7 +48,7 @@ const Gallery = () => {
               className="max-h-[596px] w-full object-cover md:aspect-auto"
               width="596"
               height="596"
-              alt=""
+              alt="patrik gathering tennis balls"
               src="/images/photos/patrik-gathering-tennis-balls.jpg"
             />
           </div>

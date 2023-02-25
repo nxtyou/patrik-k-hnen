@@ -14,7 +14,7 @@ const Banner = () => {
         src="/images/photos/patrik-playing-tennis.jpg"
         width="1440"
         height="613"
-        alt=""
+        alt="patrik playing tennis"
       />
       <div className="relative mx-auto max-w-7xl">
         <div

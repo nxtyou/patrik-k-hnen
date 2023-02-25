@@ -8,7 +8,7 @@ const Gallery = () => {
             src="/images/photos/patrik-in-bmw-open.jpg"
             width="1216"
             height="684"
-            alt=""
+            alt="patrik in bmw open"
           />
         </div>
         <div className="mt-3 flex flex-col md:mt-6 md:flex-row md:space-x-6">
@@ -19,7 +19,7 @@ const Gallery = () => {
               height="335"
               muted
               loop
-              alt=""
+              alt="patrik as speaker in bmw open"
               src="/images/photos/patrik-as-speaker-bmw-open.jpg"
             />
           </div>
@@ -30,7 +30,7 @@ const Gallery = () => {
               height="335"
               muted
               loop
-              alt=""
+              alt="patrik in bmw open stage"
               src="/images/photos/patrik-in-bmw-open-stage.jpg"
             />
           </div>
@@ -43,7 +43,7 @@ const Gallery = () => {
               height="596"
               muted
               loop
-              alt=""
+              alt="patrik"
               src="/images/photos/patrik.jpg"
             />
           </div>
@@ -54,7 +54,7 @@ const Gallery = () => {
               height="596"
               muted
               loop
-              alt=""
+              alt="patrik collaborating"
               src="/images/photos/patrik-collaborating.jpg"
             />
           </div>

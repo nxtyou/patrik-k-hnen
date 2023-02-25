@@ -14,7 +14,7 @@ const Banner = () => {
         src="/images/photos/interview-sky-news.jpg"
         width="1440"
         height="613"
-        alt=""
+        alt="patrik in a sky news interview"
       />
       <div className="relative mx-auto max-w-7xl">
         <div

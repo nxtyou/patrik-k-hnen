@@ -8,7 +8,7 @@ const Gallery = () => {
             src="/images/photos/patrik-as-speaker2.jpg"
             width="1216"
             height="684"
-            alt=""
+            alt="patrik as speaker"
           />
         </div>
         <div className="mt-3 flex flex-col md:mt-6 md:flex-row md:space-x-6">
@@ -18,7 +18,7 @@ const Gallery = () => {
               className="max-h-[335px] w-full object-cover"
               width="596"
               height="335"
-              alt=""
+              alt="patrik as speaker"
               src="/images/photos/patrik-as-speaker3.jpg"
             />
           </div>
@@ -28,7 +28,7 @@ const Gallery = () => {
               className="max-h-[335px] w-full object-cover"
               width="596"
               height="335"
-              alt=""
+              alt="patrik as speaker"
               src="/images/photos/patrik-as-speaker4.jpg"
             />
           </div>
@@ -40,7 +40,7 @@ const Gallery = () => {
               className="max-h-[596px] w-full object-cover object-top md:aspect-auto md:object-center"
               width="373"
               height="596"
-              alt=""
+              alt="patrik as speaker"
               src="/images/photos/patrik-as-speaker5.jpg"
             />
           </div>
@@ -50,7 +50,7 @@ const Gallery = () => {
               className="max-h-[596px] w-full object-cover object-right md:aspect-auto"
               width="596"
               height="596"
-              alt=""
+              alt="patrik as speaker"
               src="/images/photos/patrik-as-speaker6.jpg"
             />
           </div>
