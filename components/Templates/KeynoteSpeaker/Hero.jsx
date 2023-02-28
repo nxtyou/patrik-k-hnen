@@ -38,7 +38,7 @@ const Hero = () => {
               <div className="mx-auto max-w-7xl">
                 <div className="max-w-xl">
                   <img
-                    src="/images/logo.svg"
+                    src="/images/logo2.svg"
                     alt="patrik kühnen logo"
                     width="254"
                     height="40"
