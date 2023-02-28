@@ -6,17 +6,17 @@ const Analysis = () => {
       <div className="mx-auto flex max-w-7xl flex-col-reverse lg:flex-row ">
         <div className="mt-10 lg:mt-0">
           <h2 className="text-sm font-semibold">DIENSTLEISTUNGEN</h2>
-          <ul className="mt-3 text-lg leading-9 text-white/80">
-            <li>Moderator & Speaker</li>
-            <li>Soziale Kampagnen</li>
-            <li>PR-Strategie</li>
-            <li>Medienstrategie</li>
+         <ul className="mt-3 text-lg leading-9 text-white/80">
+            <li>Keynote Speaker</li>
+            <li>Turnierdirektor</li>
+            <li>Tennisexperte</li>
+            <li>Coach</li>
           </ul>
           <h2 className="mt-12 text-sm font-semibold">MEHR INFORMATIONEN</h2>
           <Link
             className="link-underline relative mt-3 text-lg leading-9"
-            href="http://www.eineadresse.de/">
-            www.eineadresse.de
+            href="mailto:pk-contact@patrikkuehnen.com">
+            pk-contact@patrikkuehnen.com
           </Link>
         </div>
         <div className=" lg:pl-32">
