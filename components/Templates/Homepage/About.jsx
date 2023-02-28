@@ -7,24 +7,24 @@ import InfoGrid from '../Shared/InfoGrid';
 const About = () => {
   const bgText1 = [
     {
-      text: 'Strategie',
+      text: 'Expterte',
       outline: true
     },
     {
-      text: 'Creative'
+      text: 'Tennis'
     },
     {
-      text: 'Strategie',
+      text: 'Experte',
       outline: true
     }
   ];
 
   const bgText2 = [
     {
-      text: 'Development'
+      text: 'Patrik'
     },
     {
-      text: 'Blockchain Development',
+      text: 'Patrik Kuhnen',
       outline: true
     }
   ];
@@ -38,7 +38,7 @@ const About = () => {
     {
       title: 'Tennisexperte',
       subtitle:
-        'Seit mehr als 20 Jahren ist Patrik Kühnen Experte für Tennis im Fernsehen. Auch bei Podiumsdiskussionen, Live-Events oder in andere Medienformaten gibt er sein fundiertes Wissen als ehemaliger Profis und langjähriger Davis-Cup-Coach weiter.'
+        'Seit mehr als 20 Jahren ist Patrik Kühnen Experte für Tennis im Fernsehen. Auch bei Podiumsdiskussionen, Live-Events oder in andere Medienformaten gibt er sein fundiertes Wissen als ehemaliger Profi und langjähriger Davis-Cup-Coach weiter.'
     },
     {
       title: 'Coach',
