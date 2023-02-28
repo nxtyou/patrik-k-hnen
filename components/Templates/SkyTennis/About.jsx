@@ -10,7 +10,7 @@ const About = () => {
     {
       title: 'Insiderwissen',
       subtitle:
-        'Sein engen Kontakte zu Spielern, Trainern und Funktionären ermöglichen ihm besondere Einblicke in die Tenniswelt, die seine Analysen und Einschätzungen noch stärker machen.'
+        'Seine engen Kontakte zu Spielern, Trainern und Funktionären ermöglichen ihm besondere Einblicke in die Tenniswelt, die seine Analysen und Einschätzungen noch stärker machen.'
     },
     {
       title: 'Zutreffende Prognosen',
@@ -20,7 +20,7 @@ const About = () => {
     {
       title: 'Wertvoller Einblick',
       subtitle:
-        'Seine Arbeit hilft seinen Kunden, einen besseren Einblick in die Spielweise und Strategien der Profis zu erhalten und liefert wertvolle Informationen, die beim Wetten helfen können.'
+        'Seine Arbeit hilft seinen Kunden, einen besseren Einblick in die Spielweise und Strategien der Profis zu erhalten und liefert wertvolle Informationen zum Spielgeschehen.'
     }
   ];
   return <InfoGrid dark data={cards} className="py-16" />;
