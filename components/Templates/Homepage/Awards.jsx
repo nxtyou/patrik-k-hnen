@@ -72,7 +72,6 @@ const Awards = () => {
     {
       topText: '1988, 1989, 1993',
       middleText: 'Davis-Cup-Sieger',
-      bottomText: ['(Anm. Felix: Würde ich weglassen, v.a. aufgrund der Jahreszahlen oben)'],
       isLightBlue: true,
       imgSrc:
         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Website-van-het-Jaar.png?v=1665322482',
