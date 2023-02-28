@@ -15,8 +15,8 @@ const Analysis = () => {
           <h2 className="mt-12 text-sm font-semibold">MEHR INFORMATIONEN</h2>
           <Link
             className="link-underline relative mt-3 text-lg leading-9"
-            href="http://www.eineadresse.de/">
-            www.eineadresse.de
+            href="mailto:pk-contact@patrikkuehnen.com">
+            pk-contact@patrikkuehnen.com
           </Link>
         </div>
         <div className=" lg:pl-32">
