@@ -75,7 +75,7 @@ const FooterTop = () => {
             <h2 className="text-sm font-semibold uppercase">Hier Kontakt aufnahmen</h2>
             <ul className="mt-4 text-base leading-9">
               <li>
-                <a href="tel:+123123456789">(+123) 123 456 789</a>
+                <a href="tel:+089 32307702">(+089) 32307702</a>
               </li>
               <li>
                 <a href="mailto:pk-contact@patrikkuehnen.com">pk-contact@patrikkuehnen.com</a>
