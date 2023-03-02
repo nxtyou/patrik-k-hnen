@@ -1,4 +1,5 @@
 import { animated, useSpring } from '@react-spring/web';
+import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import BasicLink from '../Atoms/BasicLink';
 
@@ -44,7 +45,8 @@ const ReferencesCard = ({ logo, link, title, bg, label, isParentInView, video, b
   });
 
   return (
-    <div
+    <Link
+      href={link}
       onMouseOver={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       className="group relative">
@@ -87,7 +89,7 @@ const ReferencesCard = ({ logo, link, title, bg, label, isParentInView, video, b
       <animated.div
         style={bgStyles}
         className="absolute top-0 left-0 h-full w-full bg-prussian-blue"></animated.div>
-    </div>
+    </Link>
   );
 };
 
