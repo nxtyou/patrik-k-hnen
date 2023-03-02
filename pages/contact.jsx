@@ -2,7 +2,6 @@ import InstagramIcon from '@/components/Atoms/Icons/InstagramIcon';
 import LinkedinIcon from '@/components/Atoms/Icons/LinkedinIcon';
 import TwitterIcon from '@/components/Atoms/Icons/TwitterIcon';
 import FooterBottom from '@/components/Templates/Shared/Footer/FooterBottom';
-import NavBar from '@/components/Templates/Shared/NavBar/NavBar';
 import NavBar2 from '@/components/Templates/Shared/NavBar/NavBar2';
 
 import Link from 'next/link';
@@ -64,7 +63,7 @@ function Contact() {
                     <Link href="/">Home</Link>
                   </li>
                   <li>
-                    <Link href="/contact">Kontact</Link>
+                    <Link href="/contact">Kontakt</Link>
                   </li>
                 </ul>
 

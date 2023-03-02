@@ -1,8 +1,8 @@
-import Button from '@/components/Atoms/Button';
 import ArrowIcon from '@/components/Atoms/Icons/ArrowIcon';
 
-import useWindowDimensions from '@/utils/hooks/getWindowDimensions';
 import BgAnimatedText from '@/components/Atoms/BgAnimatedText/BgAnimatedText';
+import ButtonLink from '@/components/Atoms/ButtonLink';
+import useWindowDimensions from '@/utils/hooks/getWindowDimensions';
 
 const Hero = () => {
   const { height } = useWindowDimensions();
@@ -62,9 +62,9 @@ const Hero = () => {
           Seit vielen Jahren ist Patrik regelmäßig als Keynote Speaker gefragt. In seinen Vorträgen
           begeistert er mit seiner Expertise als Spitzensportler, Coach und Health Coach.
         </p>
-        <Button className="group mt-6" rightIcon={<ArrowIcon animated />} big>
+        <ButtonLink href="/contact" className="group mt-6" rightIcon={<ArrowIcon animated />} big>
           Mehr Informationen
-        </Button>
+        </ButtonLink>
         <div className="mt-16 flex h-20 w-20 cursor-pointer items-center justify-center rounded-full border border-white/50 transition-all duration-500 hover:border-white md:hidden">
           <div
             className="h-12 w-12 bg-no-repeat"

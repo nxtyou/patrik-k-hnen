@@ -1,4 +1,4 @@
-import Button from '../../Atoms/Button';
+import ButtonLink from '@/components/Atoms/ButtonLink';
 import ArrowIcon from '../../Atoms/Icons/ArrowIcon';
 import ClientsCard from '../../Organisms/ClientsCard';
 
@@ -164,9 +164,9 @@ const Clients = () => {
             />
           ))}
         </div>
-        <Button className="mt-16 md:mt-24" rightIcon={<ArrowIcon />}>
+        <ButtonLink href="/contact" className="mt-16 md:mt-24" rightIcon={<ArrowIcon />}>
           Kontakt aufnehmen
-        </Button>
+        </ButtonLink>
       </div>
     </section>
   );

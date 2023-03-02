@@ -1,9 +1,9 @@
+import ButtonLink from '@/components/Atoms/ButtonLink';
 import { useInView } from '@react-spring/web';
 
 import { useState } from 'react';
 import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Button from '../../Atoms/Button';
 import ArrowRight from '../../Atoms/Icons/ArrowLeft';
 import ArrowLeft from '../../Atoms/Icons/ArrowRight';
 import FourSquares from '../../Atoms/Icons/FourSquares';
@@ -153,9 +153,9 @@ const References = () => {
           />
         </div>
       </div>
-      <Button className="mx-auto mt-16 md:mt-28" leftIcon={<FourSquares />}>
+      <ButtonLink href="/contact" className="mx-auto mt-16 md:mt-28" leftIcon={<FourSquares />}>
         Mehr erfahren
-      </Button>
+      </ButtonLink>
     </section>
   );
 };
