@@ -7,77 +7,144 @@ import ArrowRight from '../../Atoms/Icons/ArrowLeft';
 import AwardsCard from '../../Organisms/AwardsCard';
 
 const Awards = () => {
+  //   const cards = [
+  //     {
+  //       topText: 'seit 2019',
+  //       middleText: 'Health Coach',
+  //       bottomText: ['zertifiziert'],
+  //       imgSrc:
+  //         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Dutch-Interactive-Awards.png?v=1665325320',
+  //       srcSet:
+  //         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Dutch-Interactive-Awards.png?v=1665325320 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_160x160_fit_center-center_85_none/Dutch-Interactive-Awards.png?v=1665325320 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_240x240_fit_center-center_85_none/Dutch-Interactive-Awards.png?v=1665325321 3x',
+  //       alt: 'Logo dia'
+  //     },
+  //     {
+  //       topText: 'seit 2012',
+  //       middleText: 'Keynote Speaker',
+  //       bottomText: ['zu den Themen Motivation, Team Building, Performance / Sport und Ernährung'],
+  //       imgSrc:
+  //         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Emerce.png?v=1668078664',
+  //       srcSet:
+  //         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Emerce.png?v=1668078664 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_160x160_fit_center-center_85_none/Emerce.png?v=1668078664 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_240x240_fit_center-center_85_none/Emerce.png?v=1668078664 3x',
+  //       alt: 'Logo dia'
+  //     },
+  //     {
+  //       topText: 'seit 2008',
+  //       middleText: 'Turnierdirektor',
+  //       bottomText: ['BMW Open by American Express – ATP 250er-Event in München. '],
+  //       isLightBlue: true,
+  //       imgSrc:
+  //         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Esprix.png?v=1665322482',
+  //       srcSet:
+  //         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Esprix.png?v=1665322482 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_160x160_fit_center-center_85_none/Esprix.png?v=1665322482 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_240x240_fit_center-center_85_none/Esprix.png?v=1665322482 3x',
+  //       alt: 'Logo dia'
+  //     },
+  //     {
+  //       topText: 'seit 1998',
+  //       middleText: 'Tennisexperte',
+  //       bottomText: ['Sky', 'Wilson', 'Robinson'],
+  //       isLightBlue: true,
+  //       imgSrc:
+  //         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/SponsorRing.png?v=1665322482',
+  //       srcSet:
+  //         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/SponsorRing.png?v=1665322482 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_160x160_fit_center-center_85_none/SponsorRing.png?v=1665322482 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_240x240_fit_center-center_85_none/SponsorRing.png?v=1665322482 3x',
+  //       alt: 'Logo dia'
+  //     },
+  //     {
+  //       topText: 'Aus Leidenschaft',
+  //       middleText: 'Coach',
+  //       bottomText: ['Robinson Top-Event', 'Patricio Travel', 'VIP-Events'],
+  //       imgSrc:
+  //         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/SponsorRing.png?v=1665322482',
+  //       srcSet:
+  //         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/SponsorRing.png?v=1665322482 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_160x160_fit_center-center_85_none/SponsorRing.png?v=1665322482 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_240x240_fit_center-center_85_none/SponsorRing.png?v=1665322482 3x',
+  //       alt: 'Logo dia'
+  //     },
+  //     {
+  //       topText: 'Mit Herzblut',
+  //       middleText: 'Tennisprofi',
+  //       imgSrc:
+  //         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/SponsorRing.png?v=1665322482',
+  //       srcSet:
+  //         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/SponsorRing.png?v=1665322482 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_160x160_fit_center-center_85_none/SponsorRing.png?v=1665322482 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_240x240_fit_center-center_85_none/SponsorRing.png?v=1665322482 3x',
+  //       alt: 'Logo dia'
+  //     },
+  //     {
+  //       topText: '1988, 1989, 1993',
+  //       middleText: 'Davis-Cup-Sieger',
+  //       isLightBlue: true,
+  //       imgSrc:
+  //         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Website-van-het-Jaar.png?v=1665322482',
+  //       srcSet:
+  //         'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Website-van-het-Jaar.png?v=1665322482 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_160x160_fit_center-center_85_none/Website-van-het-Jaar.png?v=1665322483 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_240x240_fit_center-center_85_none/Website-van-het-Jaar.png?v=1665322483 3x',
+  //       alt: 'Logo dia'
+  //     }
+  //   ];
+
   const cards = [
     {
       topText: 'seit 2019',
       middleText: 'Health Coach',
       bottomText: ['zertifiziert'],
-      imgSrc:
-        'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Dutch-Interactive-Awards.png?v=1665325320',
-      srcSet:
-        'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Dutch-Interactive-Awards.png?v=1665325320 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_160x160_fit_center-center_85_none/Dutch-Interactive-Awards.png?v=1665325320 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_240x240_fit_center-center_85_none/Dutch-Interactive-Awards.png?v=1665325321 3x',
-      alt: 'Logo dia'
+      imgSrc: '/images/icons/health-icon.svg',
+      srcSet: '',
+      imgWidth: 70,
+      alt: 'health icon'
     },
     {
       topText: 'seit 2012',
       middleText: 'Keynote Speaker',
       bottomText: ['zu den Themen Motivation, Team Building, Performance / Sport und Ernährung'],
-      imgSrc:
-        'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Emerce.png?v=1668078664',
-      srcSet:
-        'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Emerce.png?v=1668078664 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_160x160_fit_center-center_85_none/Emerce.png?v=1668078664 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_240x240_fit_center-center_85_none/Emerce.png?v=1668078664 3x',
-      alt: 'Logo dia'
+      imgSrc: '/images/logos/pk.svg',
+      srcSet: '',
+      imgWidth: 57,
+      alt: 'patrik kühnen logo'
     },
     {
       topText: 'seit 2008',
       middleText: 'Turnierdirektor',
       bottomText: ['BMW Open by American Express – ATP 250er-Event in München. '],
       isLightBlue: true,
-      imgSrc:
-        'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Esprix.png?v=1665322482',
-      srcSet:
-        'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Esprix.png?v=1665322482 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_160x160_fit_center-center_85_none/Esprix.png?v=1665322482 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_240x240_fit_center-center_85_none/Esprix.png?v=1665322482 3x',
-      alt: 'Logo dia'
+      imgSrc: '/images/logos/bmw-american-express.png',
+      srcSet: '',
+      imgWidth: 141,
+      alt: 'bmw open by american express logo'
     },
     {
       topText: 'seit 1998',
       middleText: 'Tennisexperte',
       bottomText: ['Sky', 'Wilson', 'Robinson'],
       isLightBlue: true,
-      imgSrc:
-        'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/SponsorRing.png?v=1665322482',
-      srcSet:
-        'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/SponsorRing.png?v=1665322482 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_160x160_fit_center-center_85_none/SponsorRing.png?v=1665322482 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_240x240_fit_center-center_85_none/SponsorRing.png?v=1665322482 3x',
-      alt: 'Logo dia'
+      imgSrc: '/images/logos/wilson.svg',
+      srcSet: '',
+      imgWidth: 167,
+      alt: 'wilson logo'
     },
     {
       topText: 'Aus Leidenschaft',
       middleText: 'Coach',
       bottomText: ['Robinson Top-Event', 'Patricio Travel', 'VIP-Events'],
-      imgSrc:
-        'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/SponsorRing.png?v=1665322482',
-      srcSet:
-        'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/SponsorRing.png?v=1665322482 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_160x160_fit_center-center_85_none/SponsorRing.png?v=1665322482 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_240x240_fit_center-center_85_none/SponsorRing.png?v=1665322482 3x',
-      alt: 'Logo dia'
+      imgSrc: '/images/logos/robinson.svg',
+      srcSet: '',
+      imgWidth: 201,
+      alt: 'robinson logo'
     },
     {
       topText: 'Mit Herzblut',
       middleText: 'Tennisprofi',
-      imgSrc:
-        'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/SponsorRing.png?v=1665322482',
-      srcSet:
-        'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/SponsorRing.png?v=1665322482 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_160x160_fit_center-center_85_none/SponsorRing.png?v=1665322482 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_240x240_fit_center-center_85_none/SponsorRing.png?v=1665322482 3x',
-      alt: 'Logo dia'
+      imgSrc: '/images/icons/tennis-icon.svg',
+      srcSet: '',
+      imgWidth: 80,
+      alt: 'tennis ball'
     },
     {
       topText: '1988, 1989, 1993',
       middleText: 'Davis-Cup-Sieger',
       isLightBlue: true,
-      imgSrc:
-        'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Website-van-het-Jaar.png?v=1665322482',
-      srcSet:
-        'https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_120x120_fit_center-center_85_none/Website-van-het-Jaar.png?v=1665322482 1x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_160x160_fit_center-center_85_none/Website-van-het-Jaar.png?v=1665322483 2x, https://dvy7d3tlxdpkf.cloudfront.net/tde-nl/_transforms/Awards-logos/Wit/_240x240_fit_center-center_85_none/Website-van-het-Jaar.png?v=1665322483 3x',
-      alt: 'Logo dia'
+      imgSrc: '/images/logos/davis-cup.svg',
+      srcSet: '',
+      imgWidth: 201,
+      alt: 'davis cup logo'
     }
   ];
 
