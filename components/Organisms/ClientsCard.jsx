@@ -1,6 +1,6 @@
 import { useInView, animated, useSpring } from '@react-spring/web';
 
-const ClientsCard = ({ srcSet, imgSrc, className, alt }) => {
+const ClientsCard = ({ srcSet, imgSrc, width, className, alt }) => {
   const [ref, isInView] = useInView({
     once: true
   });
@@ -23,10 +23,11 @@ const ClientsCard = ({ srcSet, imgSrc, className, alt }) => {
         <animated.img
           ref={ref}
           style={styles}
-          className="clients__image h-12 w-[4.5rem] object-contain md:h-[4.5rem] md:w-[7.5rem]"
+          //   className="clients__image h-12 w-[4.5rem] object-contain md:h-[4.5rem] md:w-[7.5rem]"
+          //   max-h-16 md:max-h-20
+          className="clients__image object-contain"
           src={imgSrc}
-          width={132}
-          height={88}
+          width={width}
           alt={alt}
         />
       </picture>
