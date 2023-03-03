@@ -1,7 +1,6 @@
 import { animated, useSpring } from '@react-spring/web';
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
-import BasicLink from '../Atoms/BasicLink';
 
 const ReferencesCard = ({ logo, link, title, bg, label, isParentInView, video, bgAlt }) => {
   const clipPath = isParentInView ? 'inset(0 0 0 0)' : 'inset(0 0 100% 0)';
@@ -58,10 +57,10 @@ const ReferencesCard = ({ logo, link, title, bg, label, isParentInView, video, b
           <div>
             <img src={logo.imgSrc} width={logo.width} height={logo.height} alt={logo.logoAlt} />
           </div>
-          <h3 className="mt-6 text-2xl font-medium uppercase">{title}</h3>
-          <BasicLink underline={false} href={link} className="mt-8 text-xs font-medium uppercase">
+          <h3 className="mt-6 text-3xl font-medium uppercase">{title}</h3>
+          <span className="link-no-underline relative mt-12 inline-block text-sm font-medium uppercase tracking-[2px]">
             mehr erfahren
-          </BasicLink>
+          </span>
         </div>
 
         <video
