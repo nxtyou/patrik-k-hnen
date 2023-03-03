@@ -24,7 +24,7 @@ const Banner = () => {
         </div>
         <img
           className="mt-16 md:mt-40 md:h-16 md:w-16"
-          src="/images/logos/bmw.svg"
+          src="/images/logos/bmw-white.svg"
           width="50"
           height="50"
           alt="bmw logo"

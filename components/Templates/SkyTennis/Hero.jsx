@@ -38,7 +38,7 @@ const Hero = () => {
             <div className="absolute bottom-[7%] w-full px-6 sm:px-8 md:bottom-[15%] md:px-20 xl:px-32">
               <div className="mx-auto max-w-7xl">
                 <div className="max-w-xl">
-                  <img src="/images/logos/sky.svg" alt="sky news logo" width="95" height="57" />
+                  <img src="/images/logos/sky-sport.svg" alt="sky sport logo" width="200" />
                   <h1 className="mt-4 text-4xl font-medium md:text-6xl">{title}</h1>
                   <p className="mt-4 md:text-2xl">{subtitle}</p>
                 </div>

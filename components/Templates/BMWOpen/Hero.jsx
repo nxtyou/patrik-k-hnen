@@ -39,13 +39,11 @@ const Hero = () => {
               <div className="mx-auto max-w-7xl">
                 <div className="max-w-xl">
                   <img
-                    src="/images/logos/bmw.svg"
-                    alt="bmw logo"
-                    width="80"
-                    height="80"
-                    className="h-14 w-14 md:h-20 md:w-20"
+                    src="/images/logos/bmw-american-express.png"
+                    alt="bmw open by american express logo"
+                    width="192"
                   />
-                  <h1 className="mt-4 text-4xl font-medium md:text-6xl">{title}</h1>
+                  <h1 className="mt-6 text-4xl font-medium md:text-6xl">{title}</h1>
                   <p className="mt-4 md:text-2xl">{subtitle}</p>
                 </div>
                 <div className="mt-16 flex flex-col-reverse justify-between md:mt-14 lg:flex-row lg:items-center mini-screen:mt-12">
