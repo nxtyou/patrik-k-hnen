@@ -50,12 +50,12 @@ const ReferencesCard = ({ logo, link, title, bg, label, isParentInView, video, b
       onMouseLeave={() => setHover(false)}
       className="group relative">
       <animated.div className="group relative z-50" style={containerStyles}>
-        <div className="absolute top-12 left-6 z-20 rounded-[0.2rem] bg-white/10 py-1.5 px-3 text-xs font-medium uppercase tracking-widest">
+        <div className="absolute top-12 left-6 z-20 rounded-[0.2rem] bg-white/10 py-1.5 px-3 text-xs font-medium uppercase tracking-[2px]">
           {label}
         </div>
         <div className="absolute left-6 bottom-12 z-20 transition-all duration-700 group-hover:bottom-16">
           <div>
-            <img src={logo.imgSrc} width={logo.width} height={logo.height} alt={logo.logoAlt} />
+            <img src={logo.imgSrc} width={logo.width} alt={logo.logoAlt} />
           </div>
           <h3 className="mt-6 text-3xl font-medium uppercase">{title}</h3>
           <span className="link-no-underline relative mt-12 inline-block text-sm font-medium uppercase tracking-[2px]">

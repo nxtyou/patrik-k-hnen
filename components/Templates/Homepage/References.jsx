@@ -20,8 +20,7 @@ const References = () => {
       logo: {
         imgSrc: '/images/logos/pk.svg',
         logoAlt: 'patrik kühnen logo',
-        width: 41,
-        height: 33
+        width: 50
       },
       video: '/videos/references/01.mp4'
     },
@@ -30,12 +29,11 @@ const References = () => {
       title: 'TENNISEXPERTE',
       link: '/sky-tennis',
       bg: '/images/photos/sky-news-ref.jpg',
-      bgAlt: 'patrik in a sky news interview',
+      bgAlt: 'patrik in a sky sport interview',
       logo: {
         imgSrc: '/images/logos/sky-sport.svg',
-        logoAlt: 'sky news logo',
-        width: 130,
-        height: 31
+        logoAlt: 'sky sport logo',
+        width: 130
       },
       video: '/videos/references/04.mp4'
     },
@@ -46,10 +44,9 @@ const References = () => {
       bg: '/images/photos/bmw-open-ref.jpg',
       bgAlt: 'patrik in bmw open',
       logo: {
-        imgSrc: '/images/logos/bmw.svg',
-        logoAlt: 'bmw logo',
-        width: 48,
-        height: 48
+        imgSrc: '/images/logos/bmw-american-express.png',
+        logoAlt: 'bmw by american express logo',
+        width: 130
       },
       video: '/videos/references/03.mp4'
     },
@@ -60,10 +57,9 @@ const References = () => {
       bg: '/images/photos/patrik-playing-tennis-ref.jpg',
       bgAlt: 'patrik playing tennis',
       logo: {
-        imgSrc: '/images/logos/pk.svg',
-        logoAlt: 'patrik kühnen logo',
-        width: 41,
-        height: 33
+        imgSrc: '/images/logos/robinson.svg',
+        logoAlt: 'robinson logo',
+        width: 180
       },
       video: '/videos/references/02.mp4'
     }
