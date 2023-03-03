@@ -45,7 +45,7 @@ const References = () => {
       bgAlt: 'patrik in bmw open',
       logo: {
         imgSrc: '/images/logos/bmw-american-express.png',
-        logoAlt: 'bmw by american express logo',
+        logoAlt: 'bmw open by american express logo',
         width: 130
       },
       video: '/videos/references/03.mp4'

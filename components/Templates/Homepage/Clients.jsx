@@ -157,7 +157,7 @@ const Clients = () => {
       srcSet: '',
       imgSrc: '/images/logos/bmw-american-express.png',
       width: 144,
-      alt: 'bmw by american express logo'
+      alt: 'bmw open by american express logo'
     },
     {
       srcSet: '',
